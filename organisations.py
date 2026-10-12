@@ -1,5 +1,8 @@
 """Master list of Chennai Margazhi-season Carnatic organisers, with 2026-27 status.
 
+Only definite organisations / sabhas belong here. Concerts whose source names no organiser use
+organisation = "Organiser not stated"; that label is NOT an organisation and is not listed.
+
 Status values: "Schedule published", "Dates announced", "Awaiting 2026–27 schedule".
 Writes data/organisations.json. Names for published organisers must match concerts.json.
 """
@@ -87,7 +90,6 @@ PART = "Some dates via artists' websites"
 ORGS += [
     ("Mudhra", OTHER, PART, "T. Nagar", "Sri Thyaga Brahma Gana Sabha (Vani Mahal)", "", "Date found on Shashank's website.", ""),
     ("Sanjay Subrahmanyan", FEST, PART, "", "Muthamizh Peravai; Asian College of Journalism", "", "Presents his own Sanjay Sabha Live concert series.", "https://sanjaysub.com/"),
-    ("Organiser not stated", OTHER, PART, "", "", "", "Concerts listed on artists' websites without an organiser name.", ""),
 ]
 # organisers whose individual dates appear on artists' websites, before their own schedule is out
 for i, row in enumerate(ORGS):

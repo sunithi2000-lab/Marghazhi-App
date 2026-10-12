@@ -12,7 +12,7 @@ from pathlib import Path
 R = Path(__file__).parent
 c = json.loads((R / "data/concerts.json").read_text())
 o = json.loads((R / "data/organisations.json").read_text())
-missing = {x["organisation"] for x in c} - {x["name"] for x in o}
+missing = {x["organisation"] for x in c} - {x["name"] for x in o} - {"Organiser not stated"}  # label, not an organisation
 assert not missing, f"organisations missing from organisations.py: {missing}"
 j = lambda d: json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 t = (R / "list_template.html").read_text().replace("/*__CONCERTS__*/[]", j(c)).replace("/*__ORGS__*/[]", j(o))

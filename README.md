@@ -12,7 +12,7 @@ Live page: **Margazhi Concert List 2026–27** — https://claude.ai/artifact/LT
 | `raw_bharat_kalachar_2026.txt` | Bharat Kalachar 38th Marghazhi Mahotsav (Carnatic music only) |
 | `raw_artist_sites_2026.txt` | Concerts found on artists' websites / listings, not in any organiser schedule |
 | `build_data.py` | Raw files → `data/concerts.json` + `data/concerts.csv` |
-| `organisations.py` | Master list of 50 organisers with 2026–27 status → `data/organisations.json` |
+| `organisations.py` | Master list of organisers / sabhas with 2026–27 status → `data/organisations.json` |
 | `list_template.html` + `build_list.py` | Embed the data in the concert list page → `margazhi-concert-list.html` |
 | `concerts_2026-27.csv`, `organisations_2026-27.json` | Latest built outputs |
 | `UPDATE_LOG.md` | One line per daily update run |
@@ -28,5 +28,6 @@ Put all files in one folder with a `data/` subfolder, then:
 - Organiser schedules: add a `raw_<sabha>_2026.txt` file and a parser block in `build_data.py` (copy the Music Academy pattern if the page lists accompanists, the Bharat Kalachar pattern if it lists main artists only).
 - Artist sites and other listings: add lines to `raw_artist_sites_2026.txt`. Use "Organiser not stated" when the source names no organiser; never assume the venue's sabha.
 - Skip a concert already present (same date, start time and main artist).
-- Every organisation used must exist in `organisations.py`; update its status when its schedule is published.
+- Every organisation used must exist in `organisations.py`; update its status when its schedule is published. `organisations.py` lists only definite organisations / sabhas (it feeds the Sabhas tab and the sabha filter). "Organiser not stated" is a label on concerts, not an organisation, and must not be added there.
+- Daily: review every organisation in `organisations.py`, one by one, for a new or changed 2026–27 schedule; also try to find the real organiser of each "Organiser not stated" concert.
 - A changed or cancelled concert: edit or remove its line, and note it in `UPDATE_LOG.md`.
