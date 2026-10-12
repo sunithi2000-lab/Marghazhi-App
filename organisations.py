@@ -93,7 +93,8 @@ ORGS += [
 ]
 # organisers whose individual dates appear on artists' websites, before their own schedule is out
 for i, row in enumerate(ORGS):
-    if row[0] in {"Brahma Gana Sabha", "Sruthi Laya Kendra", "Sri Parthasarathy Swami Sabha"}:
+    if row[0] in {"Brahma Gana Sabha", "Sruthi Laya Kendra", "Sri Parthasarathy Swami Sabha",
+                  "Bharatiya Vidya Bhavan, Chennai Kendra", "Sri Thyaga Brahma Gana Sabha"}:
         ORGS[i] = row[:2] + (PART,) + row[3:6] + ("Own schedule not yet published; dates found on artists' websites.",) + row[7:]
 out = [dict(name=n, group=g, status=s, area=a, venue=v, festival_2026=f, note=note, url=u)
        for n, g, s, a, v, f, note, u in ORGS]

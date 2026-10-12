@@ -1,4 +1,4 @@
-# Concerts found on artists' own websites / artist listings (fetched 2026-10-12), Chennai only, 2026-27 season.
+# Concerts found on artists' own websites / artist listings (fetched 2026-10-12; organisers for 3 S. J. Jananiy rows added 2026-10-13 from the listings' descriptions), Chennai only, 2026-27 season.
 # Concerts already in the Music Academy schedule are not repeated here.
 # When the artist's site names no organiser, the venue's own sabha is NOT assumed; organisation = "Organiser not stated".
 # date|start|end|entry|organisation|festival|venue|area|musicians|source_url|source_label|note
@@ -16,7 +16,7 @@
 2026-12-20|18:30||Not stated|Organiser not stated|—|Sri Ganapathy Sachchidananda Ashram|Velachery|Shashank Subramanyam (Flute)|https://www.shashank.org/tours|Artist's website|Listed as a flute solo; no end time.
 2026-12-26|11:00|12:30|Not stated|Sruthi Laya Kendra|Winter Music Festival|Bharatiya Vidya Bhavan, East Mada Street|Mylapore|Shashank Subramanyam (Flute), H.N. Bhaskar (Violin), Patri Satishkumar (Mridangam)|https://www.shashank.org/tours|Artist's website|
 2027-01-03|18:30|21:00|Not stated|Sri Parthasarathy Swami Sabha|Isai Vizha|Vidya Bharathi Kalyana Mandapam|Mylapore|Shashank Subramanyam (Flute), Abhishek Raghuram (Vocal)|https://www.shashank.org/tours|Artist's website|Flute and vocal duet; accompanists not listed.
-2026-12-07|16:30||Not stated|Organiser not stated|—|Bharatiya Vidya Bhavan|Mylapore|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620496-s.-j.-jananiy-at-bharatiya-vidya-bhavan|Bandsintown artist listing|Venue taken from the listing link.
-2026-12-19|16:00||Not stated|Organiser not stated|—|Vani Mahal|T. Nagar|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620503-s.-j.-jananiy-at-vani-mahal|Bandsintown artist listing|Venue taken from the listing link.
-2026-12-26|19:00||Not stated|Organiser not stated|—|Bharatiya Vidya Bhavan|Mylapore|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620580-s.-j.-jananiy-at-bharatiya-vidya-bhavan|Bandsintown artist listing|Venue taken from the listing link.
-2027-01-03|17:00||Not stated|Organiser not stated|—|Panigraha|Not stated|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108804725-s.-j.-jananiy-at-panigraha|Bandsintown artist listing|Venue taken from the listing link.
+2026-12-07|16:30||Not stated|Bharatiya Vidya Bhavan, Chennai Kendra|Bhavan's Margazhi Festival|Bharatiya Vidya Bhavan|Mylapore|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620496-s.-j.-jananiy-at-bharatiya-vidya-bhavan|Bandsintown artist listing|Venue taken from the listing link.
+2026-12-19|16:00||Not stated|Sri Thyaga Brahma Gana Sabha|December Music Festival|Vani Mahal|T. Nagar|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620503-s.-j.-jananiy-at-vani-mahal|Bandsintown artist listing|Venue taken from the listing link.
+2026-12-26|19:00||Not stated|Kartik Fine Arts|December Music Festival|Bharatiya Vidya Bhavan|Mylapore|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108620580-s.-j.-jananiy-at-bharatiya-vidya-bhavan|Bandsintown artist listing|Venue taken from the listing link.
+2027-01-03|17:00||Not stated|Organiser not stated|—|Panigraha|Not stated|S. J. Jananiy (Vocal)|https://www.bandsintown.com/e/108804725-s.-j.-jananiy-at-panigraha|Bandsintown artist listing|Venue taken from the listing link; listed as a WBWA 13th anniversary celebration with award ceremony and Carnatic concert; organiser not named.
