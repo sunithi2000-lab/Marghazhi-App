@@ -1,0 +1,4 @@
+# Netlify: publish the repository root as-is (no build step).
+[build]
+  publish = "."
+  command = ""
