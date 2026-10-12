@@ -1,0 +1,457 @@
+<title>Margazhi Concert List 2026–27</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Atkinson+Hyperlegible:wght@400;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a sabha season register — masthead, one filter row, then a dense sortable ledger (cards at phone width). */
+:root {
+  --bg: #F6F7F3; --surface: #FFFFFF; --ink: #17231F; --muted: #5B6862; --rule: #DCE2DC;
+  --accent: #0E6A57; --accent-soft: #E1EFEA; --gold: #A86B00; --gold-soft: #F6EAD2;
+  --free: #2E6B2E; --free-soft: #E3F0DF; --wait: #6A6F7A; --wait-soft: #ECEDF0; --zebra: #FAFBF8; --clash: #B42318;
+  --font-display: "Rozha One", Georgia, serif;
+  --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-data: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0F1513; --surface: #161E1B; --ink: #E8EEEA; --muted: #9AA8A1; --rule: #2A3631;
+  --accent: #5CC4A8; --accent-soft: #173229; --gold: #E2AE4E; --gold-soft: #33280F;
+  --free: #8FD18A; --free-soft: #1C2D1B; --wait: #A9AEB8; --wait-soft: #252830; --zebra: #131A17; --clash: #FF8A80; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0F1513; --surface: #161E1B; --ink: #E8EEEA; --muted: #9AA8A1; --rule: #2A3631;
+  --accent: #5CC4A8; --accent-soft: #173229; --gold: #E2AE4E; --gold-soft: #33280F;
+  --free: #8FD18A; --free-soft: #1C2D1B; --wait: #A9AEB8; --wait-soft: #252830; --zebra: #131A17; --clash: #FF8A80; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 14px; line-height: 1.45; }
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 16px; padding-block: 20px 40px; }
+a { color: var(--accent); }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.mast { display: grid; gap: 6px; padding-bottom: 14px; border-bottom: 3px double var(--gold); }
+.eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); font-weight: 700; }
+h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(28px, 5vw, 40px); line-height: 1.05; margin: 0; text-wrap: balance; }
+.lede { margin: 0; color: var(--muted); max-width: 70ch; }
+.filters { display: grid; grid-template-columns: 1.6fr repeat(4, minmax(140px, 1fr)); gap: 8px; padding-block: 16px 10px; align-items: start; }
+label.f { display: grid; gap: 3px; font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; min-width: 0; }
+input, select { font: inherit; font-size: 14px; letter-spacing: 0; text-transform: none; padding: 8px 10px; border-radius: 8px;
+  border: 1px solid var(--rule); background: var(--surface); color: var(--ink); width: 100%; min-width: 0; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: space-between; align-items: center; font-size: 13px; color: var(--muted); padding-bottom: 10px; }
+.bar b { color: var(--ink); font-family: var(--font-data); font-weight: 500; }
+.btn { appearance: none; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); font: inherit; font-size: 13px; padding: 6px 10px; border-radius: 8px; cursor: pointer; }
+.btn.link { border: 0; background: none; color: var(--accent); text-decoration: underline; padding: 0; }
+.tablebox { overflow-x: auto; border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 980px; }
+th, td { text-align: left; vertical-align: top; padding: 9px 10px; border-bottom: 1px solid var(--rule); }
+th { position: sticky; top: 0; background: var(--surface); font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); white-space: nowrap; z-index: 1; }
+th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+th button:focus-visible { outline: 2px solid var(--accent); }
+th[aria-sort="ascending"] button::after { content: "▲"; font-size: 9px; }
+th[aria-sort="descending"] button::after { content: "▼"; font-size: 9px; }
+tbody tr:nth-child(even) { background: var(--zebra); }
+td.d, td.t { font-family: var(--font-data); font-variant-numeric: tabular-nums; white-space: nowrap; font-size: 13px; }
+td.d small { display: block; color: var(--muted); font-family: var(--font-body); }
+td.a b { display: block; }
+td.a span { color: var(--muted); font-size: 12.5px; }
+.chip { display: inline-block; font-size: 11px; font-weight: 700; border-radius: 999px; padding: 2px 8px; white-space: nowrap; background: var(--accent-soft); color: var(--accent); }
+.pill { font-size: 11px; font-weight: 700; border-radius: 999px; padding: 2px 8px; white-space: nowrap; display: inline-block; }
+.pill.t { background: var(--gold-soft); color: var(--gold); } .pill.fr { background: var(--free-soft); color: var(--free); } .pill.ns { background: var(--wait-soft); color: var(--wait); }
+td.v small { display: block; color: var(--muted); font-size: 12px; }
+.empty { padding: 28px; text-align: center; color: var(--muted); }
+.dates-f { display: grid; gap: 3px; font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; min-width: 0; }
+.datebtn { display: flex; justify-content: space-between; align-items: center; gap: 8px; width: 100%; font-size: 14px; padding: 8px 10px; text-transform: none; letter-spacing: 0; text-align: left; }
+.datebtn span:first-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cal { border: 1px solid var(--rule); border-radius: 10px; background: var(--surface); padding: 12px; display: grid; gap: 12px; margin-bottom: 10px; }
+.calhead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; font-size: 13px; color: var(--muted); }
+.calact { display: flex; gap: 12px; align-items: center; }
+.months { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px 24px; }
+.month h3 { margin: 0 0 6px; font-family: var(--font-display); font-weight: 400; font-size: 18px; }
+.grid7 { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; }
+.wdh { font-size: 10px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); text-align: center; padding-bottom: 2px; }
+.cd { appearance: none; font: inherit; border: 1px solid transparent; background: none; color: var(--ink); border-radius: 7px;
+  aspect-ratio: 1 / 1; max-width: 100%; display: grid; place-items: center; align-content: center; gap: 0; padding: 0; line-height: 1.05; cursor: pointer; }
+.cd b { font-family: var(--font-data); font-weight: 500; font-size: 14px; }
+.cd i { font-style: normal; font-size: 10px; color: var(--muted); font-family: var(--font-data); min-height: 11px; }
+.cd.mz { border-color: color-mix(in srgb, var(--gold) 50%, transparent); }
+.cd:hover:not(:disabled) { background: var(--accent-soft); }
+.cd:disabled { color: var(--muted); opacity: .45; cursor: default; }
+.cd[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.cd[aria-pressed="true"] i { color: var(--bg); }
+.calkey { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 12px; color: var(--muted); }
+.kd { display: inline-block; width: 11px; height: 11px; border-radius: 3px; margin-right: 5px; vertical-align: -1px; border: 1px solid var(--gold); }
+.kd.sel { background: var(--accent); border-color: var(--accent); }
+.qwrap { display: grid; gap: 6px; min-width: 0; }
+.scope { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 2px 12px; align-items: center; font-size: 12.5px; }
+.scope legend { float: left; padding: 0; margin-right: 4px; font-size: 11px; color: var(--muted); letter-spacing: .06em; text-transform: uppercase; }
+.scope label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.scope input { width: auto; accent-color: var(--accent); margin: 0; }
+.ac { display: inline-flex; align-items: baseline; gap: 5px; margin-right: 10px; white-space: nowrap; line-height: 1.7; color: var(--ink); }
+.ac i { font-style: normal; font-size: .92em; font-weight: 700; color: var(--accent); }
+.ac i::after { content: ":"; }
+td.a .ac { font-size: 12.5px; }
+.card .ac { font-size: 13px; }
+.abkey { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.abkey .ac { margin: 0; color: var(--muted); }
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.views { display: flex; flex-wrap: wrap; gap: 6px; padding-top: 14px; }
+.vbtn { appearance: none; font: inherit; font-weight: 700; font-size: 14px; cursor: pointer; border: 1px solid var(--rule); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 7px 14px; display: inline-flex; gap: 8px; align-items: center; }
+.vbtn[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.favn { font-family: var(--font-data); font-weight: 500; font-size: 12px; background: var(--gold-soft); color: var(--gold); border-radius: 999px; padding: 0 7px; }
+.vbtn[aria-pressed="true"] .favn { background: var(--gold); color: var(--bg); }
+.star { appearance: none; border: 0; background: none; cursor: pointer; font-size: 20px; line-height: 1; padding: 2px 4px; color: var(--muted); border-radius: 6px; }
+.star[aria-pressed="true"] { color: var(--gold); }
+.star:hover { background: var(--gold-soft); }
+td.stc { width: 34px; padding-right: 0; }
+.card .topr { display: inline-flex; gap: 6px; align-items: center; }
+body.fav-mode .filters, body.fav-mode .bar, body.fav-mode .cal, body.fav-mode .chips, body.fav-mode .tablebox, body.fav-mode .cards { display: none !important; }
+.favview { display: grid; gap: 22px; padding-top: 16px; }
+.favintro { margin: 0; color: var(--muted); max-width: 72ch; font-size: 13.5px; }
+.plan { display: grid; gap: 0; }
+.planhead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 12px; border-bottom: 3px double var(--gold); padding-bottom: 6px; margin-bottom: 4px; }
+.planhead h2 { margin: 0; font-family: var(--font-display); font-weight: 400; font-size: 22px; }
+.planhead .sum { font-size: 13px; color: var(--muted); }
+.maplink { font-size: 13px; font-weight: 700; text-decoration: none; border: 1px solid var(--accent); border-radius: 999px; padding: 4px 12px; }
+.stop { display: grid; grid-template-columns: 92px 1fr auto; gap: 4px 12px; padding: 10px 0; align-items: start; }
+.stop .tm { font-family: var(--font-data); font-size: 13px; font-variant-numeric: tabular-nums; }
+.stop .tm small { display: block; color: var(--muted); }
+.stop .bd { min-width: 0; display: grid; gap: 2px; }
+.stop .who { font-weight: 700; font-size: 15px; }
+.stop .sub { color: var(--muted); font-size: 13px; }
+.leg { margin-left: 46px; border-left: 2px dashed var(--rule); padding: 6px 0 6px 18px; font-size: 13px; display: grid; gap: 2px; }
+.leg .lv { font-weight: 700; }
+.leg.ok .lv { color: var(--free); } .leg.tight .lv { color: var(--gold); } .leg.clash .lv { color: var(--clash); }
+.leg a { font-size: 12.5px; }
+@media (max-width: 520px) { .stop { grid-template-columns: 1fr auto; } .stop .tm { grid-column: 1 / -1; } .leg { margin-left: 8px; } }
+.nt { display: block; font-size: 12px; color: var(--muted); font-style: italic; margin-top: 2px; }
+mark { background: var(--gold-soft); color: var(--ink); border-radius: 3px; padding: 0 2px; font-weight: 700; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 10px; }
+.chips:empty { display: none; }
+.dchip { appearance: none; font: inherit; font-size: 12.5px; border: 1px solid var(--accent); background: var(--accent-soft); color: var(--accent); border-radius: 999px; padding: 3px 10px; cursor: pointer; }
+.cards { display: none; }
+.foot { margin-top: 18px; font-size: 12px; color: var(--muted); display: grid; gap: 4px; }
+@media (max-width: 760px) {
+  .filters { grid-template-columns: 1fr 1fr; }
+  .filters .q { grid-column: 1 / -1; }
+  .tablebox { display: none; }
+  .cards { display: grid; }
+  .card { display: grid; gap: 4px; padding-block: 12px; border-bottom: 1px solid var(--rule); }
+  .card .top { display: flex; justify-content: space-between; gap: 8px; font-family: var(--font-data); font-size: 13px; }
+  .card .who { font-weight: 700; font-size: 15px; }
+  .card .sub { color: var(--muted); font-size: 13px; }
+}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="eyebrow">Chennai · Margazhi season 2026–27 · Carnatic music</div>
+    <h1>Margazhi Concert List 2026–27</h1>
+    <p class="lede">Every Carnatic concert published so far on organisers' and artists' websites for the 2026–27 season. Filter by date, artist, location or organisation; tap a column heading to sort.</p>
+  </header>
+  <nav class="views" aria-label="View">
+    <button type="button" class="vbtn" id="v-all" aria-pressed="true">All concerts</button>
+    <button type="button" class="vbtn" id="v-fav" aria-pressed="false">★ Favourites &amp; day plan <span class="favn" id="favn">0</span></button>
+  </nav>
+
+  <div class="filters">
+    <div class="q qwrap">
+      <label class="f">Artist or accompanist<input id="q" type="search" placeholder="e.g. Sowmya, Sanjay, Delhi Sairam, Embar Kannan" autocomplete="off"></label>
+      <fieldset class="scope" id="scope">
+        <legend>Search in</legend>
+        <label><input type="radio" name="scope" id="scope-all" value="all" checked> Main and accompanists</label>
+        <label><input type="radio" name="scope" id="scope-main" value="main"> Main only</label>
+        <label><input type="radio" name="scope" id="scope-acc" value="acc"> Accompanists only</label>
+      </fieldset>
+    </div>
+    <label class="f">Concert type<select id="type"></select></label>
+    <div class="f dates-f"><span id="dates-label">Dates</span><button class="btn datebtn" id="datebtn" type="button" aria-expanded="false" aria-controls="cal" aria-labelledby="dates-label datebtn-text"><span id="datebtn-text">All dates</span><span aria-hidden="true">▾</span></button></div>
+    <label class="f">Location<select id="area"></select></label>
+    <label class="f">Organisation<select id="org"></select></label>
+  </div>
+  <div class="cal" id="cal" hidden>
+    <div class="calhead"><span>Tap dates to pick one or more. Numbers show concerts that day.</span>
+      <span class="calact"><button class="btn link" id="cal-clear" type="button">Clear dates</button><button class="btn" id="cal-done" type="button">Done</button></span></div>
+    <div class="months" id="months"></div>
+    <div class="calkey"><span><i class="kd mz"></i>Margazhi month (16 Dec – 14 Jan)</span><span><i class="kd sel"></i>Selected</span></div>
+  </div>
+  <div class="chips" id="chips"></div>
+  <div class="bar"><span id="count"></span>
+    <span style="display:flex;gap:12px;align-items:center;flex-wrap:wrap"><button class="btn" id="copy" type="button">Copy filtered list</button><button class="btn link" id="clear" type="button">Clear filters</button></span>
+  </div>
+
+  <div class="tablebox">
+    <table>
+      <thead><tr>
+        <th><span class="sr">Favourite</span></th>
+        <th aria-sort="ascending" data-k="date"><button type="button">Date</button></th>
+        <th data-k="start"><button type="button">Time</button></th>
+        <th data-k="main_artist"><button type="button">Main artist</button></th>
+        <th data-k="main_instrument"><button type="button">Instrument</button></th>
+        <th>Accompanists</th>
+        <th data-k="organisation"><button type="button">Organisation</button></th>
+        <th data-k="area"><button type="button">Location</button></th>
+        <th data-k="entry"><button type="button">Entry</button></th>
+        <th>Source</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <div class="cards" id="cards"></div>
+
+  <section id="favview" class="favview" hidden aria-live="polite"></section>
+
+  <footer class="foot">
+    <span>Collected <span id="fetched"></span> from the organisers' published schedules (The Music Academy, Bharat Kalachar) and from artists' own websites and listings (Sanjay Subrahmanyan, Shashank Subramanyam, S. J. Jananiy). Other sabhas usually publish from mid-November.</span>
+    <span>Bharat Kalachar lists main artists only, without accompanists or end times. Programmes can change; check the source before you go.</span>
+  </footer>
+</div>
+
+<script>
+const CONCERTS = /*__CONCERTS__*/[];
+const ORGS = /*__ORGS__*/[];
+const $ = s => document.querySelector(s);
+const MON = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"], WD = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+const pd = d => { const [y,m,dd] = d.split("-").map(Number); return new Date(Date.UTC(y, m-1, dd)); };
+const fmtD = d => { const x = pd(d); return `${x.getUTCDate()} ${MON[x.getUTCMonth()]} ${x.getUTCFullYear()}`; };
+const wd = d => WD[pd(d).getUTCDay()];
+const t12 = s => { if (!s) return ""; let [h,m] = s.split(":").map(Number); const ap = h >= 12 ? "pm" : "am"; h = h % 12 || 12; return `${h}:${String(m).padStart(2,"0")} ${ap}`; };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const norm = s => s.toLowerCase().normalize("NFKD").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+const ek = e => e.startsWith("Free") ? "fr" : e.startsWith("Ticketed") ? "t" : "ns";
+const accs = c => c.performers.filter(p => p.role === "accompanist");
+CONCERTS.forEach(c => {
+  c._main = norm([c.main_artist, ...c.performers.filter(p => p.role === "main").map(p => p.name)].join(" "));
+  c._acc = norm(c.performers.filter(p => p.role === "accompanist").map(p => p.name).join(" "));
+});
+let words = [];
+const scopeVal = () => (document.querySelector('input[name="scope"]:checked') || {}).value || "all";
+// highlight a name when every search word appears in it
+const hl = name => { const n = norm(name); return words.length && words.every(w => n.includes(w)) ? `<mark>${esc(name)}</mark>` : esc(name); };
+const ABBR = { violin: "VN", viola: "VA", mridangam: "MR", ghatam: "GH", kanjira: "KJ", moharsing: "MO", morsing: "MO", thavil: "TH", nagaswaram: "NG" };
+const ab = i => ABBR[i.toLowerCase()] || i.slice(0, 2).toUpperCase();
+// ---- favourites (kept in this browser only)
+let favs = new Set();
+try { JSON.parse(localStorage.getItem("mcl-favs") || "[]").forEach(id => favs.add(id)); } catch (e) {}
+const saveFavs = () => { try { localStorage.setItem("mcl-favs", JSON.stringify([...favs])); } catch (e) {} };
+const starBtn = c => { const on = favs.has(c.id);
+  return `<button type="button" class="star" data-id="${esc(c.id)}" aria-pressed="${on}" aria-label="${on ? "Remove from" : "Add to"} favourites: ${esc(c.main_artist)}, ${fmtD(c.date)}">${on ? "★" : "☆"}</button>`; };
+const srcLabel = c => !c.source_label || c.source_label === "Organiser's schedule" ? "Organiser's schedule" : c.source_label;
+const accList = c => accs(c).map(p => `<span class="ac"><i>${esc(p.instrument === "Moharsing" ? "Morsing" : p.instrument)}</i>${hl(p.name)}</span>`).join("");
+
+const dates = CONCERTS.map(c => c.date).sort();
+const minD = dates[0], maxD = dates[dates.length - 1];
+const isMarg = d => d >= "2026-12-16" && d <= "2027-01-14";
+let selDates = new Set();
+try { const s = JSON.parse(localStorage.getItem("mcl-dates") || "[]"); s.forEach(d => selDates.add(d)); } catch (e) {}
+const fill = (id, label, vals) => { $("#"+id).innerHTML = `<option value="">${label}</option>` + vals.map(v => `<option>${esc(v)}</option>`).join(""); };
+fill("area", "All locations", [...new Set(CONCERTS.map(c => c.area))].sort());
+{
+  const perOrg = {}; CONCERTS.forEach(c => perOrg[c.organisation] = (perOrg[c.organisation] || 0) + 1);
+  const groups = [
+    ["Concerts published", o => perOrg[o.name]],
+    ["Dates announced, concerts not yet listed", o => !perOrg[o.name] && o.status === "Dates announced"],
+    ["No 2026–27 schedule yet", o => !perOrg[o.name] && o.status !== "Dates announced"],
+  ];
+  const opt = o => `<option value="${esc(o.name)}">${esc(o.name)}${perOrg[o.name] ? ` (${perOrg[o.name]})` : ""}</option>`;
+  $("#org").innerHTML = `<option value="">All organisations (${ORGS.length})</option>` + groups.map(([label, f]) => {
+    const list = ORGS.filter(f).sort((a, b) => a.name.localeCompare(b.name));
+    return list.length ? `<optgroup label="${esc(label)}">${list.map(opt).join("")}</optgroup>` : "";
+  }).join("");
+}
+
+let sortK = "date", sortDir = 1;
+{
+  const perType = {}; CONCERTS.forEach(c => perType[c.main_instrument] = (perType[c.main_instrument] || 0) + 1);
+  const types = Object.keys(perType).sort((a, b) => (a === "Vocal" ? -1 : b === "Vocal" ? 1 : perType[b] - perType[a] || a.localeCompare(b)));
+  $("#type").innerHTML = `<option value="">All types</option>` + types.map(t => `<option value="${esc(t)}">${esc(t)} (${perType[t]})</option>`).join("");
+}
+const ids = ["q","type","area","org"];
+try { const s = localStorage.getItem("mcl-scope"); if (s) { const r = document.querySelector(`input[name="scope"][value="${s}"]`); if (r) r.checked = true; } } catch (e) {}
+document.querySelectorAll('input[name="scope"]').forEach(r => r.addEventListener("change", render));
+try { const s = JSON.parse(localStorage.getItem("mcl-f") || "null"); if (s) ids.forEach(id => { if (s[id] != null) $("#"+id).value = s[id]; }); } catch (e) {}
+ids.forEach(id => $("#"+id).addEventListener("input", render));
+$("#clear").addEventListener("click", () => { ids.forEach(id => $("#"+id).value = ""); $("#scope-all").checked = true; selDates.clear(); render(); });
+
+// calendar: every month the season's published concerts touch
+const months = [];
+for (let d = pd(minD.slice(0,8) + "01"); d <= pd(maxD); d.setUTCMonth(d.getUTCMonth() + 1)) months.push([d.getUTCFullYear(), d.getUTCMonth()]);
+const iso = (y, m, d) => `${y}-${String(m + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
+function renderCal(counts) {
+  $("#months").innerHTML = months.map(([y, m]) => {
+    const first = new Date(Date.UTC(y, m, 1)).getUTCDay(), n = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
+    let cells = WD.map(w => `<span class="wdh">${w.slice(0, 2)}</span>`).join("") + "<span></span>".repeat(first);
+    for (let d = 1; d <= n; d++) { const k = iso(y, m, d), c = counts[k] || 0, on = selDates.has(k);
+      cells += `<button type="button" class="cd${isMarg(k) ? " mz" : ""}" data-d="${k}" aria-pressed="${on}" ${!c && !on ? "disabled" : ""} aria-label="${d} ${MON[m]} ${y}, ${c} concerts"><b>${d}</b><i>${c || ""}</i></button>`; }
+    return `<div class="month"><h3>${["January","February","March","April","May","June","July","August","September","October","November","December"][m]} ${y}</h3><div class="grid7">${cells}</div></div>`;
+  }).join("");
+}
+$("#months").addEventListener("click", e => { const b = e.target.closest(".cd"); if (!b || b.disabled) return;
+  const d = b.dataset.d; selDates.has(d) ? selDates.delete(d) : selDates.add(d); render(); });
+const toggleCal = open => { $("#cal").hidden = !open; $("#datebtn").setAttribute("aria-expanded", open); };
+$("#datebtn").addEventListener("click", () => toggleCal($("#cal").hidden));
+$("#cal-done").addEventListener("click", () => { toggleCal(false); $("#datebtn").focus(); });
+$("#cal-clear").addEventListener("click", () => { selDates.clear(); render(); });
+$("#chips").addEventListener("click", e => { const b = e.target.closest(".dchip"); if (!b) return; selDates.delete(b.dataset.d); render(); });
+
+document.querySelectorAll("th[data-k] button").forEach(b => b.addEventListener("click", () => {
+  const th = b.parentElement, k = th.dataset.k;
+  sortDir = sortK === k ? -sortDir : 1; sortK = k;
+  document.querySelectorAll("th[data-k]").forEach(x => x.removeAttribute("aria-sort"));
+  th.setAttribute("aria-sort", sortDir > 0 ? "ascending" : "descending"); render();
+}));
+
+let current = [];
+function render() {
+  const v = Object.fromEntries(ids.map(id => [id, $("#"+id).value]));
+  try { localStorage.setItem("mcl-f", JSON.stringify(v)); localStorage.setItem("mcl-dates", JSON.stringify([...selDates])); } catch (e) {}
+  const scope = scopeVal();
+  try { localStorage.setItem("mcl-scope", scope); } catch (e) {}
+  words = norm(v.q).split(" ").filter(Boolean);
+  const hay = c => scope === "main" ? c._main : scope === "acc" ? c._acc : c._main + " " + c._acc;
+  const others = CONCERTS.filter(c =>
+    (!v.type || c.main_instrument === v.type) &&
+    (!v.area || c.area === v.area) && (!v.org || c.organisation === v.org) &&
+    words.every(w => hay(c).includes(w)));
+  const counts = {}; others.forEach(c => counts[c.date] = (counts[c.date] || 0) + 1);
+  renderCal(counts);
+  const sel = [...selDates].sort();
+  $("#datebtn-text").textContent = !sel.length ? "All dates" : sel.length === 1 ? fmtD(sel[0]) : `${sel.length} dates selected`;
+  $("#chips").innerHTML = sel.map(d => `<button type="button" class="dchip" data-d="${d}" aria-label="Remove ${fmtD(d)}">${wd(d)} ${fmtD(d)} ✕</button>`).join("");
+  current = others.filter(c => !selDates.size || selDates.has(c.date));
+  current.sort((a, b) => {
+    const x = (a[sortK] || "") + "|" + a.date + a.start, y = (b[sortK] || "") + "|" + b.date + b.start;
+    return x < y ? -sortDir : x > y ? sortDir : 0;
+  });
+  $("#count").innerHTML = `<b>${current.length}</b> of ${CONCERTS.length} published concerts`;
+  if (!current.length) {
+    const o = ORGS.find(x => x.name === v.org);
+    let msg = "No published concerts match these filters. Pick other dates or clear the filters.";
+    if (o && !CONCERTS.some(c => c.organisation === o.name)) {
+      msg = `<b>${esc(o.name)}</b> has not published its 2026–27 concerts yet.` +
+        (o.festival_2026 ? ` Announced: ${esc(o.festival_2026)}.` : "") +
+        (o.venue || o.area ? `<br>${esc([o.venue, o.area].filter(Boolean).join(" · "))}` : "") +
+        (o.note ? `<br>${esc(o.note)}` : "") +
+        (o.url ? `<br><a href="${esc(o.url)}" target="_blank" rel="noopener">Check their website</a>` : "") +
+        `<br>Most sabhas publish between mid-November and early December.`;
+    }
+    $("#rows").innerHTML = `<tr><td colspan="10" class="empty">${msg}</td></tr>`;
+    $("#cards").innerHTML = `<p class="empty">${msg}</p>`; return;
+  }
+  const pill = c => `<span class="pill ${ek(c.entry)}">${esc(ek(c.entry) === "ns" ? "Not stated" : c.entry)}</span>`;
+  $("#rows").innerHTML = current.map(c => `<tr>
+    <td class="stc">${starBtn(c)}</td>
+    <td class="d">${fmtD(c.date)}<small>${wd(c.date)}</small></td>
+    <td class="t">${t12(c.start)}${c.end ? `<br><small>to ${t12(c.end)}</small>` : ""}</td>
+    <td class="a"><b>${hl(c.main_artist)}</b></td>
+    <td><span class="chip">${esc(c.main_instrument)}</span></td>
+    <td class="a"><span>${accList(c) || "—"}</span>${c.note ? `<small class="nt">${esc(c.note)}</small>` : ""}</td>
+    <td>${esc(c.organisation)}<br><small style="color:var(--muted)">${esc(c.festival)}</small></td>
+    <td class="v">${esc(c.area)}<small>${esc(c.venue.split(",")[0])}</small></td>
+    <td>${pill(c)}</td>
+    <td><a href="${esc(c.source_url)}" target="_blank" rel="noopener">${esc(srcLabel(c))}</a></td></tr>`).join("");
+  $("#cards").innerHTML = current.map(c => `<div class="card">
+    <div class="top"><span>${wd(c.date)} ${fmtD(c.date)} · ${t12(c.start)}</span><span class="topr">${pill(c)}${starBtn(c)}</span></div>
+    <div class="who">${hl(c.main_artist)} <span class="chip">${esc(c.main_instrument)}</span></div>
+    ${accs(c).length ? `<div class="sub">${accList(c)}</div>` : ""}
+    ${c.note ? `<div class="sub nt">${esc(c.note)}</div>` : ""}
+    <div class="sub">${esc(c.organisation)} · ${esc(c.area)} · <a href="${esc(c.source_url)}" target="_blank" rel="noopener">${esc(srcLabel(c))}</a></div></div>`).join("");
+}
+
+$("#copy").addEventListener("click", async () => {
+  const head = "Date\tTime\tMain artist\tInstrument\tAccompanists\tOrganisation\tLocation\tVenue\tEntry\tSource";
+  const text = [head, ...current.map(c => [c.date, c.start + (c.end ? "-" + c.end : ""), c.main_artist, c.main_instrument,
+    accs(c).map(p => `${p.name} (${p.instrument})`).join("; "), c.organisation, c.area, c.venue, c.entry, c.source_url].join("\t"))].join("\n");
+  const b = $("#copy");
+  try { await navigator.clipboard.writeText(text); b.textContent = `Copied ${current.length} rows`; }
+  catch (e) { b.textContent = "Copy not allowed here"; }
+  setTimeout(() => b.textContent = "Copy filtered list", 2000);
+});
+$("#fetched").textContent = CONCERTS[0] ? fmtD(CONCERTS[0].fetched) : "";
+
+// ---- venues: approximate map positions for travel estimates
+const VENUES = [
+  [/music academy/i, "The Music Academy, TTK Road", 13.0446, 80.2565],
+  [/ygp/i, "Sri YGP Auditorium, T. Nagar", 13.0430, 80.2392],
+  [/rasika ranjani|sundareswarar/i, "Rasika Ranjani Sabha, Mylapore", 13.0337, 80.2697],
+  [/vani mahal|thyaga brahma/i, "Vani Mahal, G.N. Road, T. Nagar", 13.0412, 80.2384],
+  [/muthamizh/i, "Muthamizh Peravai, R.A. Puram", 13.0280, 80.2580],
+  [/asian college of journalism/i, "Asian College of Journalism, Taramani", 12.9860, 80.2440],
+  [/bharatiya vidya bhavan/i, "Bharatiya Vidya Bhavan, Mylapore", 13.0339, 80.2702],
+  [/narada gana sabha/i, "Narada Gana Sabha, TTK Road", 13.0399, 80.2531],
+  [/krishna gana sabha/i, "Sri Krishna Gana Sabha, T. Nagar", 13.0378, 80.2347],
+  [/ganapathy sachchidananda/i, "Sri Ganapathy Sachchidananda Ashram, Velachery", 12.9785, 80.2210],
+  [/vidya bharathi/i, "Vidya Bharathi Kalyana Mandapam, Mylapore", 13.0362, 80.2650],
+];
+const venueOf = c => { const v = VENUES.find(([r]) => r.test(c.venue));
+  return v ? { name: v[1], lat: v[2], lng: v[3] } : { name: [c.venue, c.area !== "Not stated" ? c.area : ""].filter(Boolean).join(", "), lat: null, lng: null }; };
+const mins = s => { const [h, m] = s.split(":").map(Number); return h * 60 + m; };
+const hm = n => { const h = Math.floor(n / 60), m = n % 60; return h ? `${h} h${m ? ` ${m} min` : ""}` : `${m} min`; };
+const km = (a, b) => { const R = 6371, r = x => x * Math.PI / 180, dLa = r(b.lat - a.lat), dLo = r(b.lng - a.lng);
+  return 2 * R * Math.asin(Math.sqrt(Math.sin(dLa / 2) ** 2 + Math.cos(r(a.lat)) * Math.cos(r(b.lat)) * Math.sin(dLo / 2) ** 2)); };
+const mq = v => encodeURIComponent(v.name + ", Chennai");
+const dirUrl = stops => { const s = stops.filter((v, i) => i === 0 || v.name !== stops[i - 1].name);
+  let u = `https://www.google.com/maps/dir/?api=1&travelmode=driving&origin=${mq(s[0])}&destination=${mq(s[s.length - 1])}`;
+  if (s.length > 2) u += `&waypoints=${s.slice(1, -1).map(mq).join("%7C")}`; return u; };
+
+function leg(a, b) {
+  const va = venueOf(a), vb = venueOf(b);
+  const endA = a.end ? mins(a.end) : mins(a.start) + 120, gap = mins(b.start) - endA;
+  const assumed = a.end ? "" : " (end time not published; assumed 2 hours)";
+  let travel = "", lo = 0, hi = 0;
+  if (va.name === vb.name) travel = "Same venue, no travel";
+  else if (va.lat != null && vb.lat != null) {
+    const d = km(va, vb) * 1.35;               // road distance ≈ 1.35 × straight line
+    lo = Math.max(5, Math.round(d / 22 * 60)); hi = Math.max(10, Math.round(d / 13 * 60)); // 22 km/h light, 13 km/h heavy evening traffic
+    travel = `≈ ${d.toFixed(1)} km · about ${lo}–${hi} min by car or auto`;
+  } else travel = "Travel time unknown for this venue";
+  let cls = "ok", verdict;
+  if (gap < 0) { cls = "clash"; verdict = `Clash: overlaps by ${hm(-gap)}`; }
+  else if (gap < hi) { cls = "tight"; verdict = `Tight: ${hm(gap)} between concerts${hi ? `, travel may take ${lo}–${hi} min` : ""}`; }
+  else verdict = va.name === vb.name ? `${hm(gap)} break` : `${hm(gap)} between concerts, enough for the journey`;
+  const link = va.name !== vb.name ? ` · <a href="https://www.google.com/maps/dir/?api=1&travelmode=driving&origin=${mq(va)}&destination=${mq(vb)}" target="_blank" rel="noopener">Directions</a>` : "";
+  return `<div class="leg ${cls}"><span class="lv">${esc(verdict)}</span><span>${esc(travel)}${link}</span>${assumed ? `<span class="sub">${esc(assumed.trim())}</span>` : ""}</div>`;
+}
+
+function renderFav() {
+  const list = CONCERTS.filter(c => favs.has(c.id)).sort((a, b) => (a.date + a.start).localeCompare(b.date + b.start));
+  if (!list.length) {
+    $("#favview").innerHTML = `<p class="empty">No favourites yet. Go to <b>All concerts</b> and tap ☆ next to the concerts you want to attend. They'll appear here, grouped by day, with the journey between venues.</p>`;
+    return;
+  }
+  const byDay = {}; list.forEach(c => (byDay[c.date] = byDay[c.date] || []).push(c));
+  const days = Object.keys(byDay);
+  const clashes = days.reduce((n, d) => n + byDay[d].slice(1).filter((c, i) => { const p = byDay[d][i]; return mins(c.start) < (p.end ? mins(p.end) : mins(p.start) + 120); }).length, 0);
+  $("#favview").innerHTML = `<p class="favintro">${list.length} favourite concert${list.length > 1 ? "s" : ""} over ${days.length} day${days.length > 1 ? "s" : ""}${clashes ? ` · <b>${clashes} clash${clashes > 1 ? "es" : ""}</b>` : ""}. Travel times are rough estimates from venue locations and typical Chennai traffic; check the live route before you leave. Favourites are saved in this browser only.</p>` +
+    days.map(d => {
+      const cs = byDay[d], vs = cs.map(venueOf), distinct = new Set(vs.map(v => v.name)).size;
+      const body = cs.map((c, i) => (i ? leg(cs[i - 1], c) : "") + `
+        <div class="stop">
+          <div class="tm">${t12(c.start)}${c.end ? `<small>to ${t12(c.end)}</small>` : `<small>end not given</small>`}</div>
+          <div class="bd"><span class="who">${esc(c.main_artist)} <span class="chip">${esc(c.main_instrument)}</span></span>
+            ${accs(c).length ? `<span class="sub">${accList(c)}</span>` : ""}
+            <span class="sub">${esc(vs[i].name)} · ${esc(c.organisation)}</span></div>
+          ${starBtn(c)}
+        </div>`).join("");
+      return `<section class="plan"><div class="planhead"><h2>${wd(d)} ${fmtD(d)}</h2>
+        <span class="sum">${cs.length} concert${cs.length > 1 ? "s" : ""}${distinct > 1 ? ` · ${distinct} venues` : ""}</span>
+        ${distinct > 1 ? `<a class="maplink" href="${dirUrl(vs)}" target="_blank" rel="noopener">Route for the day in Google Maps</a>` : `<a class="maplink" href="https://www.google.com/maps/search/?api=1&query=${mq(vs[0])}" target="_blank" rel="noopener">Venue on map</a>`}
+        </div>${body}</section>`;
+    }).join("");
+}
+
+// ---- view switching and star clicks
+let view = "all";
+const setView = v => { view = v; document.body.classList.toggle("fav-mode", v === "fav");
+  $("#v-all").setAttribute("aria-pressed", v === "all"); $("#v-fav").setAttribute("aria-pressed", v === "fav");
+  $("#favview").hidden = v !== "fav"; if (v === "fav") renderFav(); };
+const updateFavCount = () => { $("#favn").textContent = favs.size; };
+$("#v-all").addEventListener("click", () => setView("all"));
+$("#v-fav").addEventListener("click", () => setView("fav"));
+document.addEventListener("click", e => {
+  const b = e.target.closest(".star"); if (!b) return;
+  const id = b.dataset.id; favs.has(id) ? favs.delete(id) : favs.add(id); saveFavs(); updateFavCount();
+  const c = CONCERTS.find(x => x.id === id), on = favs.has(id);
+  document.querySelectorAll(`.star[data-id="${CSS.escape(id)}"]`).forEach(s => { s.setAttribute("aria-pressed", on); s.textContent = on ? "★" : "☆";
+    s.setAttribute("aria-label", `${on ? "Remove from" : "Add to"} favourites: ${c.main_artist}, ${fmtD(c.date)}`); });
+  if (view === "fav") renderFav();
+});
+updateFavCount();
+if (location.hash === "#favourites") setView("fav");
+render();
+</script>

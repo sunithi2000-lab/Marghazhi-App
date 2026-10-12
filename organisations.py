@@ -1,0 +1,85 @@
+"""Master list of Chennai Margazhi-season Carnatic organisers, with 2026-27 status.
+
+Status values: "Schedule published", "Dates announced", "Awaiting 2026–27 schedule".
+Writes data/organisations.json. Names for published organisers must match concerts.json.
+"""
+import json
+from pathlib import Path
+
+PUB, ANN, AW = "Schedule published", "Dates announced", "Awaiting 2026–27 schedule"
+MAJOR, OTHER, FEST = "Major sabha", "Other sabha", "Festival / arts organisation"
+
+# name, group, status, area, venue, 2026-27 festival + dates, note, url
+ORGS = [
+    ("The Music Academy, Madras", MAJOR, PUB, "Alwarpet / TTK Road", "Music Academy Auditorium, 168 TTK Road",
+     "100th Annual Concerts · 15 Dec 2026 – 1 Jan 2027", "Conference sessions daily 8–10 am; dance festival 3–9 Jan 2027.",
+     "https://musicacademymadras.in/100th-annual-concerts-2026/"),
+    ("Bharat Kalachar", MAJOR, PUB, "T. Nagar", "Sri YGP Auditorium, 17 Thirumalai Road",
+     "38th Marghazhi Mahotsav · 13 Dec 2026 – 17 Jan 2027", "Advance booking at venue from 7 Dec 2026.",
+     "https://www.bharatkalachar.com/38-bharat-kalachar.html"),
+    ("Kartik Fine Arts", MAJOR, ANN, "Alwarpet / TTK Road", "Narada Gana Sabha, TTK Road",
+     "December Season festival · from 1 Dec 2026", "Concert list not yet published.",
+     "https://www.mylaporetimes.com/2026/10/december-season-2026-narada-gana-sabha-is-improving-its-audio-systems/"),
+    ("Narada Gana Sabha", MAJOR, ANN, "Alwarpet / TTK Road", "TTK Road, Teynampet",
+     "December Season 2026 · from 1 Dec 2026", "Top-billed concerts to start by 3.30 pm. Concert list not yet published.",
+     "https://www.mylaporetimes.com/2026/10/december-season-2026-narada-gana-sabha-is-improving-its-audio-systems/"),
+    ("Sri Krishna Gana Sabha", MAJOR, AW, "T. Nagar", "20 Maharajapuram Santhanam Salai", "", "Only its dance Natya Kala Conference (26–28 Dec) is announced.", "https://www.krishnaganasabha.org/"),
+    ("Sri Thyaga Brahma Gana Sabha", MAJOR, AW, "T. Nagar", "Vani Mahal, G.N. Road", "", "", "https://www.vanimahal.com/"),
+    ("Brahma Gana Sabha", MAJOR, AW, "Mylapore", "Sivagami Pethachi Auditorium", "", "", ""),
+    ("Mylapore Fine Arts Club", MAJOR, AW, "Mylapore", "45 Musiri Subramaniam Road", "", "", ""),
+    ("Sri Parthasarathy Swami Sabha", MAJOR, AW, "Mylapore", "Vidya Bharathi, Bheemasena Garden Road", "", "", "https://parthasarathyswamisabha.com/"),
+    ("The Indian Fine Arts Society", MAJOR, AW, "Alwarpet / TTK Road", "Ethiraja Kalyana Nilayam, TTK Road", "", "", ""),
+    ("Rasika Ranjani Sabha", MAJOR, AW, "Mylapore", "Dakshinamoorthy Auditorium", "", "", "https://rrsabha.org/"),
+    ("Bharatiya Vidya Bhavan, Chennai Kendra", MAJOR, AW, "Mylapore", "East Mada Street", "", "Its festival usually opens the season in late November.", ""),
+    ("Tamil Isai Sangam", MAJOR, AW, "George Town", "Rajah Annamalai Mandram, Esplanade Road", "", "", ""),
+    ("Hamsadhwani", MAJOR, AW, "", "", "", "", ""),
+    ("Asthika Samajam", MAJOR, AW, "Alwarpet", "Venus Colony", "", "", ""),
+    ("Kapali Fine Arts", OTHER, AW, "Mylapore", "", "", "", ""),
+    ("Nungambakkam Cultural Academy", OTHER, AW, "Nungambakkam", "", "", "", ""),
+    ("Kalarasana", OTHER, AW, "", "", "", "", ""),
+    ("Nadopasana", OTHER, AW, "", "", "", "", ""),
+    ("Sri Rama Bhaktha Jana Samaj", OTHER, AW, "", "", "", "", ""),
+    ("Nandi Fine Arts", OTHER, AW, "", "", "", "", ""),
+    ("Perambur Sangeetha Sabha", OTHER, AW, "Perambur", "", "", "", ""),
+    ("Sat Sangam Sabha", OTHER, AW, "Madipakkam", "", "", "", ""),
+    ("Chennai Cultural Academy Trust", OTHER, AW, "", "", "", "", ""),
+    ("Naada Inbam", FEST, AW, "Mylapore", "Ragasudha Hall, Luz Avenue", "", "", ""),
+    ("Charsur Arts Foundation", FEST, AW, "Mylapore", "Sri Ramanujar Millennium Hall, D'Silva Road", "", "", ""),
+    ("Chennai Fine Arts", FEST, AW, "", "", "", "", ""),
+    ("Madhuradhwani", FEST, AW, "Mylapore", "Arkay Convention Centre", "", "ACC Anniversary festival.", ""),
+    ("Sunaadalahari", FEST, AW, "Abhiramapuram", "Indira Ranganathan Trust, 52 C.P. Ramaswamy Road", "", "Garden-setting concerts.", ""),
+    ("Carnatica", FEST, AW, "Mylapore", "Desiga Vidya Bhavanam (Paddhathi Music Fest)", "", "Also runs the Global Heritage Music Fest.", "https://carnatica.net/"),
+    ("MDnD", FEST, AW, "Mylapore", "MDnD Performance Centre, Luz Church Road", "", "Anandha Margazhi; also sells season tickets for many sabhas.", "https://www.mdnd.in/seasontickets"),
+    ("Nada Sudha", FEST, AW, "Velachery", "Sri Ganapathy Sachchidananda Ashram", "", "", ""),
+    ("Sruthi Laya Kendra", FEST, AW, "Mylapore", "Bharatiya Vidya Bhavan Mini Hall", "", "Winter Music Festival.", ""),
+    ("Gayatri Fine Arts Global", FEST, AW, "Mylapore", "Sri Krishna Saras Hall, P.S. Sivaswamy Salai", "", "", ""),
+    ("Shakthi Sangita Sabha", FEST, AW, "Valasaravakkam", "Anbu Nagar", "", "", ""),
+    ("SASTRA Satsangh", FEST, AW, "", "", "", "Margazhi Mela.", ""),
+    ("TTVV Trust & Cleveland Thyagaraja Festival", FEST, AW, "Teynampet", "Tattvaloka Hall, Eldams Road", "", "Margazhi Mela.", ""),
+    ("VVS Foundation & SaMaa Arts", FEST, AW, "Mylapore", "Raghavendra Swami Mutt, Salai Street", "", "Swagatham and Ekaantha Sangeetha Seva festivals.", ""),
+    ("Kauvery Margazhi Maha Utsavam", FEST, AW, "", "", "", "", ""),
+    ("Jyothi Indira Margazhi Yuvautsav", FEST, AW, "Valasaravakkam", "Jyothi Indira Thirumana Mandapam", "", "", ""),
+    ("Chennaiyil Thiruvaiyaru", FEST, AW, "", "", "", "", ""),
+    ("Chennaiyil Sangeeth Utsav", FEST, AW, "Neelankarai", "AMRK Banquet Hall", "", "", ""),
+    ("RASOHAM Kutty Kutchery Festival", FEST, AW, "", "Multiple venues", "", "", "https://rasoham.org/"),
+    ("Medai The Stage", FEST, AW, "Alwarpet", "1st Cross St, Co-operative Colony", "", "", ""),
+    ("Triplicane Music Festival", FEST, AW, "Triplicane", "NKT Muthu Hall", "", "", ""),
+    ("TAPAS Music and Dance Festival", FEST, AW, "", "", "", "", ""),
+]
+
+PART = "Some dates via artists' websites"
+ORGS += [
+    ("Mudhra", OTHER, PART, "T. Nagar", "Sri Thyaga Brahma Gana Sabha (Vani Mahal)", "", "Date found on Shashank's website.", ""),
+    ("Sanjay Sabha Live", FEST, PART, "", "Muthamizh Peravai; Asian College of Journalism", "", "Sanjay Subrahmanyan's own multilingual concert series.", "https://sanjaysub.com/"),
+    ("Tamizhum Naanum", FEST, PART, "Alwarpet / TTK Road", "Music Academy Auditorium", "", "Date found on Sanjay Subrahmanyan's website.", "https://sanjaysub.com/"),
+    ("Organiser not stated", OTHER, PART, "", "", "", "Concerts listed on artists' websites without an organiser name.", ""),
+]
+# organisers whose individual dates appear on artists' websites, before their own schedule is out
+for i, row in enumerate(ORGS):
+    if row[0] in {"Brahma Gana Sabha", "Sruthi Laya Kendra", "Sri Parthasarathy Swami Sabha"}:
+        ORGS[i] = row[:2] + (PART,) + row[3:6] + ("Own schedule not yet published; dates found on artists' websites.",) + row[7:]
+out = [dict(name=n, group=g, status=s, area=a, venue=v, festival_2026=f, note=note, url=u)
+       for n, g, s, a, v, f, note, u in ORGS]
+assert len({o["name"] for o in out}) == len(out), "duplicate organisation"
+Path(__file__).parent.joinpath("data/organisations.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))
+print(len(out), "organisations:", {s: sum(o["status"] == s for o in out) for s in (PUB, ANN, AW)})

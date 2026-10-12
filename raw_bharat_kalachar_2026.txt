@@ -1,0 +1,43 @@
+# Source: https://www.bharatkalachar.com/38-bharat-kalachar.html  (fetched 2026-10-12)
+# Carnatic music programmes only; dance, drama, harikatha, fusion, film/light music, award functions excluded.
+# Page lists main artist + art form only (no accompanists, no end times).
+# date|start|entry|main artist|art form
+2026-12-14|18:30|Ticketed|Trichur Brothers|Vocal
+2026-12-18|18:30|Ticketed|Bolava Vitthala|Vocal
+2026-12-20|10:30|Free|Ritvik Vaddi Rao|Vocal
+2026-12-20|16:00|Ticketed (special)|Sid Sriram|Vocal
+2026-12-21|18:30|Ticketed|Sudha Ragunathan and Party|Vocal
+2026-12-25|10:30|Free|B Kannan and Party|Veena
+2026-12-25|14:00|Free|Malladi Yasashvi Anand|Vocal
+2026-12-26|10:30|Ticketed (special)|Rajesh Vaidya & Jayanth|Veena & Flute Duet
+2026-12-26|16:30|Ticketed|Surya Gayatri and Party|Vocal
+2026-12-27|10:30|Free|H. Sooryanarayanan|Vocal
+2026-12-27|14:00|Free|Rishabh Kaushik|Vocal
+2026-12-27|16:30|Ticketed|Malladi Brothers - Sri Ramaprasad and Ravikumar|Vocal
+2026-12-28|14:00|Free|Priya Krishnamurthy|Vocal
+2026-12-28|16:30|Free|Vaishnavi Ramdos|Vocal
+2026-12-29|10:30|Free|(Madison) Sanjay Suresh|Violin
+2026-12-29|10:30|Free|Sai Govind Vijayaraghavan|Mandolin
+2026-12-29|14:00|Free|Karthik Raju (USA)|Vocal
+2026-12-30|10:30|Free|Kalyanapuram S Arvind|Vocal
+2026-12-30|14:00|Free|Sidhdharth Kaushik|Vocal
+2026-12-31|14:00|Free|Bharadwaj Subramaniam|Vocal
+2026-12-31|16:30|Ticketed|Kunnakudi M Balamuralikrishna|Vocal
+2027-01-01|10:30|Ticketed|Ganesh Kumaresh|Violin Duet
+2027-01-01|14:00|Free|Adiitya Sridhar|Vocal
+2027-01-01|17:30|Free|Giridharan|Vocal
+2027-01-02|14:00|Free|Rasika Sivakumar (USA)|Vocal
+2027-01-02|16:30|Free|R Suryaprakash|Vocal
+2027-01-03|10:30|Free|Shishir Kumar|Saxophone
+2027-01-03|14:00|Free|Vishruthii Girish|Vocal
+2027-01-03|19:00|Ticketed|Ramana Balachandran|Veena
+2027-01-09|10:30|Free|Cotah Sisters|Vocal
+2027-01-09|14:00|Free|Jayashree Vaidyanathan|Vocal
+2027-01-10|10:30|Free|Charulatha Chandrasekar|Veena
+2027-01-10|10:30|Free|Bharath Narayanan|Vocal
+2027-01-10|14:00|Free|V Deepika & V Nandhika|Vocal Duet
+2027-01-10|16:30|Free|Carnatica Brothers|Vocal
+2027-01-16|10:30|Free|Atul Kumar|Flute
+2027-01-16|14:00|Free|Samhitha Shivram & Shreyas Shivram|Mandolin Duet
+2027-01-17|10:30|Free|Mohan Santhanam|Vocal
+2027-01-17|15:00|Not stated|Samanvitha Sashidharan|Vocal
