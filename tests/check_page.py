@@ -10,7 +10,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 
 R = Path(__file__).resolve().parent.parent
-page_file = Path(sys.argv[1]) if len(sys.argv) > 1 else R / "index.html"
+page_file = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else R / "index.html"
 c = json.loads((R / "data/concerts.json").read_text())
 o = json.loads((R / "data/organisations.json").read_text())
 problems = []
