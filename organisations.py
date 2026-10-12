@@ -34,6 +34,7 @@ ORGS = [
     ("Tamil Isai Sangam", MAJOR, AW, "George Town", "Rajah Annamalai Mandram, Esplanade Road", "", "", ""),
     ("Hamsadhwani", MAJOR, AW, "", "", "", "", ""),
     ("Asthika Samajam", MAJOR, AW, "Alwarpet", "Venus Colony", "", "", ""),
+    ("Neelakanta Sabha", OTHER, AW, "", "", "", "Venue and 2026–27 dates not yet found online.", ""),
     ("Kapali Fine Arts", OTHER, AW, "Mylapore", "", "", "", ""),
     ("Nungambakkam Cultural Academy", OTHER, AW, "Nungambakkam", "", "", "", ""),
     ("Kalarasana", OTHER, AW, "", "", "", "", ""),
