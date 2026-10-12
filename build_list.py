@@ -29,7 +29,7 @@ doc = f"""<!doctype html>
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Kutcheri">
+<meta name="apple-mobile-web-app-title" content="Kutcheri Planner">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="icon.svg">
@@ -43,7 +43,7 @@ doc = f"""<!doctype html>
 (R / "index.html").write_text(doc)
 
 (R / "manifest.webmanifest").write_text(json.dumps({
-    "name": "Margazhi Kutcheri 2026–27", "short_name": "Kutcheri",
+    "name": "Marghazhi Kutcheri Planner", "short_name": "Kutcheri Planner",
     "description": "Chennai Margazhi season Carnatic concerts",
     "start_url": "./", "scope": "./", "display": "standalone",
     "background_color": "#F6F7F3", "theme_color": "#0E6A57",
