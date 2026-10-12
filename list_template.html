@@ -241,6 +241,17 @@ select { font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 10px
   </div>
 </div>
 
+<script id="err-catch">
+// error reporting: collect JavaScript errors from the start; sent to GoatCounter as "error: …" events once it loads
+window.__errs = []; window.__errN = 0;
+window.__reportErr = function (msg, line) {
+  try { var k = String(msg || "error").slice(0, 140) + (line ? " @" + line : "");
+    if (window.__errN >= 5 || window.__errs.indexOf(k) >= 0) return; window.__errN++; window.__errs.push(k);
+    if (window.__errFlush) window.__errFlush(); } catch (e) {}
+};
+addEventListener("error", function (e) { if (e && e.message) window.__reportErr(e.message, e.lineno); });
+addEventListener("unhandledrejection", function (e) { var r = e && e.reason; window.__reportErr("promise: " + (r && r.message || r)); });
+</script>
 <script>
 const CONCERTS = /*__CONCERTS__*/[];
 const ORGS = /*__ORGS__*/[];
@@ -498,7 +509,7 @@ const GC_ON = !!GC_CODE && (IS_APP || ["kutcheri-dec.netlify.app", "sunithi2000-
 function track(name, params) {
   try {
     if (!GC_ON || !window.goatcounter || !goatcounter.count) return;
-    const label = name + (params && params.tab ? ": " + params.tab : "");
+    const label = name + (params && (params.tab || params.detail) ? ": " + (params.tab || params.detail) : "");
     goatcounter.count({ path: (IS_APP ? "app " : "web ") + label, title: label, event: true });
   } catch (e) {}
 }
@@ -506,6 +517,10 @@ if (GC_ON) {
   window.goatcounter = IS_APP ? { allow_local: true, path: () => "/app/" } : {};
   const sc = document.createElement("script");
   sc.async = true; sc.src = "https://gc.zgo.at/count.js";
+  let sent = 0;
+  window.__errFlush = () => { if (!window.goatcounter || !goatcounter.count) return;
+    while (sent < window.__errs.length) track("error", { detail: window.__errs[sent++] }); };
+  sc.onload = () => window.__errFlush();
   sc.dataset.goatcounter = "https://" + GC_CODE + ".goatcounter.com/count";
   document.head.appendChild(sc);
 }

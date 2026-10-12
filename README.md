@@ -31,3 +31,11 @@ Put all files in one folder with a `data/` subfolder, then:
 - Every organisation used must exist in `organisations.py`; update its status when its schedule is published. `organisations.py` lists only definite organisations / sabhas (it feeds the Sabhas tab and the sabha filter). "Organiser not stated" is a label on concerts, not an organisation, and must not be added there.
 - Daily: review every organisation in `organisations.py`, one by one, for a new or changed 2026–27 schedule; also try to find the real organiser of each "Organiser not stated" concert.
 - A changed or cancelled concert: edit or remove its line, and note it in `UPDATE_LOG.md`.
+
+## Health checks and error reporting
+- `tests/check_data.py` — data rules (fields, dates in season, times, duplicates, organisations, no sudden drop of more than 20% versus the live site). **Netlify runs it before every deploy**: if it fails, the deploy stops and the previous site stays live. To allow an intended big change once (e.g. new season), add an empty file `tests/ALLOW_BIG_CHANGE` and delete it afterwards.
+- `tests/check_page.py` — opens the page in headless Chrome at phone size (light and dark, large text) and uses it: list, search, date strip, calendar, My plan, Sabhas tab, pinned strip, no overlapping times, no JavaScript errors, error capture.
+- `tests/check_live.py` — website and GitHub Pages backup load; live data equals the repo (deploy succeeded); the Android app's download header (CORS) is present; the morning update ran within 36 h (14 Oct 2026 – 31 Jan 2027).
+- `.github/workflows/health.yml` runs all three after every push and every 6 hours. On failure it opens or updates an issue labelled **health-check** (assigned to the owner, so GitHub emails and notifies) and fails the run; when checks pass again it closes the issue.
+- `data/status.json` is written by every build (`build_list.py`) as a heartbeat. The morning job must push it every day, even when no concert changed.
+- Error reporting: the page catches JavaScript errors (from the very start of loading) and sends up to 5 per visit to GoatCounter as events named `web error: …` / `app error: …` — see the Events list at https://kutcheri.goatcounter.com.

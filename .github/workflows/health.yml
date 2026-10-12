@@ -1,0 +1,90 @@
+name: Health checks
+
+# Runs after every rebuild (every push to main) and every 6 hours.
+# On failure: opens (or updates) a GitHub issue labelled "health-check" assigned to the owner, and the run fails
+# (GitHub emails both). When everything passes again, the open issue is closed automatically.
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: health
+  cancel-in-progress: true
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Data checks
+        id: data
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 tests/check_data.py --previous https://kutcheri-dec.netlify.app/data/concerts.json 2>&1 | tee data.log
+
+      - name: Page checks (headless Chrome, phone size)
+        id: page
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          pip install --quiet playwright && python3 -m playwright install --with-deps chromium > /dev/null
+          python3 tests/check_page.py 2>&1 | tee page.log
+
+      - name: Live site checks
+        id: live
+        continue-on-error: true
+        shell: bash
+        run: |
+          set -o pipefail
+          python3 tests/check_live.py ${{ github.event_name == 'push' && '--wait-for-deploy' || '' }} 2>&1 | tee live.log
+
+      - name: Report
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNER: ${{ github.repository_owner }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RESULTS: "data=${{ steps.data.outcome }} page=${{ steps.page.outcome }} live=${{ steps.live.outcome }}"
+        run: |
+          gh label create health-check --color D93F0B --description "Automatic health check failures" --force >/dev/null 2>&1 || true
+          open_issue=$(gh issue list --label health-check --state open --json number --jq '.[0].number' 2>/dev/null)
+          if [[ "$RESULTS" == *failure* ]]; then
+            {
+              echo "**Health check failed** — $(date -u '+%Y-%m-%d %H:%M UTC') · trigger: ${{ github.event_name }} · commit ${GITHUB_SHA::7}"
+              echo
+              echo "Results: \`$RESULTS\` · [full log]($RUN_URL)"
+              for f in data page live; do
+                if [ -f $f.log ] && grep -q "FAILED" $f.log; then echo; echo "### $f"; echo '```'; tail -40 $f.log; echo '```'; fi
+              done
+              echo
+              echo "_This issue closes itself when the checks pass again._"
+            } > report.md
+            echo "::error title=Health check failed::$RESULTS — see $RUN_URL"
+            if [ -n "$open_issue" ]; then
+              gh issue comment "$open_issue" --body-file report.md
+            else
+              gh issue create --title "Health check failed: Marghazhi Kutcheri Planner" --label health-check --assignee "$OWNER" --body-file report.md \
+                || gh issue create --title "Health check failed: Marghazhi Kutcheri Planner" --label health-check --body-file report.md
+            fi
+            exit 1
+          fi
+          echo "All checks passed ($RESULTS)"
+          if [ -n "$open_issue" ]; then
+            gh issue close "$open_issue" --comment "All health checks pass again ($(date -u '+%Y-%m-%d %H:%M UTC')). [Run]($RUN_URL)"
+          fi

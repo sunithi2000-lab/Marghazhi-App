@@ -1,4 +1,5 @@
-# Netlify: publish the repository root as-is (no build step).
+# Netlify: publish the repository root as-is.
+# Before publishing, run the data safety checks: if they fail, the deploy stops and the previous site stays live.
 [build]
   publish = "."
-  command = ""
+  command = "python3 tests/check_data.py --previous https://kutcheri-dec.netlify.app/data/concerts.json"

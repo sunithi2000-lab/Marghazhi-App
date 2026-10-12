@@ -5,6 +5,7 @@ Writes:
   index.html                  - full HTML document for GitHub Pages (doctype, phone viewport, home-screen app tags)
   manifest.webmanifest, icon.svg (+ committed icon-192/512.png, apple-touch-icon.png) - let phones "Add to Home Screen" as an app
   _check.js                   - the page script, for `node --check _check.js`
+  data/status.json            - when this build ran (checked by tests/check_live.py)
 """
 import json, re
 from pathlib import Path
@@ -17,6 +18,12 @@ assert not missing, f"organisations missing from organisations.py: {missing}"
 j = lambda d: json.dumps(d, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 t = (R / "list_template.html").read_text().replace("/*__CONCERTS__*/[]", j(c)).replace("/*__ORGS__*/[]", j(o))
 (R / "margazhi-concert-list.html").write_text(t)
+
+# heartbeat: when this build ran; the health checks alert if it gets old during the season
+from datetime import datetime, timezone
+(R / "data/status.json").write_text(json.dumps({
+    "built_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    "concerts": len(c), "organisations": len(o)}, indent=1) + "\n")
 
 head, body = t.split("</style>", 1)
 doc = f"""<!doctype html>
@@ -61,5 +68,5 @@ doc = f"""<!doctype html>
 </g></g></svg>
 """)
 
-(R / "_check.js").write_text(re.search(r"<script>(.*)</script>", t, re.S).group(1))
+(R / "_check.js").write_text(re.search(r"<script>\n(.*)</script>", t, re.S).group(1))
 print(f"{len(c)} concerts, {len(o)} organisations -> margazhi-concert-list.html, index.html; run: node --check _check.js")
