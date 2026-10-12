@@ -93,9 +93,11 @@ with sync_playwright() as p:
     ctx = b.new_context(viewport={"width": 360, "height": 740})
     ctx.route("**/*", lambda r: r.continue_() if r.request.url.startswith("file:") else r.abort())
     pg = ctx.new_page()
-    pg.add_init_script("document.addEventListener('DOMContentLoaded',()=>{const s=document.createElement('style');s.textContent='.kt b{font-size:21px!important}.kt small{font-size:17px!important}';document.head.appendChild(s)})")
     pg.goto(page_file.as_uri())
-    pg.wait_for_timeout(600)
+    pg.wait_for_timeout(400)
+    # enlarge the text after the page has loaded (like a font arriving late or the phone's text size changing)
+    pg.add_style_tag(content=".kt b{font-size:21px!important}.kt small{font-size:17px!important}")
+    pg.wait_for_timeout(400)
     no_overlap(pg, "[large text]")
     # error reporting is wired up
     pg.evaluate("setTimeout(() => { throw new Error('health-check test error'); })")

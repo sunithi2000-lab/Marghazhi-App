@@ -500,20 +500,20 @@ function setKeep() {
 }
 setKeep();
 try { new ResizeObserver(setKeep).observe($("#bar")); } catch (e) { window.addEventListener("resize", setKeep); }
-// time column: sized from the real rendered width of the longest times, so it fits any phone text size
+// time column: sized from the real rendered width of the longest times, so it fits any phone text size.
+// A hidden sample stays on the page and is watched, so the column follows late-loading fonts and text-size changes.
+const timeSample = document.createElement("div");
+timeSample.className = "kt"; timeSample.setAttribute("aria-hidden", "true");
+timeSample.style.cssText = "position:absolute;visibility:hidden;pointer-events:none;left:-9999px;top:0;width:auto";
+timeSample.innerHTML = "<b>12:45 pm</b><small>to 12:45 pm</small>";
+document.body.appendChild(timeSample);
 function setTimeCol() {
-  const m = document.createElement("div");
-  m.className = "kt"; m.setAttribute("aria-hidden", "true");
-  m.style.cssText = "position:absolute;visibility:hidden;left:-9999px;top:0;width:auto";
-  m.innerHTML = "<b>12:45 pm</b><small>to 12:45 pm</small>";
-  document.body.appendChild(m);
-  const w = Math.max(...[...m.children].map(e => e.getBoundingClientRect().width));
-  m.remove();
+  const w = Math.max(...[...timeSample.children].map(e => e.getBoundingClientRect().width));
   if (w > 0) document.documentElement.style.setProperty("--timecol", Math.ceil(w + 2) + "px");
 }
 setTimeCol();
+try { new ResizeObserver(setTimeCol).observe(timeSample); } catch (e) { window.addEventListener("resize", setTimeCol); }
 try { document.fonts.ready.then(setTimeCol); } catch (e) {}
-window.addEventListener("resize", setTimeCol);
 $("#fetched").textContent = CONCERTS[0] ? fmtD(CONCERTS[0].fetched) : "";
 updateFavCount();
 render();
