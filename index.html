@@ -275,6 +275,7 @@ select { font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 10px
 
     <form class="frm" id="f-missing" name="missing-concert" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" data-title="Add a missing concert">
       <input type="hidden" name="form-name" value="missing-concert">
+      <input type="hidden" name="subject" value="Kutcheri Planner: missing concert reported (%{submissionId})">
       <input type="hidden" name="platform" value="">
       <p class="hp"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
       <label class="fl">Main artist <input name="artist" required maxlength="120" autocomplete="off"></label>
@@ -297,6 +298,7 @@ select { font: inherit; font-size: 16px; padding: 10px 12px; border-radius: 10px
 
     <form class="frm" id="f-organiser" name="organiser-schedule" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" data-title="Send your sabha's schedule" hidden>
       <input type="hidden" name="form-name" value="organiser-schedule">
+      <input type="hidden" name="subject" value="Kutcheri Planner: organiser schedule received (%{submissionId})">
       <input type="hidden" name="platform" value="">
       <p class="hp"><label>Leave empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
       <label class="fl">Sabha or organisation <input name="organisation" list="org-names" required maxlength="120"></label>
