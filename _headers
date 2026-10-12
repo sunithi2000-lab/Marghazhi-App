@@ -1,0 +1,3 @@
+# Netlify headers: let the Android app download the concert list from this site
+/data/*
+  Access-Control-Allow-Origin: *
