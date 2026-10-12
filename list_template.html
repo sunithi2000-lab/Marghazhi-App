@@ -16,7 +16,7 @@
   /* spacing scale: every gap and padding in the cards uses one of these */
   --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px;
   /* fixed time column, sized in rem so it grows with the phone's text size */
-  --timecol: 6.4rem;
+  --timecol: 5.4rem;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0F1513; --surface: #161E1B; --ink: #E8EEEA; --muted: #9AA8A1; --rule: #2A3631;
@@ -54,10 +54,10 @@ button { font: inherit; color: inherit; }
 .fbtn svg { width: 18px; height: 18px; }
 .fbtn .bdg { font-family: var(--font-data); font-size: 11px; background: var(--accent); color: var(--accent-ink); border-radius: 999px; min-width: 18px; padding: 0 5px; text-align: center; }
 .vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.qf { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
+.qf { display: flex; flex-wrap: wrap; gap: var(--s2); }
 .qf::-webkit-scrollbar { display: none; }
-.qf label { flex: 0 0 auto; }
-.qf select { width: auto; max-width: 62vw; font-size: 16px; font-weight: 700; padding: 6px 30px 6px 12px; border-radius: 999px; -webkit-appearance: none; appearance: none;
+.qf label { flex: 0 1 auto; min-width: 0; max-width: 100%; }
+.qf select { width: auto; max-width: 100%; text-overflow: ellipsis; font-size: 16px; font-weight: 700; padding: 6px 30px 6px 12px; border-radius: 999px; -webkit-appearance: none; appearance: none;
   background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' fill='none' stroke='%235B6862' stroke-width='2'/%3E%3C/svg%3E") no-repeat right 11px center / 11px 8px; }
 .qf select.on { border-color: var(--accent); background-color: var(--accent-soft); color: var(--accent); }
 .strip { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; scroll-snap-type: x proximity; }
@@ -281,9 +281,9 @@ const perOrg = {}; CONCERTS.forEach(c => perOrg[c.organisation] = (perOrg[c.orga
 {
   const perType = {}; CONCERTS.forEach(c => perType[c.main_instrument] = (perType[c.main_instrument] || 0) + 1);
   const types = Object.keys(perType).sort((a, b) => a === "Vocal" ? -1 : b === "Vocal" ? 1 : perType[b] - perType[a] || a.localeCompare(b));
-  $("#type").innerHTML = `<option value="">All concert types</option>` + types.map(t => `<option value="${esc(t)}">${esc(t)} (${perType[t]})</option>`).join("");
+  $("#type").innerHTML = `<option value="">All types</option>` + types.map(t => `<option value="${esc(t)}">${esc(t)} (${perType[t]})</option>`).join("");
   const areas = [...new Set(CONCERTS.map(c => c.area))].sort();
-  $("#area").innerHTML = `<option value="">All locations</option>` + areas.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("");
+  $("#area").innerHTML = `<option value="">All areas</option>` + areas.map(a => `<option value="${esc(a)}">${esc(a)}</option>`).join("");
   const groups = [["Concerts listed", o => perOrg[o.name]], ["Dates announced", o => !perOrg[o.name] && o.status === "Dates announced"], ["No 2026–27 schedule yet", o => !perOrg[o.name] && o.status !== "Dates announced"]];
   $("#org").innerHTML = `<option value="">All sabhas (${ORGS.length})</option>` + groups.map(([l, f]) => { const list = ORGS.filter(f).sort((a, b) => a.name.localeCompare(b.name));
     return list.length ? `<optgroup label="${esc(l)}">${list.map(o => `<option value="${esc(o.name)}">${esc(o.name)}${perOrg[o.name] ? ` (${perOrg[o.name]})` : ""}</option>`).join("")}</optgroup>` : ""; }).join("");
