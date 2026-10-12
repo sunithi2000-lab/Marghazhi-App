@@ -1,6 +1,6 @@
 # Margazhi 2026–27 Carnatic concert repository
 
-**Public site:** https://sunithi2000-lab.github.io/kutcheri/ — served by GitHub Pages from `index.html` on the `main` branch (Settings → Pages → Deploy from a branch → `main` / root). Anyone can open it without signing in. Favourites are saved in each visitor's own browser.
+**Public site:** https://kutcheri.netlify.app — hosted on Netlify, which redeploys automatically on every push to `main` (settings in `netlify.toml`: publish the repo root, no build step). Backup copy: https://sunithi2000-lab.github.io/kutcheri/ (GitHub Pages, same `index.html`). Anyone can open either without signing in. Favourites are saved in each visitor's own browser.
 
 Current-season (2026–27) Chennai Carnatic concerts only, from organisers' and artists' public listings.
 Live page: **Margazhi Concert List 2026–27** — https://claude.ai/artifact/LT7DXaZZFwqiqWTc8gs7Nw
