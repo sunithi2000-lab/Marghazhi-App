@@ -1,0 +1,18 @@
+{
+ "name": "Margazhi Kutcheri 2026–27",
+ "short_name": "Kutcheri",
+ "description": "Chennai Margazhi season Carnatic concerts",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "background_color": "#F6F7F3",
+ "theme_color": "#0E6A57",
+ "icons": [
+  {
+   "src": "icon.svg",
+   "sizes": "any",
+   "type": "image/svg+xml",
+   "purpose": "any"
+  }
+ ]
+}
