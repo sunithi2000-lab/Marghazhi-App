@@ -39,3 +39,8 @@ Put all files in one folder with a `data/` subfolder, then:
 - `.github/workflows/health.yml` runs all three after every push and every 6 hours. On failure it opens or updates an issue labelled **health-check** (assigned to the owner, so GitHub emails and notifies) and fails the run; when checks pass again it closes the issue.
 - `data/status.json` is written by every build (`build_list.py`) as a heartbeat. The morning job must push it every day, even when no concert changed.
 - Error reporting: the page catches JavaScript errors (from the very start of loading) and sends up to 5 per visit to GoatCounter as events named `web error: …` / `app error: …` — see the Events list at https://kutcheri.goatcounter.com.
+
+## Contributions (Netlify Forms)
+- Two forms on the page: **Add a missing concert** (`missing-concert`; under the concert list and in the Sabhas tab) and **Send your schedule** for organisers (`organiser-schedule`; Sabhas tab). Both accept a link and a photo/PDF (up to 8 MB). They are shown on the public sites and in the app, which posts to the Netlify site; hidden in previews (force with `?forms=1`).
+- Netlify detects the forms from `index.html` at deploy (Forms must stay enabled in Netlify). Submissions appear in Netlify → kutcheri-dec → Forms, and are emailed to the owner (Netlify → Project configuration → Notifications → Form submission notifications).
+- Every report is verified against a public source before it is added (README rules). Spam is filtered by a honeypot field and Netlify's filter. Free tier: 100 submissions / 10 MB uploads a month.
