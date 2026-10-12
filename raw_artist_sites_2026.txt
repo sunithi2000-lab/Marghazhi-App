@@ -2,12 +2,12 @@
 # Concerts already in the Music Academy schedule are not repeated here.
 # When the artist's site names no organiser, the venue's own sabha is NOT assumed; organisation = "Organiser not stated".
 # date|start|end|entry|organisation|festival|venue|area|musicians|source_url|source_label|note
-2026-12-06|18:30||Not stated|Tamizhum Naanum|Tamizhum Naanum|Music Academy Auditorium, TTK Road|Alwarpet / TTK Road|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Accompanists not listed per concert.
+2026-12-06|18:30||Not stated|Organiser not stated|Tamizhum Naanum|Music Academy Auditorium, TTK Road|Alwarpet / TTK Road|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Accompanists not listed per concert.
 2026-12-13|18:00||Not stated|Brahma Gana Sabha|Brahma Gana Sabha December festival|Sundareswarar Hall, Rasika Ranjani Sabha|Mylapore|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Artist's site marks details as awaited.
 2026-12-14|18:30||Not stated|Organiser not stated|—|Vani Mahal, G.N. Road|T. Nagar|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Artist's site marks details as awaited.
-2026-12-24|18:30||Ticketed|Sanjay Sabha Live|Sanjay Sabha Live|Muthamizh Peravai, R.A. Puram|R.A. Puram|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
-2026-12-25|18:30||Ticketed|Sanjay Sabha Live|Sanjay Sabha Live|Muthamizh Peravai, R.A. Puram|R.A. Puram|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
-2026-12-28|18:30||Ticketed|Sanjay Sabha Live|Sanjay Sabha Live|M.S. Subbulakshmi Auditorium, Asian College of Journalism|Taramani|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
+2026-12-24|18:30||Ticketed|Sanjay Subrahmanyan|Sanjay Sabha Live|Muthamizh Peravai, R.A. Puram|R.A. Puram|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
+2026-12-25|18:30||Ticketed|Sanjay Subrahmanyan|Sanjay Sabha Live|Muthamizh Peravai, R.A. Puram|R.A. Puram|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
+2026-12-28|18:30||Ticketed|Sanjay Subrahmanyan|Sanjay Sabha Live|M.S. Subbulakshmi Auditorium, Asian College of Journalism|Taramani|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Ticket link on the artist's site.
 2027-01-01|09:30||Not stated|Brahma Gana Sabha|Brahma Gana Sabha December festival|Sundareswarar Hall, Rasika Ranjani Sabha|Mylapore|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Artist's site marks details as awaited.
 2026-12-01|18:30|21:00|Not stated|Mudhra|Mudhra|Sri Thyaga Brahma Gana Sabha (Vani Mahal)|T. Nagar|Shashank Subramanyam (Flute), L. Ramakrishnan (Violin), N.C. Bharadwaj (Mridangam), K.V. Gopalakrishnan (Kanjira)|https://www.shashank.org/tours|Artist's website|
 2026-12-03|16:00|18:30|Not stated|Organiser not stated|—|Bharatiya Vidya Bhavan, East Mada Street|Mylapore|Shashank Subramanyam (Flute), H.N. Bhaskar (Violin), Parupalli Phalgun (Mridangam)|https://www.shashank.org/tours|Artist's website|
