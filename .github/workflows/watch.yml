@@ -1,0 +1,43 @@
+name: Source watcher
+
+# Every morning at 04:30 Sydney (before the 05:53 research run): open every source page in a real
+# browser, save its text, read linked PDF schedules and write sources/CHANGES.md (what changed).
+# Also runs on demand: Actions -> Source watcher -> Run workflow.
+on:
+  schedule:
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: source-watcher
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install browser
+        run: |
+          pip install --quiet playwright pypdf
+          python3 -m playwright install --with-deps chromium > /dev/null
+      - name: Watch sources
+        run: python3 tools/watch_sources.py
+      - name: Save results
+        run: |
+          git config user.name "kutcheri-source-watcher"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "Source watcher $(date -u +%Y-%m-%d): $(grep -m1 'sources checked' sources/CHANGES.md)"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && break; sleep 10; done
+      - name: Summary
+        if: always()
+        run: head -c 60000 sources/CHANGES.md >> "$GITHUB_STEP_SUMMARY" || true
