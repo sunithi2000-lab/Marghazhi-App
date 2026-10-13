@@ -1,462 +1,347 @@
 {
- "run": "2026-10-13T22:32:00Z",
+ "run": "2026-10-13T22:43:02Z",
  "sources": {
   "music-academy": {
    "url": "https://musicacademymadras.in/100th-annual-concerts-2026/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 14367,
    "pdfs": 0
   },
   "bharat-kalachar": {
    "url": "https://www.bharatkalachar.com/38-bharat-kalachar.html",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 7876,
    "pdfs": 0
   },
   "krishna-gana-sabha": {
-   "url": "https://www.krishnaganasabha.com/",
+   "url": "https://www.krishnaganasabha.org/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "HTTP 200, 7 characters of text"
   },
   "vani-mahal": {
    "url": "https://www.vanimahal.com/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 7293,
    "pdfs": 4
   },
   "parthasarathy-swami-sabha": {
    "url": "https://parthasarathyswamisabha.com/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 38082,
    "pdfs": 4
   },
   "rasika-ranjani-sabha": {
    "url": "https://rrsabha.org/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
-   "chars": 5187,
-   "pdfs": 0
-  },
-  "narada-gana-sabha": {
-   "url": "https://naradaganasabha.com/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://naradaganasabha.com/"
-  },
-  "kartik-fine-arts": {
-   "url": "https://www.kartikfinearts.com/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kartikfinearts.com/"
-  },
-  "mylapore-fine-arts": {
-   "url": "https://www.mylaporefinearts.org/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mylaporefinearts.org/"
-  },
-  "indian-fine-arts-society": {
-   "url": "https://www.indianfineartssociety.com/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.indianfineartssociety.com/"
-  },
-  "bharatiya-vidya-bhavan": {
-   "url": "https://www.bhavanchennai.org/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bhavanchennai.org/"
+   "checked": "2026-10-13T22:43Z",
+   "result": "changed",
+   "chars": 5056,
+   "pdfs": 0,
+   "added": 0,
+   "removed": 7
   },
   "tamil-isai-sangam": {
    "url": "https://www.tamilisaisangam.in/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1356,
    "pdfs": 0
   },
   "hamsadhwani": {
    "url": "https://www.hamsadhwani.org/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.hamsadhwani.org/"
   },
   "carnatica": {
    "url": "https://carnatica.net/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
-   "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://carnatica.net/"
+   "error": "HTTP 404, 13 characters of text"
   },
   "rasoham": {
    "url": "https://rasoham.org/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 808,
    "pdfs": 0
-  },
-  "naada-inbam": {
-   "url": "https://www.naadainbam.org/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.naadainbam.org/"
   },
   "sunaadalahari": {
    "url": "https://sunaadalahari.org/",
    "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 470,
    "pdfs": 0
-  },
-  "parivadini": {
-   "url": "https://www.parivadini.in/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.parivadini.in/"
-  },
-  "trinity-arts": {
-   "url": "https://www.trinityartsfestival.com/",
-   "kind": "sabha",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.trinityartsfestival.com/"
   },
   "mdnd-season": {
    "url": "https://www.mdnd.in/seasontickets",
    "kind": "ticketing",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 102,
    "pdfs": 0
   },
   "mdnd-events": {
    "url": "https://www.mdnd.in/",
    "kind": "ticketing",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 598,
    "pdfs": 0
   },
   "bookmyshow-carnatic-chennai": {
    "url": "https://in.bookmyshow.com/explore/music-shows-chennai",
    "kind": "ticketing",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "HTTP 403, 683 characters of text"
   },
   "district-chennai-music": {
    "url": "https://www.district.in/events/music-in-chennai",
    "kind": "ticketing",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "HTTP 403, 218 characters of text"
   },
   "mylapore-times-season": {
    "url": "https://season.mylaporetimes.com/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1228,
    "pdfs": 0
   },
   "mylapore-times-arts": {
    "url": "https://www.mylaporetimes.com/category/arts/",
    "kind": "news",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 8693,
    "pdfs": 0
   },
   "chennai-december-season": {
    "url": "https://chennaidecemberseason.com/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
-   "error": "HTTP 429, 288 characters of text"
+   "error": "HTTP 429, 286 characters of text"
   },
   "indian-heritage-season": {
    "url": "https://www.indian-heritage.org/musicseason/sch.html",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 934,
    "pdfs": 0
   },
   "icarnatic": {
    "url": "https://www.icarnatic.org/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 4752,
    "pdfs": 0
   },
   "kutcheribuzz": {
    "url": "https://www.kutcheribuzz.com/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
-   "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.kutcheribuzz.com/"
+   "error": "HTTP 403, 266 characters of text"
   },
   "ragarasa": {
    "url": "https://ragarasa.in/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
-   "chars": 3498,
-   "pdfs": 0
+   "checked": "2026-10-13T22:43Z",
+   "result": "changed",
+   "chars": 3520,
+   "pdfs": 0,
+   "added": 3,
+   "removed": 3
   },
   "chennaievent": {
    "url": "https://www.chennaievent.com/",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "changed",
    "chars": 2136,
-   "pdfs": 0
+   "pdfs": 0,
+   "added": 1,
+   "removed": 1
   },
   "bandsintown-chennai": {
    "url": "https://www.bandsintown.com/c/chennai-india",
    "kind": "aggregator",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
-   "error": "HTTP 403, 5140 characters of text"
+   "error": "HTTP 403, 5181 characters of text"
   },
   "the-hindu-friday-review": {
    "url": "https://www.thehindu.com/entertainment/music/",
    "kind": "news",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
-   "chars": 5786,
-   "pdfs": 0
+   "checked": "2026-10-13T22:43Z",
+   "result": "changed",
+   "chars": 5722,
+   "pdfs": 0,
+   "added": 5,
+   "removed": 5
   },
   "artist-sanjay-subrahmanyan": {
    "url": "https://sanjaysub.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 2761,
    "pdfs": 0
   },
   "artist-shashank": {
    "url": "https://www.shashank.org/tours",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 8687,
    "pdfs": 0
   },
   "artist-sandeep-narayan": {
    "url": "https://sandeepnarayan.in/concerts",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 952,
    "pdfs": 0
   },
   "artist-ranjani-gayatri": {
    "url": "https://ranjanigayatri.com/schedule",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 5289,
    "pdfs": 0
   },
   "artist-tm-krishna": {
    "url": "https://www.tmkrishna.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1194,
    "pdfs": 0
   },
   "artist-jayanthi-kumaresh": {
    "url": "https://jayanthikumaresh.com/schedule",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 2606,
    "pdfs": 0
   },
   "artist-sj-jananiy": {
    "url": "https://www.bandsintown.com/a/15524468-s.-j.-jananiy",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "HTTP 403, 684 characters of text"
   },
   "artist-aruna-sairam": {
    "url": "https://www.arunasairam.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1152,
    "pdfs": 0
   },
   "artist-bombay-jayashri": {
    "url": "https://www.bombayjayashri.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.bombayjayashri.com/"
   },
   "artist-sudha-ragunathan": {
    "url": "https://www.sudharagunathan.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.sudharagunathan.com/"
-  },
-  "artist-abhishek-raghuram": {
-   "url": "https://www.abhishekraghuram.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.abhishekraghuram.com/"
-  },
-  "artist-ravikiran": {
-   "url": "https://www.chitravina.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.chitravina.com/"
+   "checked": "2026-10-13T22:43Z",
+   "result": "new",
+   "chars": 1228,
+   "pdfs": 0
   },
   "artist-unnikrishnan": {
    "url": "https://www.unnikrishnan.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 199,
    "pdfs": 0
   },
   "artist-ganesh-kumaresh": {
    "url": "https://www.ganeshkumaresh.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://www.ganeshkumaresh.com/"
   },
   "artist-trichur-brothers": {
    "url": "https://www.trichurbrothers.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1000,
    "pdfs": 0
-  },
-  "artist-sikkil-gurucharan": {
-   "url": "https://www.sikkilgurucharan.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sikkilgurucharan.com/"
-  },
-  "artist-vignesh-ishwar": {
-   "url": "https://www.vigneshishwar.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.vigneshishwar.com/"
-  },
-  "artist-amritha-murali": {
-   "url": "https://www.amrithamurali.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.amrithamurali.com/"
-  },
-  "artist-ramakrishnan-murthy": {
-   "url": "https://www.ramakrishnanmurthy.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramakrishnanmurthy.com/"
   },
   "artist-malladi-brothers": {
    "url": "https://www.malladibrothers.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
+   "checked": "2026-10-13T22:43Z",
    "result": "failed",
-   "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.malladibrothers.com/"
-  },
-  "artist-priya-sisters": {
-   "url": "https://www.priyasisters.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.priyasisters.com/"
+   "error": "HTTP 503, 23 characters of text"
   },
   "artist-nithyasree": {
    "url": "https://www.nithyasree.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
-   "chars": 3115,
-   "pdfs": 0
-  },
-  "artist-saketharaman": {
-   "url": "https://www.saketharaman.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.saketharaman.com/"
+   "checked": "2026-10-13T22:43Z",
+   "result": "changed",
+   "chars": 3212,
+   "pdfs": 0,
+   "added": 42,
+   "removed": 42
   },
   "artist-bharat-sundar": {
    "url": "https://www.bharatsundar.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 1131,
    "pdfs": 0
   },
   "artist-gayathri-venkataraghavan": {
    "url": "https://www.gayathrivenkataraghavan.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 384,
    "pdfs": 0
   },
   "artist-mysore-manjunath": {
    "url": "https://www.mysoremanjunath.com/",
    "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "new",
+   "checked": "2026-10-13T22:43Z",
+   "result": "ok",
    "chars": 349,
    "pdfs": 0
-  },
-  "artist-u-rajesh": {
-   "url": "https://www.mandolinrajesh.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mandolinrajesh.com/"
-  },
-  "artist-akkarai-sisters": {
-   "url": "https://www.akkaraisisters.com/",
-   "kind": "artist",
-   "checked": "2026-10-13T22:32Z",
-   "result": "failed",
-   "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akkaraisisters.com/"
   }
  }
 }
