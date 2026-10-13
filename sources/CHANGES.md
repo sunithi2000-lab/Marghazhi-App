@@ -1,0 +1,179 @@
+# Source watcher — 2026-10-13 22:32 UTC
+
+61 sources checked: 0 changed, 30 new, 31 failed, 0 unchanged.
+Full page text for every source: `sources/text/<slug>.txt` (https://kutcheri-dec.netlify.app/sources/text/<slug>.txt).
+Lines marked **[season]** mention 2026/2027, December, Margazhi, season, kutcheri or concert.
+
+## Newly watched (first snapshot)
+
+- **music-academy** — https://musicacademymadras.in/100th-annual-concerts-2026/ (14367 chars)
+  - 100th Annual Concerts 2026
+  - CONFERENCE SESSIONS: December 16, 2026 to January 1, 2027 - DAILY FROM 8.00 A.M. TO 10.00 A.M. AT THE KASTURI SRINIVASAN HALL
+  - Tue Dec 15, 2026
+  - Wed Dec 16, 2026
+  - Thu Dec 17th, 2026
+  - Fri Dec 18th, 2026
+  - Sat Dec 19th, 2026
+  - Sun Dec 20th, 2026
+- **bharat-kalachar** — https://www.bharatkalachar.com/38-bharat-kalachar.html (7876 chars)
+  - 13TH DECEMBER 2026 to 17TH JANUARY 2027
+  - Advance Booking for all Ticketed Shows at the Venue from 10AM, 7th December 2026 onwards. Contact No: 8248871089, 9941907993
+  - 13/12/2026
+  - 14/12/2026
+  - 15/12/2026
+  - 16/12/2026
+  - 17/12/2026
+  - 18/12/2026
+- **vani-mahal** — https://www.vanimahal.com/ (7293 chars)
+  - Date Sat, 10th Oct 2026
+  - << OCTOBER 2026 >>
+  - 13-10-2026
+  - NAVARATHRI FESTIVAL -2026
+  - 14-10-2026
+  - NAVARATHRI FESTIVAL -2026
+  - 15-10-2026
+  - NAVARATHRI FESTIVAL -2026
+- **parthasarathy-swami-sabha** — https://parthasarathyswamisabha.com/ (38082 chars)
+  - Sangeeth Sarathy Issues – Isai Vizha 2025-2026
+  - Sangeeth Sarathy Issues of the Isai Vizha 2025-2026. The sabha’s annual magazine Sangeeth Sarathy is more than just a publication; it’s a record of performances that shape the music season. Every page
+  - Isai Vizha (16-12-2025 to 5-1-2026 and ) Schedule
+  - 16-12-2025 to 1-1-2026 @ Vidya Bharathi Venue and 2-1-2026 to 5-1-2026 @ Narada Gana Sabha Hall
+  - (16-12-2025 to 1-1-2026)
+  - 1-1-2026 (Thursday)
+  - 2-1-2026 (Friday)
+  - 3-1-2026 (Saturday)
+- **rasika-ranjani-sabha** — https://rrsabha.org/ (5187 chars)
+- **tamil-isai-sangam** — https://www.tamilisaisangam.in/ (1356 chars)
+  - © 2026 தமிழ் இசைச் சங்கம்
+- **rasoham** — https://rasoham.org/ (808 chars)
+- **sunaadalahari** — https://sunaadalahari.org/ (470 chars)
+  - Copyright © 1999-2026 GoDaddy, LLC. All rights reserved.
+- **mdnd-season** — https://www.mdnd.in/seasontickets (102 chars)
+- **mdnd-events** — https://www.mdnd.in/ (598 chars)
+  - Copyright © 2026 MDnD Entertainment Private Limited
+- **mylapore-times-season** — https://season.mylaporetimes.com/ (1228 chars)
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+  - January 4, 2026
+- **mylapore-times-arts** — https://www.mylaporetimes.com/category/arts/ (8693 chars)
+  - Wednesday, October 14, 2026
+  - Saturday, October 10, 2026 - by Team MyTimes - Leave a Comment
+  - Thursday, October 8, 2026 - by Team MyTimes - Leave a Comment
+  - Tuesday, October 6, 2026 - by Team MyTimes - Leave a Comment
+  - December Season 2026: Narada Gana Sabha is improving its audio systems
+  - Monday, October 5, 2026 - by Team MyTimes - Leave a Comment
+  - For December Season 2026, the management of Narada Gana Sabha is collaborating with Mad-rasana to improve the auditorium’s audio system. Sabha’s honorary secretary K. Harishankar said that their inten
+  - Friday, October 2, 2026 - by Team MyTimes - Leave a Comment
+- **indian-heritage-season** — https://www.indian-heritage.org/musicseason/sch.html (934 chars)
+  - Schedule for 2026 - 2027
+  - 44th Natya Kala Conference (26-28 Dec 2026)
+  - 100th Annual Conference & Concerts (15 Dec 2026 - 1 Jan 2027)
+  - 20th Dance Festival 2027 (3 Jan 2027 - 9 Jan 2027)
+- **icarnatic** — https://www.icarnatic.org/ (4752 chars)
+  - Tuesday October 13. 2026
+  - iCarnatic Summer Music & Dance Festival 2026 (Aug 22 & 23, 2026) with Chicago Tyagaraja Utsavam
+  - iCarnatic Summer Music and Dance Festival is scheduled on August 22 & 23, 2026. This year we are partnering with Chicago Tyagaraja Utsavam as part of their 50th year celebrations.
+  - Aug 22, 2026 9:30-10:15AM Ananya Narayan (CA) Violin Solo, Harish Venkataraman (TX) Mridangam
+  - Aug 23, 2026 9:30-10:15AM Aathmika Raghav (OH) Vocal, Shalini Namuduri (CA) Violin, Saketh Prabha (Mridangam)
+  - iCarnatic Margazhi in Detroit 2026 (November 26–28, 2026) - Tribute to Sri T.R. Mahalingam (Mali)
+- **ragarasa** — https://ragarasa.in/ (3498 chars)
+  - Nanjanagudu Sri Raghavendra Swamy Mutt, Jayanagar – October 2026 Thursday Cultural Programmes
+  - 01 Oct – 29 Oct 2026
+  - Sri Sharada Sharannavaratri Mahotsava 2026 – Cultural Programmes
+  - 10 Oct – 21 Oct 2026
+  - Sri Sharada Mahabhisheka & Sharannavarathri Mahothsava 2026 – Sri Sringeri Sharadamba Temple, Girinagara
+  - 10 Oct – 26 Oct 2026
+  - Fri, 16 Oct 2026 · 6:30 PM
+  - Sat, 17 Oct 2026 · 6:30 PM
+- **chennaievent** — https://www.chennaievent.com/ (2136 chars)
+  - Tuesday, October 13, 2026
+- **the-hindu-friday-review** — https://www.thehindu.com/entertainment/music/ (5786 chars)
+  - Twin Strings’ Karwaan 2026 tour: The indie band taking its music across India
+  - Stock Market Live Updates FIFA WORLD CUP 2026 Share Market News FIF World Cup 2026 Schedule Gold Rate Today Silver Rate Today Diesel Price Today Petrol Price Today Frontline Current Issue
+  - Copyright© 2026, THG PUBLISHING PVT LTD. or its affiliated companies. All rights reserved.
+- **artist-sanjay-subrahmanyan** — https://sanjaysub.com/ (2761 chars)
+  - 21st Nov, 2026
+  - 6th Dec, 2026
+  - 13th Dec, 2026
+  - 14th Dec, 2026
+  - 24th Dec, 2026
+  - 25th Dec, 2026
+  - 27th Dec, 2026
+  - 28th Dec, 2026
+- **artist-shashank** — https://www.shashank.org/tours (8687 chars)
+- **artist-sandeep-narayan** — https://sandeepnarayan.in/concerts (952 chars)
+  - Darbar Festival 2026
+  - Darbar Festival 2026
+- **artist-ranjani-gayatri** — https://ranjanigayatri.com/schedule (5289 chars)
+  - USA Concerts May 2026
+  - Thursday, March 19, 2026
+  - Saturday, April 4, 2026
+  - Sunday, April 5, 2026
+  - Friday, April 10, 2026
+  - Sunday, April 12, 2026
+  - Saturday, April 18, 2026
+  - Saturday, April 25, 2026
+- **artist-tm-krishna** — https://www.tmkrishna.com/ (1194 chars)
+  - 11th October 2026 | 11 AM
+  - 13th October 2026 | 12 PM
+  - Sunday, October 11th, 2026
+  - Friday, August 28th, 2026
+- **artist-jayanthi-kumaresh** — https://jayanthikumaresh.com/schedule (2606 chars)
+  - Date / Time : Oct 16, 2026 / 6:00 pm
+  - Date / Time : Oct 17, 2026 / 6:15 pm
+  - Sharada Sharannavatari Mahothsavam 2026
+  - Date / Time : Oct 19, 2026 / 6:00 pm
+  - Date / Time : Oct 24, 2026 / 6:00 pm
+  - Date / Time : Oct 25, 2026 / 11:00 am
+  - Date / Time : Oct 31, 2026 / 11:55 pm
+  - Date / Time : Nov 04, 2026 / -
+- **artist-aruna-sairam** — https://www.arunasairam.com/ (1152 chars)
+  - 2026 Aruna Sairam.
+- **artist-unnikrishnan** — https://www.unnikrishnan.com/ (199 chars)
+- **artist-trichur-brothers** — https://www.trichurbrothers.com/ (1000 chars)
+- **artist-nithyasree** — https://www.nithyasree.com/ (3115 chars)
+  - Copyright © 2026 ParkLogic Pty Ltd | All Rights Reserved
+- **artist-bharat-sundar** — https://www.bharatsundar.com/ (1131 chars)
+- **artist-gayathri-venkataraghavan** — https://www.gayathrivenkataraghavan.com/ (384 chars)
+- **artist-mysore-manjunath** — https://www.mysoremanjunath.com/ (349 chars)
+  - Copyright © 2026 Mysore Manjunath - All Rights Reserved.
+
+## Could not be read (check by web search instead)
+
+- **krishna-gana-sabha** — https://www.krishnaganasabha.com/: HTTP 200, 7 characters of text
+- **narada-gana-sabha** — https://naradaganasabha.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://naradaganasabha.com/
+- **kartik-fine-arts** — https://www.kartikfinearts.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kartikfinearts.com/
+- **mylapore-fine-arts** — https://www.mylaporefinearts.org/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mylaporefinearts.org/
+- **indian-fine-arts-society** — https://www.indianfineartssociety.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.indianfineartssociety.com/
+- **bharatiya-vidya-bhavan** — https://www.bhavanchennai.org/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bhavanchennai.org/
+- **hamsadhwani** — https://www.hamsadhwani.org/: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.hamsadhwani.org/
+- **carnatica** — https://carnatica.net/: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://carnatica.net/
+- **naada-inbam** — https://www.naadainbam.org/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.naadainbam.org/
+- **parivadini** — https://www.parivadini.in/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.parivadini.in/
+- **trinity-arts** — https://www.trinityartsfestival.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.trinityartsfestival.com/
+- **bookmyshow-carnatic-chennai** — https://in.bookmyshow.com/explore/music-shows-chennai: HTTP 403, 683 characters of text
+- **district-chennai-music** — https://www.district.in/events/music-in-chennai: HTTP 403, 218 characters of text
+- **chennai-december-season** — https://chennaidecemberseason.com/: HTTP 429, 288 characters of text
+- **kutcheribuzz** — https://www.kutcheribuzz.com/: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.kutcheribuzz.com/
+- **bandsintown-chennai** — https://www.bandsintown.com/c/chennai-india: HTTP 403, 5140 characters of text
+- **artist-sj-jananiy** — https://www.bandsintown.com/a/15524468-s.-j.-jananiy: HTTP 403, 684 characters of text
+- **artist-bombay-jayashri** — https://www.bombayjayashri.com/: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.bombayjayashri.com/
+- **artist-sudha-ragunathan** — https://www.sudharagunathan.com/: Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.sudharagunathan.com/
+- **artist-abhishek-raghuram** — https://www.abhishekraghuram.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.abhishekraghuram.com/
+- **artist-ravikiran** — https://www.chitravina.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.chitravina.com/
+- **artist-ganesh-kumaresh** — https://www.ganeshkumaresh.com/: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.ganeshkumaresh.com/
+- **artist-sikkil-gurucharan** — https://www.sikkilgurucharan.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sikkilgurucharan.com/
+- **artist-vignesh-ishwar** — https://www.vigneshishwar.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.vigneshishwar.com/
+- **artist-amritha-murali** — https://www.amrithamurali.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.amrithamurali.com/
+- **artist-ramakrishnan-murthy** — https://www.ramakrishnanmurthy.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramakrishnanmurthy.com/
+- **artist-malladi-brothers** — https://www.malladibrothers.com/: Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.malladibrothers.com/
+- **artist-priya-sisters** — https://www.priyasisters.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.priyasisters.com/
+- **artist-saketharaman** — https://www.saketharaman.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.saketharaman.com/
+- **artist-u-rajesh** — https://www.mandolinrajesh.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mandolinrajesh.com/
+- **artist-akkarai-sisters** — https://www.akkaraisisters.com/: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.akkaraisisters.com/
+
