@@ -1,66 +1,235 @@
 {
-  "_about": "Pages the daily source watcher (tools/watch_sources.py) opens in a real browser every morning. Add a source with a unique slug, the URL, a kind (sabha | aggregator | artist | ticketing | news) and optional 'click' (button texts to press, e.g. Load More). The morning research job proposes additions in the Claude project (margazhi-data/SOURCES_TO_ADD.md); the publish step merges them here.",
-  "sources": [
-    {"slug": "music-academy", "kind": "sabha", "url": "https://musicacademymadras.in/100th-annual-concerts-2026/", "follow_pdfs": true},
-    {"slug": "bharat-kalachar", "kind": "sabha", "url": "https://www.bharatkalachar.com/38-bharat-kalachar.html"},
-    {"slug": "krishna-gana-sabha", "kind": "sabha", "url": "https://www.krishnaganasabha.com/", "follow_pdfs": true},
-    {"slug": "vani-mahal", "kind": "sabha", "url": "https://www.vanimahal.com/", "follow_pdfs": true},
-    {"slug": "parthasarathy-swami-sabha", "kind": "sabha", "url": "https://parthasarathyswamisabha.com/", "follow_pdfs": true},
-    {"slug": "rasika-ranjani-sabha", "kind": "sabha", "url": "https://rrsabha.org/", "follow_pdfs": true},
-    {"slug": "narada-gana-sabha", "kind": "sabha", "url": "https://naradaganasabha.com/", "follow_pdfs": true},
-    {"slug": "kartik-fine-arts", "kind": "sabha", "url": "https://www.kartikfinearts.com/", "follow_pdfs": true},
-    {"slug": "mylapore-fine-arts", "kind": "sabha", "url": "https://www.mylaporefinearts.org/", "follow_pdfs": true},
-    {"slug": "indian-fine-arts-society", "kind": "sabha", "url": "https://www.indianfineartssociety.com/", "follow_pdfs": true},
-    {"slug": "bharatiya-vidya-bhavan", "kind": "sabha", "url": "https://www.bhavanchennai.org/", "follow_pdfs": true},
-    {"slug": "tamil-isai-sangam", "kind": "sabha", "url": "https://www.tamilisaisangam.in/"},
-    {"slug": "hamsadhwani", "kind": "sabha", "url": "https://www.hamsadhwani.org/"},
-    {"slug": "carnatica", "kind": "sabha", "url": "https://carnatica.net/"},
-    {"slug": "rasoham", "kind": "sabha", "url": "https://rasoham.org/"},
-    {"slug": "naada-inbam", "kind": "sabha", "url": "https://www.naadainbam.org/", "follow_pdfs": true},
-    {"slug": "sunaadalahari", "kind": "sabha", "url": "https://sunaadalahari.org/"},
-    {"slug": "parivadini", "kind": "sabha", "url": "https://www.parivadini.in/"},
-    {"slug": "trinity-arts", "kind": "sabha", "url": "https://www.trinityartsfestival.com/"},
-    {"slug": "mdnd-season", "kind": "ticketing", "url": "https://www.mdnd.in/seasontickets"},
-    {"slug": "mdnd-events", "kind": "ticketing", "url": "https://www.mdnd.in/"},
-    {"slug": "bookmyshow-carnatic-chennai", "kind": "ticketing", "url": "https://in.bookmyshow.com/explore/music-shows-chennai"},
-    {"slug": "district-chennai-music", "kind": "ticketing", "url": "https://www.district.in/events/music-in-chennai"},
-    {"slug": "mylapore-times-season", "kind": "aggregator", "url": "https://season.mylaporetimes.com/"},
-    {"slug": "mylapore-times-arts", "kind": "news", "url": "https://www.mylaporetimes.com/category/arts/"},
-    {"slug": "chennai-december-season", "kind": "aggregator", "url": "https://chennaidecemberseason.com/"},
-    {"slug": "indian-heritage-season", "kind": "aggregator", "url": "https://www.indian-heritage.org/musicseason/sch.html"},
-    {"slug": "icarnatic", "kind": "aggregator", "url": "https://www.icarnatic.org/"},
-    {"slug": "kutcheribuzz", "kind": "aggregator", "url": "https://www.kutcheribuzz.com/"},
-    {"slug": "ragarasa", "kind": "aggregator", "url": "https://ragarasa.in/"},
-    {"slug": "chennaievent", "kind": "aggregator", "url": "https://www.chennaievent.com/"},
-    {"slug": "bandsintown-chennai", "kind": "aggregator", "url": "https://www.bandsintown.com/c/chennai-india"},
-    {"slug": "the-hindu-friday-review", "kind": "news", "url": "https://www.thehindu.com/entertainment/music/"},
-    {"slug": "artist-sanjay-subrahmanyan", "kind": "artist", "url": "https://sanjaysub.com/"},
-    {"slug": "artist-shashank", "kind": "artist", "url": "https://www.shashank.org/tours", "click": ["Load More", "Load more", "Show more"]},
-    {"slug": "artist-sandeep-narayan", "kind": "artist", "url": "https://sandeepnarayan.in/concerts"},
-    {"slug": "artist-ranjani-gayatri", "kind": "artist", "url": "https://ranjanigayatri.com/schedule"},
-    {"slug": "artist-tm-krishna", "kind": "artist", "url": "https://www.tmkrishna.com/"},
-    {"slug": "artist-jayanthi-kumaresh", "kind": "artist", "url": "https://jayanthikumaresh.com/schedule"},
-    {"slug": "artist-sj-jananiy", "kind": "artist", "url": "https://www.bandsintown.com/a/15524468-s.-j.-jananiy"},
-    {"slug": "artist-aruna-sairam", "kind": "artist", "url": "https://www.arunasairam.com/"},
-    {"slug": "artist-bombay-jayashri", "kind": "artist", "url": "https://www.bombayjayashri.com/"},
-    {"slug": "artist-sudha-ragunathan", "kind": "artist", "url": "https://www.sudharagunathan.com/"},
-    {"slug": "artist-abhishek-raghuram", "kind": "artist", "url": "https://www.abhishekraghuram.com/"},
-    {"slug": "artist-ravikiran", "kind": "artist", "url": "https://www.chitravina.com/"},
-    {"slug": "artist-unnikrishnan", "kind": "artist", "url": "https://www.unnikrishnan.com/"},
-    {"slug": "artist-ganesh-kumaresh", "kind": "artist", "url": "https://www.ganeshkumaresh.com/"},
-    {"slug": "artist-trichur-brothers", "kind": "artist", "url": "https://www.trichurbrothers.com/"},
-    {"slug": "artist-sikkil-gurucharan", "kind": "artist", "url": "https://www.sikkilgurucharan.com/"},
-    {"slug": "artist-vignesh-ishwar", "kind": "artist", "url": "https://www.vigneshishwar.com/"},
-    {"slug": "artist-amritha-murali", "kind": "artist", "url": "https://www.amrithamurali.com/"},
-    {"slug": "artist-ramakrishnan-murthy", "kind": "artist", "url": "https://www.ramakrishnanmurthy.com/"},
-    {"slug": "artist-malladi-brothers", "kind": "artist", "url": "https://www.malladibrothers.com/"},
-    {"slug": "artist-priya-sisters", "kind": "artist", "url": "https://www.priyasisters.com/"},
-    {"slug": "artist-nithyasree", "kind": "artist", "url": "https://www.nithyasree.com/"},
-    {"slug": "artist-saketharaman", "kind": "artist", "url": "https://www.saketharaman.com/"},
-    {"slug": "artist-bharat-sundar", "kind": "artist", "url": "https://www.bharatsundar.com/"},
-    {"slug": "artist-gayathri-venkataraghavan", "kind": "artist", "url": "https://www.gayathrivenkataraghavan.com/"},
-    {"slug": "artist-mysore-manjunath", "kind": "artist", "url": "https://www.mysoremanjunath.com/"},
-    {"slug": "artist-u-rajesh", "kind": "artist", "url": "https://www.mandolinrajesh.com/"},
-    {"slug": "artist-akkarai-sisters", "kind": "artist", "url": "https://www.akkaraisisters.com/"}
-  ]
+ "_about": "Pages the daily source watcher (tools/watch_sources.py) opens in a real browser every morning. Add a source with a unique slug, the URL, a kind (sabha | aggregator | artist | ticketing | news) and optional 'click' (button texts to press, e.g. Load More), 'follow_pdfs' (read linked PDF schedules) and 'wait_ms' (extra wait for slow pages). The morning research job proposes additions in the Claude project (margazhi-data/SOURCES_TO_ADD.md); the publish step merges them here.",
+ "sources": [
+  {
+   "slug": "music-academy",
+   "kind": "sabha",
+   "url": "https://musicacademymadras.in/100th-annual-concerts-2026/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "bharat-kalachar",
+   "kind": "sabha",
+   "url": "https://www.bharatkalachar.com/38-bharat-kalachar.html"
+  },
+  {
+   "slug": "krishna-gana-sabha",
+   "kind": "sabha",
+   "url": "https://www.krishnaganasabha.org/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "vani-mahal",
+   "kind": "sabha",
+   "url": "https://www.vanimahal.com/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "parthasarathy-swami-sabha",
+   "kind": "sabha",
+   "url": "https://parthasarathyswamisabha.com/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "rasika-ranjani-sabha",
+   "kind": "sabha",
+   "url": "https://rrsabha.org/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "tamil-isai-sangam",
+   "kind": "sabha",
+   "url": "https://www.tamilisaisangam.in/"
+  },
+  {
+   "slug": "hamsadhwani",
+   "kind": "sabha",
+   "url": "https://www.hamsadhwani.org/"
+  },
+  {
+   "slug": "carnatica",
+   "kind": "sabha",
+   "url": "https://carnatica.net/"
+  },
+  {
+   "slug": "rasoham",
+   "kind": "sabha",
+   "url": "https://rasoham.org/"
+  },
+  {
+   "slug": "sunaadalahari",
+   "kind": "sabha",
+   "url": "https://sunaadalahari.org/"
+  },
+  {
+   "slug": "mdnd-season",
+   "kind": "ticketing",
+   "url": "https://www.mdnd.in/seasontickets",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "mdnd-events",
+   "kind": "ticketing",
+   "url": "https://www.mdnd.in/",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "bookmyshow-carnatic-chennai",
+   "kind": "ticketing",
+   "url": "https://in.bookmyshow.com/explore/music-shows-chennai"
+  },
+  {
+   "slug": "district-chennai-music",
+   "kind": "ticketing",
+   "url": "https://www.district.in/events/music-in-chennai"
+  },
+  {
+   "slug": "mylapore-times-season",
+   "kind": "aggregator",
+   "url": "https://season.mylaporetimes.com/"
+  },
+  {
+   "slug": "mylapore-times-arts",
+   "kind": "news",
+   "url": "https://www.mylaporetimes.com/category/arts/"
+  },
+  {
+   "slug": "chennai-december-season",
+   "kind": "aggregator",
+   "url": "https://chennaidecemberseason.com/"
+  },
+  {
+   "slug": "indian-heritage-season",
+   "kind": "aggregator",
+   "url": "https://www.indian-heritage.org/musicseason/sch.html"
+  },
+  {
+   "slug": "icarnatic",
+   "kind": "aggregator",
+   "url": "https://www.icarnatic.org/",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "kutcheribuzz",
+   "kind": "aggregator",
+   "url": "https://www.kutcheribuzz.com/"
+  },
+  {
+   "slug": "ragarasa",
+   "kind": "aggregator",
+   "url": "https://ragarasa.in/",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "chennaievent",
+   "kind": "aggregator",
+   "url": "https://www.chennaievent.com/"
+  },
+  {
+   "slug": "bandsintown-chennai",
+   "kind": "aggregator",
+   "url": "https://www.bandsintown.com/c/chennai-india"
+  },
+  {
+   "slug": "the-hindu-friday-review",
+   "kind": "news",
+   "url": "https://www.thehindu.com/entertainment/music/"
+  },
+  {
+   "slug": "artist-sanjay-subrahmanyan",
+   "kind": "artist",
+   "url": "https://sanjaysub.com/"
+  },
+  {
+   "slug": "artist-shashank",
+   "kind": "artist",
+   "url": "https://www.shashank.org/tours",
+   "click": [
+    "Load More",
+    "Load more",
+    "Show more"
+   ]
+  },
+  {
+   "slug": "artist-sandeep-narayan",
+   "kind": "artist",
+   "url": "https://sandeepnarayan.in/concerts"
+  },
+  {
+   "slug": "artist-ranjani-gayatri",
+   "kind": "artist",
+   "url": "https://ranjanigayatri.com/schedule"
+  },
+  {
+   "slug": "artist-tm-krishna",
+   "kind": "artist",
+   "url": "https://www.tmkrishna.com/"
+  },
+  {
+   "slug": "artist-jayanthi-kumaresh",
+   "kind": "artist",
+   "url": "https://jayanthikumaresh.com/schedule"
+  },
+  {
+   "slug": "artist-sj-jananiy",
+   "kind": "artist",
+   "url": "https://www.bandsintown.com/a/15524468-s.-j.-jananiy"
+  },
+  {
+   "slug": "artist-aruna-sairam",
+   "kind": "artist",
+   "url": "https://www.arunasairam.com/"
+  },
+  {
+   "slug": "artist-bombay-jayashri",
+   "kind": "artist",
+   "url": "https://www.bombayjayashri.com/"
+  },
+  {
+   "slug": "artist-sudha-ragunathan",
+   "kind": "artist",
+   "url": "https://www.sudharagunathan.com/"
+  },
+  {
+   "slug": "artist-unnikrishnan",
+   "kind": "artist",
+   "url": "https://www.unnikrishnan.com/"
+  },
+  {
+   "slug": "artist-ganesh-kumaresh",
+   "kind": "artist",
+   "url": "https://www.ganeshkumaresh.com/"
+  },
+  {
+   "slug": "artist-trichur-brothers",
+   "kind": "artist",
+   "url": "https://www.trichurbrothers.com/"
+  },
+  {
+   "slug": "artist-malladi-brothers",
+   "kind": "artist",
+   "url": "https://www.malladibrothers.com/"
+  },
+  {
+   "slug": "artist-nithyasree",
+   "kind": "artist",
+   "url": "https://www.nithyasree.com/"
+  },
+  {
+   "slug": "artist-bharat-sundar",
+   "kind": "artist",
+   "url": "https://www.bharatsundar.com/"
+  },
+  {
+   "slug": "artist-gayathri-venkataraghavan",
+   "kind": "artist",
+   "url": "https://www.gayathrivenkataraghavan.com/"
+  },
+  {
+   "slug": "artist-mysore-manjunath",
+   "kind": "artist",
+   "url": "https://www.mysoremanjunath.com/"
+  }
+ ],
+ "_blocked_note": "BookMyShow, District, Bandsintown and chennaidecemberseason.com refuse automated visits (403/429); the research job checks them by web search instead."
 }

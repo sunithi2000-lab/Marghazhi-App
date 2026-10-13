@@ -54,7 +54,8 @@ status, report_changed, report_failed, report_new = {}, [], [], []
 
 with sync_playwright() as p:
     b = p.chromium.launch()
-    ctx = b.new_context(user_agent=UA, viewport={"width": 412, "height": 900}, locale="en-IN")
+    # ignore_https_errors: several sabha and artist sites have expired certificates; we only read public text
+    ctx = b.new_context(user_agent=UA, viewport={"width": 412, "height": 900}, locale="en-IN", ignore_https_errors=True)
     for src in cfg:
         slug, url = src["slug"], src["url"]
         st = {"url": url, "kind": src.get("kind", ""), "checked": now.strftime("%Y-%m-%dT%H:%MZ")}
@@ -65,6 +66,7 @@ with sync_playwright() as p:
                 pg.wait_for_load_state("networkidle", timeout=15000)
             except Exception:  # noqa: BLE001
                 pass
+            pg.wait_for_timeout(src.get("wait_ms", 2500))  # let late scripts fill the page
             for label in src.get("click", []):
                 for _ in range(6):  # press "Load More" until it disappears
                     btn = pg.get_by_text(label, exact=False)
