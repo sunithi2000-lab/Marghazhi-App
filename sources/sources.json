@@ -229,6 +229,55 @@
    "slug": "artist-mysore-manjunath",
    "kind": "artist",
    "url": "https://www.mysoremanjunath.com/"
+  },
+  {
+   "slug": "mylapore-times-season-2026-tag",
+   "kind": "news",
+   "url": "https://www.mylaporetimes.com/tag/december-season-2026"
+  },
+  {
+   "slug": "mylapore-times-kartik-fine-arts",
+   "kind": "news",
+   "url": "https://www.mylaporetimes.com/tag/kartik-fine-arts/"
+  },
+  {
+   "slug": "mylapore-times-narada-gana-sabha",
+   "kind": "news",
+   "url": "https://www.mylaporetimes.com/tag/narada-gana-sabha"
+  },
+  {
+   "slug": "mylapore-times-sabha-schedules",
+   "kind": "aggregator",
+   "url": "https://season.mylaporetimes.com/sabha-schedule/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "vani-mahal-events",
+   "kind": "sabha",
+   "url": "https://www.vanimahal.com/events.php",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "rasika-ranjani-sabha-events",
+   "kind": "sabha",
+   "url": "https://rrsabha.org/cevent.html"
+  },
+  {
+   "slug": "ragarasa-music-academy-2026",
+   "kind": "aggregator",
+   "url": "https://ragarasa.in/events/100th-annual-concerts-2026",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "chennaicentral-events",
+   "kind": "aggregator",
+   "url": "https://chennaicentral.in/events/"
+  },
+  {
+   "slug": "mdnd-carnatic-chennai",
+   "kind": "ticketing",
+   "url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+   "wait_ms": 10000
   }
  ],
  "_blocked_note": "BookMyShow, District, Bandsintown and chennaidecemberseason.com refuse automated visits (403/429); the research job checks them by web search instead."
