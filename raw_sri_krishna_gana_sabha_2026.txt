@@ -1,0 +1,57 @@
+# Source: https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf  (fetched 2026-10-16)
+# Sri Krishna Gana Sabha, 70th Margazhi Mela, 12 Dec 2026 – 3 Jan 2027, "Dr. Nalli Gana Vihar Concerts".
+# Carnatic music only: excluded the inauguration (12 Dec 5 pm), all dance (7 pm slots), Vishakha Hari's musical
+# discourse (13 Dec 4 pm) and Dushyanth Sridhar's harikatha (21 Dec 4 pm). No end times printed.
+# Entry: "Ticketed" where the PDF marks "(TICKETED CONCERT)"; otherwise "Not stated" (the PDF does not say free).
+# date|start|entry|musicians|note   (main artist(s) first, then accompanists; "(... Duet)" / "(... Trio)" = one main entry)
+2026-12-13|11:00|Not stated|E.R. Anirudh (Vocal), Bargava Vignesh (Violin), Aravind Srikanth (Mridangam)|
+2026-12-13|13:00|Not stated|Anahita & Apoorva (Vocal Duet), Sruti Sarathy (Violin), B. Sivaraman (Mridangam), S. Sunil Kumar (Kanjira)|
+2026-12-14|11:00|Not stated|Anirudh Subramaniam (Vocal), Siva Teja (Violin), S. Hariharan (Mridangam)|
+2026-12-14|13:00|Not stated|Archana Rao (Vocal), Mantha Srimaya (Violin), Tumkur Ravishankar (Mridangam), Sarath Kaushik (Ghatam)|
+2026-12-14|16:00|Ticketed|K. Gayatri & Amritha Murali (Vocal Duet), Kamalakiran Vinjamuri (Violin), Delhi Sairam & Sumesh Narayanan (Mridangam Duet)|
+2026-12-15|11:00|Not stated|Sanjana Harikumar (Vocal), Vignesh Thyagarajan (Violin), Sunaada Krishna Amai (Mridangam)|
+2026-12-15|13:00|Not stated|Aditya Madhavan (Vocal), M. Vijay (Violin), Kumbakonam Swaminathan (Mridangam), Sri Sainath (Ghatam)|
+2026-12-15|16:00|Ticketed|N. Vijay Siva (Vocal), Dr. R. Hemalatha (Violin), J. Vaidyanathan (Mridangam), V. Anirudh Athreya (Kanjira)|
+2026-12-16|11:00|Not stated|Vishruthi Girish (Vocal), Haritha Narayanan (Violin), Jayendra Kumar (Mridangam)|
+2026-12-16|13:00|Not stated|J.B. Keerthana (Vocal), V.S.P. Gayatri Sivani (Violin), Sai Raghavan (Mridangam), Sumukh Karanth (Kanjira)|
+2026-12-16|16:00|Ticketed|Lalgudi G.J.R. Krishnan & Lalgudi Vijayalakshmi (Violin Duet), Dr. Trichy Sankaran (Mridangam), K.V. Gopalakrishnan (Kanjira)|
+2026-12-17|11:00|Not stated|S. Srivathsan (Vocal), Alankode V.S. Gokul (Violin), Sudarsan Srinivas (Mridangam)|
+2026-12-17|13:00|Not stated|Archana & Aarathi (Vocal Duet), C.S. Chinmayi (Violin), R. Akshay Ram (Mridangam), Hari Kishore (Kanjira)|
+2026-12-17|16:00|Ticketed|Abhishek Raghuram (Vocal), Soumik Datta (Sarod), Sayee Rakshith (Violin), Sumesh Narayanan (Mridangam), Debjit Patitundi (Tabla)|Jugalbandi concert (Carnatic vocal with Hindustani sarod).
+2026-12-18|11:00|Not stated|Dhanya Dinesh Rudrapatnam (Vocal), Rishabh Ranganathan (Violin), Aduthurai Guruprasad (Mridangam)|
+2026-12-18|13:00|Not stated|Vishwas Hari (Mandolin), Hariprasadh Subramanian (Flute), Aswini Srinivasan (Mridangam), K.R. Sivaramakrishna (Kanjira)|Mandolin and flute duet.
+2026-12-18|16:00|Ticketed|Kunnakudi M. Balamuralikrishna (Vocal), Shashank Subramanyam (Flute), Patri Satishkumar (Mridangam), B. Shree Sundarkumar (Kanjira)|Vocal and flute duet.
+2026-12-19|11:00|Not stated|R. Sai Vignesh (Vocal), Tirucherai Karthik (Violin), R. Akshay Ram (Mridangam)|
+2026-12-19|13:00|Not stated|Ananya Ashok (Vocal), Dr. Sudha R.S. Iyer (Violin), B. Vijay Natesan (Mridangam), Hari Kishore (Kanjira)|
+2026-12-19|16:00|Ticketed|S. Mahathi (Vocal), B. Ananthakrishnan (Violin), Parupalli Phalgun (Mridangam), G. Guruprasanna (Kanjira)|
+2026-12-20|11:00|Not stated|V. Deepika & V. Nandhika (Vocal Duet), Rangapriya Shankaranarayanan (Violin), A. Rohith (Mridangam)|
+2026-12-20|16:00|Ticketed|Ranjani & Gayatri (Vocal Duet), L. Ramakrishnan (Violin), K. Sai Giridhar (Mridangam), K.V. Gopalakrishnan (Kanjira)|
+2026-12-21|11:00|Not stated|Charulatha Chandrasekar (Veena), C.S. Kesava Chandra (Flute), B.N. Kasinadh (Mridangam), Sri Sainath (Ghatam)|Veena and flute duet.
+2026-12-21|13:00|Not stated|Kruthi Vittal (Vocal), Trivandrum Sampath (Violin), S.J. Arjun Ganesh (Mridangam), Payyanur Govindaprasad (Morsing)|
+2026-12-22|11:00|Not stated|Kandadevi Brothers - Krishna Sai & Mukunda Sai (Vocal Duet), Bargav Tumkur (Violin), Mysore L. Vadiraj (Mridangam)|
+2026-12-22|13:00|Not stated|Bhargavi Venkatram (Vocal), Vaibhav Ramani (Violin), Akshay Anand (Mridangam), Srinidhi R. Koundinya (Ghatam)|
+2026-12-22|16:00|Ticketed|Sandeep Narayan (Vocal), H.N. Bhaskar (Violin), Dr. Umayalpuram K. Sivaraman (Mridangam), B. Shree Sundarkumar (Kanjira)|
+2026-12-23|11:00|Not stated|Abhishek Ravishankar (Vocal), C.S. Chinmayi (Violin), Srikar Chittari (Mridangam)|
+2026-12-23|13:00|Not stated|Anirudh Venkatesh (Vocal), Gyandev Pappu (Violin), Akshay Ananthapadmanabhan (Mridangam), N. Phanindra (Ghatam)|
+2026-12-23|16:00|Ticketed|A. Kanyakumari, Embar Kannan & L. Ramakrishnan (Violin Trio), Patri Satishkumar (Mridangam), Thanjavur T.R. Govindarajan (Thavil)|Violin trio.
+2026-12-24|11:00|Not stated|Spoorthi Rao (Vocal), Shreelakshmi S. Bhat (Violin), Kaushik Sridhar (Mridangam)|
+2026-12-24|13:00|Not stated|Shreya Devnath (Violin), Vishaal R. Sapuram (Chitravina), Vijay Natesan (Mridangam), S. Krishna (Ghatam)|Violin and chitravina duet.
+2026-12-24|16:00|Ticketed|Malladi Brothers - Sriram Prasad & Ravikumar (Vocal Duet), Embar Kannan (Violin), K.V. Prasad (Mridangam), Alathur T. Rajaganesh (Kanjira)|
+2026-12-25|10:00|Ticketed|Sudha Ragunathan (Vocal), R.K. Shriramkumar (Violin), N.C. Bharadwaj (Mridangam), S. Krishna (Ghatam)|
+2026-12-25|16:00|Ticketed|Sid Sriram (Vocal), H.N. Bhaskar (Violin), J. Vaidyanathan (Mridangam), N. Guruprasad (Ghatam)|
+2026-12-26|16:00|Ticketed|Sikkil Gurucharan (Vocal), V. Sanjeev (Violin), Srimushnam V. Raja Rao (Mridangam), V. Suresh (Ghatam)|
+2026-12-27|16:00|Ticketed|Trichur Brothers - Srikrishna Mohan & Ramkumar Mohan (Vocal Duet), Kamalakiran Vinjamuri (Violin), Praveen Sparsh (Mridangam), G. Guruprasanna (Kanjira)|
+2026-12-28|16:00|Ticketed|Kalyanapuram S. Aravind (Vocal), B. Ananthakrishnan (Violin), Thiruvarur Bhakthavathsalam (Mridangam), Trichy Krishnaswamy (Ghatam)|
+2026-12-29|11:00|Not stated|Swarathmika Srikanth (Vocal), Shraddha Ravindran (Violin), Suriya Nambisan (Mridangam)|
+2026-12-29|13:00|Not stated|Kamalakiran Vinjamuri & Bhargav Tumkur (Violin Duet), Kishore Ramesh (Mridangam), H. Prasanna (Ghatam)|
+2026-12-29|16:00|Ticketed|Sriranjani Tapasya Santhanagopalan (Vocal), R.K. Shriramkumar (Violin), N.C. Bharadwaj (Mridangam), Vishaal Krishnakumar (Instrument not stated)|
+2026-12-30|11:00|Not stated|Arjun & Anish Neervannan (Violin Duet), Sai Nivaeithan Ravichandra & Sai Sarangan Ravichandra (Mridangam Duet)|
+2026-12-30|13:00|Not stated|Dr. Sudha R.S. Iyer & Dr. Srividhya R.S. Iyer (Violin Duet), Rohith Prasad (Mridangam), Giridaraprasad (Kanjira)|
+2026-12-30|16:00|Ticketed|Vignesh Ishwar & Ashwath Narayanan (Vocal Duet), Sayee Rakshith (Violin), Dr. Trichy Sankaran (Mridangam), Giridhar Udupa (Ghatam)|
+2026-12-31|11:00|Not stated|R.P. Shravan (Vocal), Vaibhav Ramani (Violin), Sai Raghavan (Mridangam)|
+2026-12-31|13:00|Not stated|Aishwarya Shankar (Vocal), Aditi Krishnaprakash (Violin), B. Ganapathyraman (Mridangam), Samyuktha Sreeram (Ghatam)|
+2026-12-31|16:00|Ticketed|Charumathi Raghuraman (Violin), J.B. Sruthi Sagar (Flute), Ramana Balachandran (Veena), Anantha R. Krishnan (Mridangam)|Violin–flute–veena–mridangam quartet.
+2027-01-01|13:00|Not stated|Aditya Narayanan (Vocal), Madan Mohan (Violin), Adarsh Devarajan (Mridangam), Shamith S. Gowda (Ghatam)|
+2027-01-01|16:00|Ticketed|Palghat Dr. R. Ramprasad (Vocal), H.N. Bhaskar (Violin), Neyveli Narayanan (Mridangam), K.V. Gopalakrishnan (Kanjira)|
+2027-01-02|16:00|Ticketed|Akkarai Sisters - Subhalakshmi & Sornalatha (Violin Duet), Arjun Kumar (Mridangam), N. Guruprasad (Ghatam), Thiruppungur Muthukumaraswamy (Thavil)|
+2027-01-03|16:00|Ticketed|N.J. Nandini (Vocal), R. Raghul (Violin), B. Sivaraman (Mridangam), Trivandrum Rajagopal (Kanjira)|

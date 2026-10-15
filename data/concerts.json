@@ -165,6 +165,83 @@
   "fetched": "2026-10-12"
  },
  {
+  "id": "skgs-2026-12-13-1100",
+  "date": "2026-12-13",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "E.R. Anirudh",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "E.R. Anirudh",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Bargava Vignesh",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Aravind Srikanth",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
+  "id": "skgs-2026-12-13-1300",
+  "date": "2026-12-13",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Anahita & Apoorva",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Anahita & Apoorva",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Sruti Sarathy",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "B. Sivaraman",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "S. Sunil Kumar",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "as-2026-12-13-1800-sanjaysubr",
   "date": "2026-12-13",
   "start": "18:00",
@@ -189,6 +266,119 @@
   "source_label": "Artist's website",
   "note": "Artist's site marks details as awaited.",
   "fetched": "2026-10-12"
+ },
+ {
+  "id": "skgs-2026-12-14-1100",
+  "date": "2026-12-14",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Anirudh Subramaniam",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Anirudh Subramaniam",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Siva Teja",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "S. Hariharan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
+  "id": "skgs-2026-12-14-1300",
+  "date": "2026-12-14",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Archana Rao",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Archana Rao",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Mantha Srimaya",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Tumkur Ravishankar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sarath Kaushik",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
+  "id": "skgs-2026-12-14-1600",
+  "date": "2026-12-14",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "K. Gayatri & Amritha Murali",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "K. Gayatri & Amritha Murali",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Kamalakiran Vinjamuri",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Delhi Sairam & Sumesh Narayanan",
+    "instrument": "Mridangam Duet",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "bk-2026-12-14-1830-trichurbro",
@@ -241,6 +431,124 @@
   "source_label": "Artist's website",
   "note": "Artist's site marks details as awaited.",
   "fetched": "2026-10-12"
+ },
+ {
+  "id": "skgs-2026-12-15-1100",
+  "date": "2026-12-15",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Sanjana Harikumar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sanjana Harikumar",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Vignesh Thyagarajan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sunaada Krishna Amai",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
+  "id": "skgs-2026-12-15-1300",
+  "date": "2026-12-15",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Aditya Madhavan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Aditya Madhavan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "M. Vijay",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Kumbakonam Swaminathan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sri Sainath",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
+  "id": "skgs-2026-12-15-1600",
+  "date": "2026-12-15",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "N. Vijay Siva",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "N. Vijay Siva",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Dr. R. Hemalatha",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "J. Vaidyanathan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "V. Anirudh Athreya",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-15-1600",
@@ -361,6 +669,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-16-1100",
+  "date": "2026-12-16",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Vishruthi Girish",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Vishruthi Girish",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Haritha Narayanan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Jayendra Kumar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-16-1145",
   "date": "2026-12-16",
   "start": "11:45",
@@ -395,6 +739,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-16-1300",
+  "date": "2026-12-16",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "J.B. Keerthana",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "J.B. Keerthana",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "V.S.P. Gayatri Sivani",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sai Raghavan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sumukh Karanth",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-16-1330",
@@ -436,6 +821,42 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-16-1600",
+  "date": "2026-12-16",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Lalgudi G.J.R. Krishnan & Lalgudi Vijayalakshmi",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "Lalgudi G.J.R. Krishnan & Lalgudi Vijayalakshmi",
+    "instrument": "Violin Duet",
+    "role": "main"
+   },
+   {
+    "name": "Dr. Trichy Sankaran",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "K.V. Gopalakrishnan",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-16-1600",
@@ -520,6 +941,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-17-1100",
+  "date": "2026-12-17",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "S. Srivathsan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "S. Srivathsan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Alankode V.S. Gokul",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sudarsan Srinivas",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-17-1145",
   "date": "2026-12-17",
   "start": "11:45",
@@ -554,6 +1011,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-17-1300",
+  "date": "2026-12-17",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Archana & Aarathi",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Archana & Aarathi",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "C.S. Chinmayi",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "R. Akshay Ram",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Hari Kishore",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-17-1330",
@@ -595,6 +1093,52 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-17-1600",
+  "date": "2026-12-17",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Abhishek Raghuram & Soumik Datta",
+  "main_instrument": "Vocal",
+  "concert_type": "Duet",
+  "performers": [
+   {
+    "name": "Abhishek Raghuram",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Soumik Datta",
+    "instrument": "Sarod",
+    "role": "main"
+   },
+   {
+    "name": "Sayee Rakshith",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sumesh Narayanan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Debjit Patitundi",
+    "instrument": "Tabla",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Jugalbandi concert (Carnatic vocal with Hindustani sarod).",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-17-1600",
@@ -715,6 +1259,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-18-1100",
+  "date": "2026-12-18",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Dhanya Dinesh Rudrapatnam",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Dhanya Dinesh Rudrapatnam",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Rishabh Ranganathan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Aduthurai Guruprasad",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-18-1145",
   "date": "2026-12-18",
   "start": "11:45",
@@ -749,6 +1329,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-18-1300",
+  "date": "2026-12-18",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Vishwas Hari & Hariprasadh Subramanian",
+  "main_instrument": "Mandolin",
+  "concert_type": "Duet",
+  "performers": [
+   {
+    "name": "Vishwas Hari",
+    "instrument": "Mandolin",
+    "role": "main"
+   },
+   {
+    "name": "Hariprasadh Subramanian",
+    "instrument": "Flute",
+    "role": "main"
+   },
+   {
+    "name": "Aswini Srinivasan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "K.R. Sivaramakrishna",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Mandolin and flute duet.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-18-1330",
@@ -792,23 +1413,23 @@
   "note": ""
  },
  {
-  "id": "as-2026-12-18-1600-shashanksu",
+  "id": "skgs-2026-12-18-1600",
   "date": "2026-12-18",
   "start": "16:00",
-  "end": "18:30",
+  "end": "",
   "slot": "Evening",
-  "main_artist": "Shashank Subramanyam & Kunnakudi M. Balamuralikrishna",
-  "main_instrument": "Flute",
-  "concert_type": "Instrumental duet",
+  "main_artist": "Kunnakudi M. Balamuralikrishna & Shashank Subramanyam",
+  "main_instrument": "Vocal",
+  "concert_type": "Duet",
   "performers": [
-   {
-    "name": "Shashank Subramanyam",
-    "instrument": "Flute",
-    "role": "main"
-   },
    {
     "name": "Kunnakudi M. Balamuralikrishna",
     "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Shashank Subramanyam",
+    "instrument": "Flute",
     "role": "main"
    },
    {
@@ -822,15 +1443,15 @@
     "role": "accompanist"
    }
   ],
-  "entry": "Not stated",
-  "organisation": "Organiser not stated",
-  "festival": "—",
-  "venue": "Sri Krishna Gana Sabha Main Hall",
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
   "area": "T. Nagar",
-  "source_url": "https://www.shashank.org/tours",
-  "source_label": "Artist's website",
-  "note": "Flute and vocal duet.",
-  "fetched": "2026-10-12"
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Vocal and flute duet.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-18-1600",
@@ -982,6 +1603,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-19-1100",
+  "date": "2026-12-19",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "R. Sai Vignesh",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "R. Sai Vignesh",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Tirucherai Karthik",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "R. Akshay Ram",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-19-1145",
   "date": "2026-12-19",
   "start": "11:45",
@@ -1016,6 +1673,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-19-1300",
+  "date": "2026-12-19",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Ananya Ashok",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Ananya Ashok",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Dr. Sudha R.S. Iyer",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "B. Vijay Natesan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Hari Kishore",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-19-1330",
@@ -1057,6 +1755,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-19-1600",
+  "date": "2026-12-19",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "S. Mahathi",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "S. Mahathi",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "B. Ananthakrishnan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Parupalli Phalgun",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "G. Guruprasanna",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "as-2026-12-19-1600-sjjananiy",
@@ -1234,6 +1973,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-20-1100",
+  "date": "2026-12-20",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "V. Deepika & V. Nandhika",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "V. Deepika & V. Nandhika",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Rangapriya Shankaranarayanan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "A. Rohith",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-20-1145",
   "date": "2026-12-20",
   "start": "11:45",
@@ -1335,6 +2110,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-20-1600",
+  "date": "2026-12-20",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ranjani & Gayatri",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Ranjani & Gayatri",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "L. Ramakrishnan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "K. Sai Giridhar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "K.V. Gopalakrishnan",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-20-1600",
@@ -1486,6 +2302,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-21-1100",
+  "date": "2026-12-21",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Charulatha Chandrasekar & C.S. Kesava Chandra",
+  "main_instrument": "Veena",
+  "concert_type": "Duet",
+  "performers": [
+   {
+    "name": "Charulatha Chandrasekar",
+    "instrument": "Veena",
+    "role": "main"
+   },
+   {
+    "name": "C.S. Kesava Chandra",
+    "instrument": "Flute",
+    "role": "main"
+   },
+   {
+    "name": "B.N. Kasinadh",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sri Sainath",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Veena and flute duet.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-21-1145",
   "date": "2026-12-21",
   "start": "11:45",
@@ -1520,6 +2377,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-21-1300",
+  "date": "2026-12-21",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Kruthi Vittal",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Kruthi Vittal",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Trivandrum Sampath",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "S.J. Arjun Ganesh",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Payyanur Govindaprasad",
+    "instrument": "Morsing",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-21-1330",
@@ -1707,6 +2605,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-22-1100",
+  "date": "2026-12-22",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Kandadevi Brothers - Krishna Sai & Mukunda Sai",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Kandadevi Brothers - Krishna Sai & Mukunda Sai",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Bargav Tumkur",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Mysore L. Vadiraj",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-22-1145",
   "date": "2026-12-22",
   "start": "11:45",
@@ -1741,6 +2675,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-22-1300",
+  "date": "2026-12-22",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Bhargavi Venkatram",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Bhargavi Venkatram",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Vaibhav Ramani",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Akshay Anand",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Srinidhi R. Koundinya",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-22-1330",
@@ -1782,6 +2757,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-22-1600",
+  "date": "2026-12-22",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sandeep Narayan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sandeep Narayan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "H.N. Bhaskar",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Dr. Umayalpuram K. Sivaraman",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "B. Shree Sundarkumar",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-22-1600",
@@ -1907,6 +2923,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-23-1100",
+  "date": "2026-12-23",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Abhishek Ravishankar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Abhishek Ravishankar",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "C.S. Chinmayi",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Srikar Chittari",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-23-1145",
   "date": "2026-12-23",
   "start": "11:45",
@@ -1941,6 +2993,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-23-1300",
+  "date": "2026-12-23",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Anirudh Venkatesh",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Anirudh Venkatesh",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Gyandev Pappu",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Akshay Ananthapadmanabhan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "N. Phanindra",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-23-1330",
@@ -1982,6 +3075,42 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-23-1600",
+  "date": "2026-12-23",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "A. Kanyakumari, Embar Kannan & L. Ramakrishnan",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental ensemble",
+  "performers": [
+   {
+    "name": "A. Kanyakumari, Embar Kannan & L. Ramakrishnan",
+    "instrument": "Violin Trio",
+    "role": "main"
+   },
+   {
+    "name": "Patri Satishkumar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Thanjavur T.R. Govindarajan",
+    "instrument": "Thavil",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Violin trio.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-23-1600",
@@ -2102,6 +3231,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-24-1100",
+  "date": "2026-12-24",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Spoorthi Rao",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Spoorthi Rao",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Shreelakshmi S. Bhat",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Kaushik Sridhar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-24-1145",
   "date": "2026-12-24",
   "start": "11:45",
@@ -2136,6 +3301,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-24-1300",
+  "date": "2026-12-24",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Shreya Devnath & Vishaal R. Sapuram",
+  "main_instrument": "Violin",
+  "concert_type": "Duet",
+  "performers": [
+   {
+    "name": "Shreya Devnath",
+    "instrument": "Violin",
+    "role": "main"
+   },
+   {
+    "name": "Vishaal R. Sapuram",
+    "instrument": "Chitravina",
+    "role": "main"
+   },
+   {
+    "name": "Vijay Natesan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "S. Krishna",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Violin and chitravina duet.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-24-1330",
@@ -2177,6 +3383,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-24-1600",
+  "date": "2026-12-24",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Malladi Brothers - Sriram Prasad & Ravikumar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Malladi Brothers - Sriram Prasad & Ravikumar",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Embar Kannan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "K.V. Prasad",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Alathur T. Rajaganesh",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-24-1600",
@@ -2323,6 +3570,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-25-1000",
+  "date": "2026-12-25",
+  "start": "10:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Sudha Ragunathan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sudha Ragunathan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "R.K. Shriramkumar",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "N.C. Bharadwaj",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "S. Krishna",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "bk-2026-12-25-1030-bkannanand",
   "date": "2026-12-25",
   "start": "10:30",
@@ -2450,6 +3738,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-25-1600",
+  "date": "2026-12-25",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sid Sriram",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sid Sriram",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "H.N. Bhaskar",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "J. Vaidyanathan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "N. Guruprasad",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-25-1600",
@@ -2733,6 +4062,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-26-1600",
+  "date": "2026-12-26",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sikkil Gurucharan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sikkil Gurucharan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "V. Sanjeev",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Srimushnam V. Raja Rao",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "V. Suresh",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-26-1600",
@@ -3029,6 +4399,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-27-1600",
+  "date": "2026-12-27",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Trichur Brothers - Srikrishna Mohan & Ramkumar Mohan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Trichur Brothers - Srikrishna Mohan & Ramkumar Mohan",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Kamalakiran Vinjamuri",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Praveen Sparsh",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "G. Guruprasanna",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-27-1600",
   "date": "2026-12-27",
   "start": "16:00",
@@ -3286,6 +4697,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-28-1600",
+  "date": "2026-12-28",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Kalyanapuram S. Aravind",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Kalyanapuram S. Aravind",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "B. Ananthakrishnan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Thiruvarur Bhakthavathsalam",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Trichy Krishnaswamy",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-28-1600",
   "date": "2026-12-28",
   "start": "16:00",
@@ -3513,6 +4965,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-29-1100",
+  "date": "2026-12-29",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Swarathmika Srikanth",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Swarathmika Srikanth",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Shraddha Ravindran",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Suriya Nambisan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-29-1145",
   "date": "2026-12-29",
   "start": "11:45",
@@ -3547,6 +5035,42 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-29-1300",
+  "date": "2026-12-29",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Kamalakiran Vinjamuri & Bhargav Tumkur",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "Kamalakiran Vinjamuri & Bhargav Tumkur",
+    "instrument": "Violin Duet",
+    "role": "main"
+   },
+   {
+    "name": "Kishore Ramesh",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "H. Prasanna",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-29-1330",
@@ -3614,6 +5138,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-29-1600",
+  "date": "2026-12-29",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sriranjani Tapasya Santhanagopalan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sriranjani Tapasya Santhanagopalan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "R.K. Shriramkumar",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "N.C. Bharadwaj",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Vishaal Krishnakumar",
+    "instrument": "Instrument not stated",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-29-1600",
@@ -3765,6 +5330,37 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-30-1100",
+  "date": "2026-12-30",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Arjun & Anish Neervannan",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "Arjun & Anish Neervannan",
+    "instrument": "Violin Duet",
+    "role": "main"
+   },
+   {
+    "name": "Sai Nivaeithan Ravichandra & Sai Sarangan Ravichandra",
+    "instrument": "Mridangam Duet",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-30-1145",
   "date": "2026-12-30",
   "start": "11:45",
@@ -3799,6 +5395,42 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-30-1300",
+  "date": "2026-12-30",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Dr. Sudha R.S. Iyer & Dr. Srividhya R.S. Iyer",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "Dr. Sudha R.S. Iyer & Dr. Srividhya R.S. Iyer",
+    "instrument": "Violin Duet",
+    "role": "main"
+   },
+   {
+    "name": "Rohith Prasad",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Giridaraprasad",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-30-1330",
@@ -3866,6 +5498,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-30-1600",
+  "date": "2026-12-30",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Vignesh Ishwar & Ashwath Narayanan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Vignesh Ishwar & Ashwath Narayanan",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   },
+   {
+    "name": "Sayee Rakshith",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Dr. Trichy Sankaran",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Giridhar Udupa",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-30-1600",
@@ -3986,6 +5659,42 @@
   "note": ""
  },
  {
+  "id": "skgs-2026-12-31-1100",
+  "date": "2026-12-31",
+  "start": "11:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "R.P. Shravan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "R.P. Shravan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Vaibhav Ramani",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Sai Raghavan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "ma-2026-12-31-1145",
   "date": "2026-12-31",
   "start": "11:45",
@@ -4020,6 +5729,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-31-1300",
+  "date": "2026-12-31",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Aishwarya Shankar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Aishwarya Shankar",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Aditi Krishnaprakash",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "B. Ganapathyraman",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Samyuktha Sreeram",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-31-1330",
@@ -4087,6 +5837,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2026-12-31-1600",
+  "date": "2026-12-31",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Charumathi Raghuraman & J.B. Sruthi Sagar & Ramana Balachandran",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental ensemble",
+  "performers": [
+   {
+    "name": "Charumathi Raghuraman",
+    "instrument": "Violin",
+    "role": "main"
+   },
+   {
+    "name": "J.B. Sruthi Sagar",
+    "instrument": "Flute",
+    "role": "main"
+   },
+   {
+    "name": "Ramana Balachandran",
+    "instrument": "Veena",
+    "role": "main"
+   },
+   {
+    "name": "Anantha R. Krishnan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "Violin–flute–veena–mridangam quartet.",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "ma-2026-12-31-1600",
@@ -4280,6 +6071,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2027-01-01-1300",
+  "date": "2027-01-01",
+  "start": "13:00",
+  "end": "",
+  "slot": "Afternoon",
+  "main_artist": "Aditya Narayanan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Aditya Narayanan",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "Madan Mohan",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Adarsh Devarajan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Shamith S. Gowda",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Not stated",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "bk-2027-01-01-1400-adiityasri",
   "date": "2027-01-01",
   "start": "14:00",
@@ -4347,6 +6179,47 @@
   "note": ""
  },
  {
+  "id": "skgs-2027-01-01-1600",
+  "date": "2027-01-01",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Palghat Dr. R. Ramprasad",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Palghat Dr. R. Ramprasad",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "H.N. Bhaskar",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "Neyveli Narayanan",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "K.V. Gopalakrishnan",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
+ },
+ {
   "id": "bk-2027-01-01-1730-giridharan",
   "date": "2027-01-01",
   "start": "17:30",
@@ -4397,6 +6270,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2027-01-02-1600",
+  "date": "2027-01-02",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Akkarai Sisters - Subhalakshmi & Sornalatha",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "Akkarai Sisters - Subhalakshmi & Sornalatha",
+    "instrument": "Violin Duet",
+    "role": "main"
+   },
+   {
+    "name": "Arjun Kumar",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "N. Guruprasad",
+    "instrument": "Ghatam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Thiruppungur Muthukumaraswamy",
+    "instrument": "Thavil",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "bk-2027-01-02-1630-rsuryaprak",
@@ -4475,6 +6389,47 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "skgs-2027-01-03-1600",
+  "date": "2027-01-03",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "N.J. Nandini",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "N.J. Nandini",
+    "instrument": "Vocal",
+    "role": "main"
+   },
+   {
+    "name": "R. Raghul",
+    "instrument": "Violin",
+    "role": "accompanist"
+   },
+   {
+    "name": "B. Sivaraman",
+    "instrument": "Mridangam",
+    "role": "accompanist"
+   },
+   {
+    "name": "Trivandrum Rajagopal",
+    "instrument": "Kanjira",
+    "role": "accompanist"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Sri Krishna Gana Sabha",
+  "festival": "70th Margazhi Mela",
+  "venue": "Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+  "area": "T. Nagar",
+  "source_url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+  "note": "",
+  "fetched": "2026-10-16",
+  "source_label": "Organiser's schedule"
  },
  {
   "id": "as-2027-01-03-1700-sjjananiy",

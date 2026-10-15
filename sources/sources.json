@@ -101,7 +101,8 @@
   {
    "slug": "indian-heritage-season",
    "kind": "aggregator",
-   "url": "https://www.indian-heritage.org/musicseason/sch.html"
+   "url": "https://www.indian-heritage.org/musicseason/sch.html",
+   "follow_pdfs": true
   },
   {
    "slug": "icarnatic",
@@ -278,6 +279,45 @@
    "kind": "ticketing",
    "url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
    "wait_ms": 10000
+  },
+  {
+   "slug": "krishna-gana-sabha-mm2026-pdf",
+   "kind": "sabha",
+   "url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "krishna-gana-sabha-com",
+   "kind": "sabha",
+   "url": "https://krishnaganasabha.com/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "krishna-gana-sabha-tikkl",
+   "kind": "ticketing",
+   "url": "https://tikkl.com/krishnaganasabha/c/d6ccf06f/?section=overview"
+  },
+  {
+   "slug": "charsur-dvayam-2026",
+   "kind": "aggregator",
+   "url": "https://www.indian-heritage.org/musicseason/2627/charsur1.html"
+  },
+  {
+   "slug": "kalakshetra-events",
+   "kind": "sabha",
+   "url": "https://kalakshetra.in/others/programs-events/",
+   "follow_pdfs": true
+  },
+  {
+   "slug": "mdnd-kalakshetra-2026",
+   "kind": "ticketing",
+   "url": "https://mdnd.in/SeasonTickets/OrganizerLandingPage?ci=101&r_id=2420",
+   "wait_ms": 10000
+  },
+  {
+   "slug": "ticket9-sanjay-sabha-live",
+   "kind": "ticketing",
+   "url": "https://www.theticket9.com/event/sanjay-sabha-live-chennai-dec-24"
   }
  ],
  "_blocked_note": "BookMyShow, District, Bandsintown and chennaidecemberseason.com refuse automated visits (403/429); the research job checks them by web search instead."

@@ -61,6 +61,30 @@ with sync_playwright() as p:
         st = {"url": url, "kind": src.get("kind", ""), "checked": now.strftime("%Y-%m-%dT%H:%MZ")}
         pg = ctx.new_page()
         try:
+            if url.lower().split("?")[0].endswith(".pdf"):  # a schedule PDF itself: Chromium would download, not render it
+                r = ctx.request.get(url, timeout=45000)
+                body = r.body()
+                if not r.ok or len(body) > MAX_PDF_BYTES:
+                    raise RuntimeError(f"PDF HTTP {r.status}, {len(body)} bytes")
+                text = norm(pdf_text(body))
+                if len(text) < 40:
+                    raise RuntimeError(f"PDF has {len(text)} characters of text")
+                f = TXT / f"{slug}.txt"
+                old = f.read_text() if f.exists() else None
+                f.write_text(f"# {url}\n# fetched {st['checked']}\n{text}\n")
+                st.update(result="ok", chars=len(text), pdfs=1)
+                if old is None:
+                    st["result"] = "new"
+                    report_new.append((src, text))
+                elif "\n".join(old.splitlines()[2:]).strip() != text.strip():
+                    ob = "\n".join(old.splitlines()[2:]).splitlines()
+                    diff = [ln for ln in difflib.unified_diff(ob, text.splitlines(), lineterm="", n=0)
+                            if ln[:1] in "+-" and not ln.startswith(("+++", "---"))]
+                    added = [ln[1:] for ln in diff if ln.startswith("+")]
+                    removed = [ln[1:] for ln in diff if ln.startswith("-")]
+                    st.update(result="changed", added=len(added), removed=len(removed))
+                    report_changed.append((src, added, removed))
+                continue
             resp = pg.goto(url, wait_until="domcontentloaded", timeout=45000)
             try:
                 pg.wait_for_load_state("networkidle", timeout=15000)
@@ -115,8 +139,8 @@ with sync_playwright() as p:
             report_failed.append((src, msg))
         finally:
             pg.close()
-        status[slug] = st
-        print(f"{st['result']:8} {slug}")
+            status[slug] = st  # in finally so the direct-PDF branch's `continue` is recorded too
+            print(f"{st['result']:8} {slug}")
     b.close()
 
 (S / "status.json").write_text(json.dumps({"run": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "sources": status}, indent=1) + "\n")

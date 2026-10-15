@@ -40,6 +40,11 @@ ORG = {
         name="Bharat Kalachar", festival="38th Marghazhi Mahotsav",
         venue="Sri YGP Auditorium, No. 17, Thirumalai Road, T. Nagar, Chennai 600017", area="T. Nagar",
         url="https://www.bharatkalachar.com/38-bharat-kalachar.html"),
+    "sri-krishna-gana-sabha": dict(
+        name="Sri Krishna Gana Sabha", festival="70th Margazhi Mela",
+        venue="Dr. Nalli Gana Vihar, Sri Krishna Gana Sabha, 20 Maharajapuram Santhanam Salai, T. Nagar, Chennai 600017",
+        area="T. Nagar",
+        url="https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf"),
 }
 
 concerts = []
@@ -80,6 +85,35 @@ for line in (ROOT / "raw_bharat_kalachar_2026.txt").read_text().splitlines():
         performers=[dict(name=artist, instrument=form, role="main")],
         entry=entry, organisation=o["name"], festival=o["festival"], venue=o["venue"], area=o["area"],
         source_url=o["url"], fetched=FETCHED))
+
+# Sri Krishna Gana Sabha: full line-ups, no end times (Music Academy pattern, plus a note column)
+def is_acc(ins):
+    return re.sub(r"\b(duet|trio)\b", "", ins.lower()).strip() in ACCOMP
+for line in (ROOT / "raw_sri_krishna_gana_sabha_2026.txt").read_text().splitlines():
+    if not line or line.startswith("#"):
+        continue
+    date, start, entry, musicians, note = line.split("|")
+    people = split_people(musicians)
+    mains, accs = [], []
+    for n, ins in people:
+        (accs if (accs or is_acc(ins)) and mains else mains).append((n, ins))
+    first = mains[0][1]
+    if "trio" in first.lower():
+        ctype, instrument = "Instrumental ensemble", re.sub(r"(?i)\s*trio", "", first).strip().title()
+    else:
+        ctype, instrument = classify(first)
+    if len(mains) == 2:
+        ctype = "Vocal duet" if all(i.lower() == "vocal" for _, i in mains) else "Duet"
+    elif len(mains) > 2:
+        ctype = "Instrumental ensemble"
+    o = ORG["sri-krishna-gana-sabha"]
+    concerts.append(dict(
+        id=f"skgs-{date}-{start.replace(':','')}", date=date, start=start, end="", slot=slot(start),
+        main_artist=" & ".join(n for n, _ in mains), main_instrument=instrument, concert_type=ctype,
+        performers=[dict(name=n, instrument=i, role="main") for n, i in mains] +
+                   [dict(name=n, instrument=i, role="accompanist") for n, i in accs],
+        entry=entry, organisation=o["name"], festival=o["festival"], venue=o["venue"], area=o["area"],
+        source_url=o["url"], note=note, fetched="2026-10-16"))
 
 # Artists' own websites / listings: concerts not in any organiser schedule
 for line in (ROOT / "raw_artist_sites_2026.txt").read_text().splitlines():
@@ -126,9 +160,9 @@ orgs = [
          note="Top-billed concerts to start by 3.30 pm and end by 8.30–8.45 pm; new audio system.",
          url="https://www.mylaporetimes.com/2026/10/december-season-2026-narada-gana-sabha-is-improving-its-audio-systems/"),
     dict(name="Sri Krishna Gana Sabha", area="T. Nagar", venue="No. 20, Maharajapuram Santhanam Salai, T. Nagar",
-         status="Awaiting music schedule", festival_2026="Margazhi Mela (music) — not yet published",
-         dates_2026="", note="Only its dance Natya Kala Conference (26–28 Dec 2026) is announced so far.",
-         url="https://www.krishnaganasabha.org/"),
+         status="Schedule published", festival_2026="70th Margazhi Mela", dates_2026="12 Dec 2026 – 3 Jan 2027",
+         note="Natya Kala Conference (dance) 26–28 Dec 2026.",
+         url="https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf"),
 ]
 AWAIT = [
     ("Bharatiya Vidya Bhavan, Chennai Kendra", "Mylapore", "East Mada Street, Mylapore", "https://bhavanchennai.org/"),

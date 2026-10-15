@@ -1,5 +1,6 @@
 # Concerts found on artists' own websites / artist listings (fetched 2026-10-12; organisers for 3 S. J. Jananiy rows added 2026-10-13 from the listings' descriptions), Chennai only, 2026-27 season.
 # Concerts already in the Music Academy schedule are not repeated here.
+# 2026-10-16: Shashank & Kunnakudi M. Balamuralikrishna 18 Dec 16:00 removed here — now in the Sri Krishna Gana Sabha schedule (raw_sri_krishna_gana_sabha_2026.txt).
 # When the artist's site names no organiser, the venue's own sabha is NOT assumed; organisation = "Organiser not stated".
 # date|start|end|entry|organisation|festival|venue|area|musicians|source_url|source_label|note
 2026-12-06|18:30||Not stated|Organiser not stated|Tamizhum Naanum|Music Academy Auditorium, TTK Road|Alwarpet / TTK Road|Sanjay Subrahmanyan (Vocal)|https://sanjaysub.com/|Artist's website|Accompanists not listed per concert.
@@ -12,7 +13,6 @@
 2026-12-01|18:30|21:00|Not stated|Mudhra|Mudhra|Sri Thyaga Brahma Gana Sabha (Vani Mahal)|T. Nagar|Shashank Subramanyam (Flute), L. Ramakrishnan (Violin), N.C. Bharadwaj (Mridangam), K.V. Gopalakrishnan (Kanjira)|https://www.shashank.org/tours|Artist's website|
 2026-12-03|16:00|18:30|Not stated|Organiser not stated|—|Bharatiya Vidya Bhavan, East Mada Street|Mylapore|Shashank Subramanyam (Flute), H.N. Bhaskar (Violin), Parupalli Phalgun (Mridangam)|https://www.shashank.org/tours|Artist's website|
 2026-12-10|18:45|20:45|Not stated|Kartik Fine Arts|December Season festival|Narada Gana Sabha, TTK Road|Alwarpet / TTK Road|Shashank Subramanyam (Flute), Kamalakiran Vinjumuri (Violin), K. Sai Giridhar (Mridangam)|https://www.shashank.org/tours|Artist's website|
-2026-12-18|16:00|18:30|Not stated|Organiser not stated|—|Sri Krishna Gana Sabha Main Hall|T. Nagar|Shashank Subramanyam (Flute), Kunnakudi M. Balamuralikrishna (Vocal), Patri Satishkumar (Mridangam), B. Shree Sundarkumar (Kanjira)|https://www.shashank.org/tours|Artist's website|Flute and vocal duet.
 2026-12-20|18:30||Not stated|Organiser not stated|—|Sri Ganapathy Sachchidananda Ashram|Velachery|Shashank Subramanyam (Flute)|https://www.shashank.org/tours|Artist's website|Listed as a flute solo; no end time.
 2026-12-26|11:00|12:30|Not stated|Sruthi Laya Kendra|Winter Music Festival|Bharatiya Vidya Bhavan, East Mada Street|Mylapore|Shashank Subramanyam (Flute), H.N. Bhaskar (Violin), Patri Satishkumar (Mridangam)|https://www.shashank.org/tours|Artist's website|
 2027-01-03|18:30|21:00|Not stated|Sri Parthasarathy Swami Sabha|Isai Vizha|Vidya Bharathi Kalyana Mandapam|Mylapore|Shashank Subramanyam (Flute), Abhishek Raghuram (Vocal)|https://www.shashank.org/tours|Artist's website|Flute and vocal duet; accompanists not listed.
