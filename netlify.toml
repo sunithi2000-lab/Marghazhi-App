@@ -3,3 +3,6 @@
 [build]
   publish = "."
   command = "python3 tests/check_data.py --previous https://kutcheri-dec.netlify.app/data/concerts.json"
+  # Skip the build (and save Netlify build credits) when a commit only touches the source watcher's
+  # snapshots in sources/ — exit code 0 means "nothing to deploy".
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude)sources/'"
