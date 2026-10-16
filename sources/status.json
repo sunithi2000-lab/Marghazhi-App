@@ -1,17 +1,18 @@
 {
- "run": "2026-10-15T17:58:45Z",
+ "run": "2026-10-16T17:57:29Z",
  "sources": {
   "music-academy": {
    "url": "https://musicacademymadras.in/100th-annual-concerts-2026/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
-   "result": "failed",
-   "error": "HTTP 500, 40 characters of text"
+   "checked": "2026-10-16T17:57Z",
+   "result": "ok",
+   "chars": 14367,
+   "pdfs": 0
   },
   "bharat-kalachar": {
    "url": "https://www.bharatkalachar.com/38-bharat-kalachar.html",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 7876,
    "pdfs": 0
@@ -19,16 +20,16 @@
   "krishna-gana-sabha": {
    "url": "https://www.krishnaganasabha.org/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 200, 7 characters of text"
   },
   "vani-mahal": {
    "url": "https://www.vanimahal.com/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 6945,
+   "chars": 6764,
    "pdfs": 4,
    "added": 0,
    "removed": 8
@@ -36,7 +37,7 @@
   "parthasarathy-swami-sabha": {
    "url": "https://parthasarathyswamisabha.com/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 38082,
    "pdfs": 4
@@ -44,15 +45,17 @@
   "rasika-ranjani-sabha": {
    "url": "https://rrsabha.org/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
-   "result": "ok",
-   "chars": 5056,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 5187,
+   "pdfs": 0,
+   "added": 7,
+   "removed": 0
   },
   "tamil-isai-sangam": {
    "url": "https://www.tamilisaisangam.in/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 1356,
    "pdfs": 0
@@ -60,21 +63,21 @@
   "hamsadhwani": {
    "url": "https://www.hamsadhwani.org/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.hamsadhwani.org/"
   },
   "carnatica": {
    "url": "https://carnatica.net/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 404, 13 characters of text"
   },
   "rasoham": {
    "url": "https://rasoham.org/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 808,
    "pdfs": 0
@@ -82,7 +85,7 @@
   "sunaadalahari": {
    "url": "https://sunaadalahari.org/",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 470,
    "pdfs": 0
@@ -90,7 +93,7 @@
   "mdnd-season": {
    "url": "https://www.mdnd.in/seasontickets",
    "kind": "ticketing",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 102,
    "pdfs": 0
@@ -98,7 +101,7 @@
   "mdnd-events": {
    "url": "https://www.mdnd.in/",
    "kind": "ticketing",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 598,
    "pdfs": 0
@@ -106,21 +109,22 @@
   "bookmyshow-carnatic-chennai": {
    "url": "https://in.bookmyshow.com/explore/music-shows-chennai",
    "kind": "ticketing",
-   "checked": "2026-10-15T17:58Z",
-   "result": "failed",
-   "error": "HTTP 403, 683 characters of text"
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 20243,
+   "pdfs": 0
   },
   "district-chennai-music": {
    "url": "https://www.district.in/events/music-in-chennai",
    "kind": "ticketing",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 403, 218 characters of text"
   },
   "mylapore-times-season": {
    "url": "https://season.mylaporetimes.com/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 1228,
    "pdfs": 0
@@ -128,37 +132,37 @@
   "mylapore-times-arts": {
    "url": "https://www.mylaporetimes.com/category/arts/",
    "kind": "news",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 8737,
+   "chars": 8790,
    "pdfs": 0,
-   "added": 4,
-   "removed": 4
+   "added": 8,
+   "removed": 8
   },
   "chennai-december-season": {
    "url": "https://chennaidecemberseason.com/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
+   "checked": "2026-10-16T17:57Z",
+   "result": "ok",
    "chars": 1370,
    "pdfs": 0
   },
   "indian-heritage-season": {
    "url": "https://www.indian-heritage.org/musicseason/sch.html",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 2896,
-   "pdfs": 0,
-   "added": 53,
+   "chars": 13863,
+   "pdfs": 1,
+   "added": 1443,
    "removed": 0
   },
   "icarnatic": {
    "url": "https://www.icarnatic.org/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 4753,
+   "chars": 4751,
    "pdfs": 0,
    "added": 1,
    "removed": 1
@@ -166,51 +170,52 @@
   "kutcheribuzz": {
    "url": "https://www.kutcheribuzz.com/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 403, 266 characters of text"
   },
   "ragarasa": {
    "url": "https://ragarasa.in/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 3521,
+   "chars": 3571,
    "pdfs": 0,
-   "added": 1,
-   "removed": 1
+   "added": 8,
+   "removed": 8
   },
   "chennaievent": {
    "url": "https://www.chennaievent.com/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 2247,
+   "chars": 2038,
    "pdfs": 0,
-   "added": 44,
-   "removed": 36
+   "added": 48,
+   "removed": 56
   },
   "bandsintown-chennai": {
    "url": "https://www.bandsintown.com/c/chennai-india",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
-   "result": "failed",
-   "error": "HTTP 403, 684 characters of text"
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 5149,
+   "pdfs": 0
   },
   "the-hindu-friday-review": {
    "url": "https://www.thehindu.com/entertainment/music/",
    "kind": "news",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 5425,
+   "chars": 5836,
    "pdfs": 0,
-   "added": 34,
+   "added": 40,
    "removed": 37
   },
   "artist-sanjay-subrahmanyan": {
    "url": "https://sanjaysub.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 2761,
    "pdfs": 0
@@ -218,7 +223,7 @@
   "artist-shashank": {
    "url": "https://www.shashank.org/tours",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 8687,
    "pdfs": 0
@@ -226,7 +231,7 @@
   "artist-sandeep-narayan": {
    "url": "https://sandeepnarayan.in/concerts",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 952,
    "pdfs": 0
@@ -234,7 +239,7 @@
   "artist-ranjani-gayatri": {
    "url": "https://ranjanigayatri.com/schedule",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 5289,
    "pdfs": 0
@@ -242,30 +247,34 @@
   "artist-tm-krishna": {
    "url": "https://www.tmkrishna.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
-   "result": "ok",
-   "chars": 1208,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 1216,
+   "pdfs": 0,
+   "added": 7,
+   "removed": 6
   },
   "artist-jayanthi-kumaresh": {
    "url": "https://jayanthikumaresh.com/schedule",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
-   "result": "ok",
-   "chars": 2606,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 2330,
+   "pdfs": 0,
+   "added": 0,
+   "removed": 8
   },
   "artist-sj-jananiy": {
    "url": "https://www.bandsintown.com/a/15524468-s.-j.-jananiy",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 403, 684 characters of text"
   },
   "artist-aruna-sairam": {
    "url": "https://www.arunasairam.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 1152,
    "pdfs": 0
@@ -273,24 +282,24 @@
   "artist-bombay-jayashri": {
    "url": "https://www.bombayjayashri.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_CLOSED at https://www.bombayjayashri.com/"
   },
   "artist-sudha-ragunathan": {
    "url": "https://www.sudharagunathan.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 1228,
+   "chars": 1250,
    "pdfs": 0,
-   "added": 2,
-   "removed": 3
+   "added": 3,
+   "removed": 2
   },
   "artist-unnikrishnan": {
    "url": "https://www.unnikrishnan.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 199,
    "pdfs": 0
@@ -298,14 +307,14 @@
   "artist-ganesh-kumaresh": {
    "url": "https://www.ganeshkumaresh.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://www.ganeshkumaresh.com/"
   },
   "artist-trichur-brothers": {
    "url": "https://www.trichurbrothers.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 1000,
    "pdfs": 0
@@ -313,24 +322,24 @@
   "artist-malladi-brothers": {
    "url": "https://www.malladibrothers.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "failed",
    "error": "HTTP 503, 23 characters of text"
   },
   "artist-nithyasree": {
    "url": "https://www.nithyasree.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "changed",
-   "chars": 3185,
+   "chars": 3170,
    "pdfs": 0,
-   "added": 37,
-   "removed": 37
+   "added": 33,
+   "removed": 33
   },
   "artist-bharat-sundar": {
    "url": "https://www.bharatsundar.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 1131,
    "pdfs": 0
@@ -338,7 +347,7 @@
   "artist-gayathri-venkataraghavan": {
    "url": "https://www.gayathrivenkataraghavan.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 384,
    "pdfs": 0
@@ -346,7 +355,7 @@
   "artist-mysore-manjunath": {
    "url": "https://www.mysoremanjunath.com/",
    "kind": "artist",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
    "result": "ok",
    "chars": 349,
    "pdfs": 0
@@ -354,73 +363,142 @@
   "mylapore-times-season-2026-tag": {
    "url": "https://www.mylaporetimes.com/tag/december-season-2026",
    "kind": "news",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
-   "chars": 5068,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 5121,
+   "pdfs": 0,
+   "added": 11,
+   "removed": 11
   },
   "mylapore-times-kartik-fine-arts": {
    "url": "https://www.mylaporetimes.com/tag/kartik-fine-arts/",
    "kind": "news",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
-   "chars": 8439,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 8492,
+   "pdfs": 0,
+   "added": 8,
+   "removed": 8
   },
   "mylapore-times-narada-gana-sabha": {
    "url": "https://www.mylaporetimes.com/tag/narada-gana-sabha",
    "kind": "news",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
-   "chars": 8489,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 8542,
+   "pdfs": 0,
+   "added": 8,
+   "removed": 8
   },
   "mylapore-times-sabha-schedules": {
    "url": "https://season.mylaporetimes.com/sabha-schedule/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
+   "checked": "2026-10-16T17:57Z",
+   "result": "ok",
    "chars": 15550,
    "pdfs": 4
   },
   "vani-mahal-events": {
    "url": "https://www.vanimahal.com/events.php",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
-   "chars": 2646,
-   "pdfs": 1
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 2465,
+   "pdfs": 1,
+   "added": 0,
+   "removed": 8
   },
   "rasika-ranjani-sabha-events": {
    "url": "https://rrsabha.org/cevent.html",
    "kind": "sabha",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
+   "checked": "2026-10-16T17:57Z",
+   "result": "ok",
    "chars": 5421,
    "pdfs": 0
   },
   "ragarasa-music-academy-2026": {
    "url": "https://ragarasa.in/events/100th-annual-concerts-2026",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
-   "chars": 4941,
-   "pdfs": 0
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 4828,
+   "pdfs": 0,
+   "added": 3,
+   "removed": 9
   },
   "chennaicentral-events": {
    "url": "https://chennaicentral.in/events/",
    "kind": "aggregator",
-   "checked": "2026-10-15T17:58Z",
-   "result": "new",
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
    "chars": 3950,
-   "pdfs": 0
+   "pdfs": 0,
+   "added": 1,
+   "removed": 1
   },
   "mdnd-carnatic-chennai": {
    "url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
    "kind": "ticketing",
-   "checked": "2026-10-15T17:58Z",
+   "checked": "2026-10-16T17:57Z",
+   "result": "changed",
+   "chars": 9062,
+   "pdfs": 0,
+   "added": 21,
+   "removed": 33
+  },
+  "krishna-gana-sabha-mm2026-pdf": {
+   "url": "https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf",
+   "kind": "sabha",
+   "checked": "2026-10-16T17:57Z",
    "result": "new",
-   "chars": 9409,
+   "chars": 10863,
+   "pdfs": 1
+  },
+  "krishna-gana-sabha-com": {
+   "url": "https://krishnaganasabha.com/",
+   "kind": "sabha",
+   "checked": "2026-10-16T17:57Z",
+   "result": "failed",
+   "error": "HTTP 200, 7 characters of text"
+  },
+  "krishna-gana-sabha-tikkl": {
+   "url": "https://tikkl.com/krishnaganasabha/c/d6ccf06f/?section=overview",
+   "kind": "ticketing",
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 2349,
+   "pdfs": 0
+  },
+  "charsur-dvayam-2026": {
+   "url": "https://www.indian-heritage.org/musicseason/2627/charsur1.html",
+   "kind": "aggregator",
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 473,
+   "pdfs": 0
+  },
+  "kalakshetra-events": {
+   "url": "https://kalakshetra.in/others/programs-events/",
+   "kind": "sabha",
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 102960,
+   "pdfs": 4
+  },
+  "mdnd-kalakshetra-2026": {
+   "url": "https://mdnd.in/SeasonTickets/OrganizerLandingPage?ci=101&r_id=2420",
+   "kind": "ticketing",
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 1982,
+   "pdfs": 0
+  },
+  "ticket9-sanjay-sabha-live": {
+   "url": "https://www.theticket9.com/event/sanjay-sabha-live-chennai-dec-24",
+   "kind": "ticketing",
+   "checked": "2026-10-16T17:57Z",
+   "result": "new",
+   "chars": 2824,
    "pdfs": 0
   }
  }
