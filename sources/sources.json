@@ -318,6 +318,16 @@
    "slug": "ticket9-sanjay-sabha-live",
    "kind": "ticketing",
    "url": "https://www.theticket9.com/event/sanjay-sabha-live-chennai-dec-24"
+  },
+  {
+   "slug": "mylapore-times-bharat-sangeet-utsav",
+   "kind": "news",
+   "url": "https://www.mylaporetimes.com/tag/bharat-sangeet-utsav"
+  },
+  {
+   "slug": "artist-sikkil-gurucharan",
+   "kind": "artist",
+   "url": "https://sikkil.com/newsandschedule/"
   }
  ],
  "_blocked_note": "BookMyShow, District, Bandsintown and chennaidecemberseason.com refuse automated visits (403/429); the research job checks them by web search instead."
