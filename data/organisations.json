@@ -412,12 +412,12 @@
  {
   "name": "Charsur Arts Foundation",
   "group": "Festival / arts organisation",
-  "status": "Dates announced",
+  "status": "Schedule published",
   "area": "Teynampet",
   "venue": "My Bungalow, 40 Eldams Road",
   "festival_2026": "DVAYAM – Sounds of Duality · 15–31 Dec 2026",
-  "note": "Daily 4–8.30 pm. Artist list not yet published.",
-  "url": "https://www.indian-heritage.org/musicseason/2627/charsur1.html"
+  "note": "Two concerts daily, 4 pm and 6.30 pm (plus some 10 am slots); programme for 15–30 Dec listed on MDnD, 31 Dec not yet listed. Lecture-demonstrations not included.",
+  "url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic"
  },
  {
   "name": "Chennai Fine Arts",
@@ -618,6 +618,26 @@
   "festival_2026": "",
   "note": "Runs the TAPAS Music and Dance Festival.",
   "url": ""
+ },
+ {
+  "name": "Kalakshetra Foundation",
+  "group": "Festival / arts organisation",
+  "status": "Schedule published",
+  "area": "Thiruvanmiyur",
+  "venue": "Kalakshetra Foundation campus",
+  "festival_2026": "73rd Annual Art Festival · 18–27 Dec 2026",
+  "note": "Mostly dance-dramas; two Carnatic vocal concerts (20 and 27 Dec, 6 pm). Season tickets on MDnD.",
+  "url": "https://kalakshetra.in/others/programs-events/"
+ },
+ {
+  "name": "Live4You",
+  "group": "Festival / arts organisation",
+  "status": "Dates announced",
+  "area": "",
+  "venue": "",
+  "festival_2026": "",
+  "note": "Presents ticketed concerts listed on MDnD (29 & 30 Dec, 2 & 3 Jan, 6.30 pm); venue not yet published.",
+  "url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic"
  },
  {
   "name": "Mudhra",

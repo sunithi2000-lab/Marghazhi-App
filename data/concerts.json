@@ -1,5 +1,36 @@
 [
  {
+  "id": "as-2026-11-16-1800-nravikiran",
+  "date": "2026-11-16",
+  "start": "18:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "N. Ravikiran & Aditya Mohan",
+  "main_instrument": "Chitravina",
+  "concert_type": "Instrumental duet",
+  "performers": [
+   {
+    "name": "N. Ravikiran",
+    "instrument": "Chitravina",
+    "role": "main"
+   },
+   {
+    "name": "Aditya Mohan",
+    "instrument": "Not stated",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Organiser not stated",
+  "festival": "—",
+  "venue": "Not stated",
+  "area": "Not stated",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Listed as \"Chitravina N Ravikiran and Aditya Mohan - A fundraiser Concert\" in MDnD's Chennai Carnatic listing; venue and organiser not yet published.",
+  "fetched": "2026-10-12"
+ },
+ {
   "id": "as-2026-12-01-1830-shashanksu",
   "date": "2026-12-01",
   "start": "18:30",
@@ -510,6 +541,32 @@
   "source_label": "Organiser's schedule"
  },
  {
+  "id": "ch-2026-12-15-1600",
+  "date": "2026-12-15",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Mambalam S. Santhanam",
+  "main_instrument": "Not stated",
+  "concert_type": "Not stated",
+  "performers": [
+   {
+    "name": "Mambalam S. Santhanam",
+    "instrument": "Not stated",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-15-1600",
   "date": "2026-12-15",
   "start": "16:00",
@@ -585,6 +642,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-15-1830",
+  "date": "2026-12-15",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Malladi Suribabu",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Malladi Suribabu",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-15-1900",
@@ -823,6 +906,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-16-1600",
+  "date": "2026-12-16",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "K.P. Nandini",
+  "main_instrument": "Not stated",
+  "concert_type": "Not stated",
+  "performers": [
+   {
+    "name": "K.P. Nandini",
+    "instrument": "Not stated",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-16-1600",
   "date": "2026-12-16",
   "start": "16:00",
@@ -898,6 +1007,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-16-1830",
+  "date": "2026-12-16",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sikkil Gurucharan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sikkil Gurucharan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-16-1845",
@@ -1095,6 +1230,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-17-1600",
+  "date": "2026-12-17",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Vidya Kalyanaraman",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Vidya Kalyanaraman",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-17-1600",
   "date": "2026-12-17",
   "start": "16:00",
@@ -1180,6 +1341,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-17-1830",
+  "date": "2026-12-17",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Rithvik Raja",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Rithvik Raja",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-17-1845",
@@ -1413,6 +1600,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-18-1600",
+  "date": "2026-12-18",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "D.B. Ashvin",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "D.B. Ashvin",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-18-1600",
   "date": "2026-12-18",
   "start": "16:00",
@@ -1519,6 +1732,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-18-1830",
+  "date": "2026-12-18",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "R.K. Shriramkumar",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "R.K. Shriramkumar",
+    "instrument": "Violin",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Violin solo.",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-18-1845",
@@ -1757,6 +1996,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-19-1600",
+  "date": "2026-12-19",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Anahita & Apoorva",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Anahita & Apoorva",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-19-1600",
   "date": "2026-12-19",
   "start": "16:00",
@@ -1863,6 +2128,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-19-1830",
+  "date": "2026-12-19",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "K. Bharat Sundar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "K. Bharat Sundar",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-19-1845",
@@ -2112,6 +2403,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-20-1600",
+  "date": "2026-12-20",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Dr. Baby Sreeram",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Dr. Baby Sreeram",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-20-1600",
   "date": "2026-12-20",
   "start": "16:00",
@@ -2192,6 +2509,58 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "as-2026-12-20-1800-sandeepnar",
+  "date": "2026-12-20",
+  "start": "18:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sandeep Narayan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sandeep Narayan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Kalakshetra Foundation",
+  "festival": "73rd Annual Art Festival",
+  "venue": "Kalakshetra Foundation, Thiruvanmiyur",
+  "area": "Thiruvanmiyur",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Part of Kalakshetra's 73rd Annual Art Festival (18–27 Dec); the listing names no hall — the festival is held on the Kalakshetra campus.",
+  "fetched": "2026-10-12"
+ },
+ {
+  "id": "ch-2026-12-20-1830",
+  "date": "2026-12-20",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "J.B. Sruthi Sagar",
+  "main_instrument": "Flute",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "J.B. Sruthi Sagar",
+    "instrument": "Flute",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "as-2026-12-20-1830-shashanksu",
@@ -2461,6 +2830,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-21-1600",
+  "date": "2026-12-21",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Aravind Soundararajan",
+  "main_instrument": "Not stated",
+  "concert_type": "Not stated",
+  "performers": [
+   {
+    "name": "Aravind Soundararajan",
+    "instrument": "Not stated",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "ma-2026-12-21-1600",
   "date": "2026-12-21",
   "start": "16:00",
@@ -2526,6 +2921,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-21-1830",
+  "date": "2026-12-21",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "K.S. Vishnudev",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "K.S. Vishnudev",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-21-1845",
@@ -2759,6 +3180,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-22-1600",
+  "date": "2026-12-22",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "S. Adithyanarayanan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "S. Adithyanarayanan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-22-1600",
   "date": "2026-12-22",
   "start": "16:00",
@@ -2839,6 +3286,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-22-1830",
+  "date": "2026-12-22",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sriranjani Tapasya Santhanagopalan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sriranjani Tapasya Santhanagopalan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-22-1845",
@@ -3077,6 +3550,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-23-1600",
+  "date": "2026-12-23",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Kruthi Vittal",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Kruthi Vittal",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-23-1600",
   "date": "2026-12-23",
   "start": "16:00",
@@ -3152,6 +3651,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-23-1830",
+  "date": "2026-12-23",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "K. Gayatri",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "K. Gayatri",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-23-1845",
@@ -3385,6 +3910,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-24-1600",
+  "date": "2026-12-24",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "N.J. Nandini",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "N.J. Nandini",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-24-1600",
   "date": "2026-12-24",
   "start": "16:00",
@@ -3465,6 +4016,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-24-1830",
+  "date": "2026-12-24",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Amritha Murali",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Amritha Murali",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "as-2026-12-24-1830-sanjaysubr",
@@ -3568,6 +4145,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-25-1000",
+  "date": "2026-12-25",
+  "start": "10:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "Seetha Narayanan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Seetha Narayanan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "skgs-2026-12-25-1000",
@@ -3740,6 +4343,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-25-1600",
+  "date": "2026-12-25",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "J.A. Jayant",
+  "main_instrument": "Flute",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "J.A. Jayant",
+    "instrument": "Flute",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Flute solo.",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-25-1600",
   "date": "2026-12-25",
   "start": "16:00",
@@ -3820,6 +4449,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-25-1830",
+  "date": "2026-12-25",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Amrutha Venkatesh",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Amrutha Venkatesh",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "as-2026-12-25-1830-sanjaysubr",
@@ -3923,6 +4578,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-26-1000",
+  "date": "2026-12-26",
+  "start": "10:00",
+  "end": "",
+  "slot": "Morning",
+  "main_artist": "K. Arun Prakash",
+  "main_instrument": "Ensemble",
+  "concert_type": "Instrumental ensemble",
+  "performers": [
+   {
+    "name": "K. Arun Prakash",
+    "instrument": "Ensemble",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Listed as \"K Arun Prakash - Ensemble\".",
+  "fetched": "2026-10-18"
  },
  {
   "id": "bk-2026-12-26-1030-rajeshvaid",
@@ -4064,6 +4745,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-26-1600",
+  "date": "2026-12-26",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Vittal Rangan",
+  "main_instrument": "Violin",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "Vittal Rangan",
+    "instrument": "Violin",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-26-1600",
   "date": "2026-12-26",
   "start": "16:00",
@@ -4165,6 +4872,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-26-1830",
+  "date": "2026-12-26",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Kunnakudi M. Balamuralikrishna",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Kunnakudi M. Balamuralikrishna",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-26-1845",
@@ -4399,6 +5132,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-27-1600",
+  "date": "2026-12-27",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Vignesh Ishwar",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Vignesh Ishwar",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-27-1600",
   "date": "2026-12-27",
   "start": "16:00",
@@ -4505,6 +5264,58 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "as-2026-12-27-1800-ranjanigay",
+  "date": "2026-12-27",
+  "start": "18:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ranjani & Gayatri",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Ranjani & Gayatri",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Kalakshetra Foundation",
+  "festival": "73rd Annual Art Festival",
+  "venue": "Kalakshetra Foundation, Thiruvanmiyur",
+  "area": "Thiruvanmiyur",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Part of Kalakshetra's 73rd Annual Art Festival (18–27 Dec); the listing names no hall — the festival is held on the Kalakshetra campus.",
+  "fetched": "2026-10-12"
+ },
+ {
+  "id": "ch-2026-12-27-1830",
+  "date": "2026-12-27",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Abhishek Raghuram",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Abhishek Raghuram",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "ma-2026-12-27-1845",
@@ -4697,6 +5508,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-28-1600",
+  "date": "2026-12-28",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Nisha Rajagopalan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Nisha Rajagopalan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-28-1600",
   "date": "2026-12-28",
   "start": "16:00",
@@ -4803,6 +5640,32 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-28-1830",
+  "date": "2026-12-28",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ramana Balachandhran",
+  "main_instrument": "Veena",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "Ramana Balachandhran",
+    "instrument": "Veena",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
  },
  {
   "id": "as-2026-12-28-1830-sanjaysubr",
@@ -5140,6 +6003,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-29-1600",
+  "date": "2026-12-29",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ashwath Narayanan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Ashwath Narayanan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-29-1600",
   "date": "2026-12-29",
   "start": "16:00",
@@ -5220,6 +6109,58 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-29-1830",
+  "date": "2026-12-29",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Dr. Jayanthi Kumaresh",
+  "main_instrument": "Veena",
+  "concert_type": "Instrumental",
+  "performers": [
+   {
+    "name": "Dr. Jayanthi Kumaresh",
+    "instrument": "Veena",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
+  "id": "as-2026-12-29-1830-ramakrishn",
+  "date": "2026-12-29",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ramakrishnan Murthy",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Ramakrishnan Murthy",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Live4You",
+  "festival": "—",
+  "venue": "Not stated",
+  "area": "Not stated",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Presented by Live4You (MDnD listing); venue not yet published.",
+  "fetched": "2026-10-12"
  },
  {
   "id": "ma-2026-12-29-1845",
@@ -5500,6 +6441,32 @@
   "note": ""
  },
  {
+  "id": "ch-2026-12-30-1600",
+  "date": "2026-12-30",
+  "start": "16:00",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Akkarai Sisters",
+  "main_instrument": "Not stated",
+  "concert_type": "Not stated",
+  "performers": [
+   {
+    "name": "Akkarai Sisters",
+    "instrument": "Not stated",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
   "id": "skgs-2026-12-30-1600",
   "date": "2026-12-30",
   "start": "16:00",
@@ -5575,6 +6542,58 @@
   "fetched": "2026-10-12",
   "source_label": "Organiser's schedule",
   "note": ""
+ },
+ {
+  "id": "ch-2026-12-30-1830",
+  "date": "2026-12-30",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ramakrishnan Murthy",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Ramakrishnan Murthy",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Charsur Arts Foundation",
+  "festival": "DVAYAM – Sounds of Duality (December Season Music Festival 2026)",
+  "venue": "My Bungalow, 40 Eldams Road, Teynampet, Chennai 600018",
+  "area": "Teynampet",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "",
+  "fetched": "2026-10-18"
+ },
+ {
+  "id": "as-2026-12-30-1830-trichurbro",
+  "date": "2026-12-30",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Trichur Brothers",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Trichur Brothers",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Live4You",
+  "festival": "—",
+  "venue": "Not stated",
+  "area": "Not stated",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Presented by Live4You (MDnD listing); venue not yet published.",
+  "fetched": "2026-10-12"
  },
  {
   "id": "ma-2026-12-30-1845",
@@ -6339,6 +7358,32 @@
   "note": ""
  },
  {
+  "id": "as-2027-01-02-1830-ranjanigay",
+  "date": "2027-01-02",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Ranjani & Gayatri",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal duet",
+  "performers": [
+   {
+    "name": "Ranjani & Gayatri",
+    "instrument": "Vocal Duet",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Live4You",
+  "festival": "—",
+  "venue": "Not stated",
+  "area": "Not stated",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Presented by Live4You (MDnD listing); venue not yet published.",
+  "fetched": "2026-10-12"
+ },
+ {
   "id": "bk-2027-01-03-1030-shishirkum",
   "date": "2027-01-03",
   "start": "10:30",
@@ -6455,6 +7500,32 @@
   "source_url": "https://www.bandsintown.com/e/108804725-s.-j.-jananiy-at-panigraha",
   "source_label": "Bandsintown artist listing",
   "note": "Venue taken from the listing link; listed as a WBWA 13th anniversary celebration with award ceremony and Carnatic concert; organiser not named.",
+  "fetched": "2026-10-12"
+ },
+ {
+  "id": "as-2027-01-03-1830-sandeepnar",
+  "date": "2027-01-03",
+  "start": "18:30",
+  "end": "",
+  "slot": "Evening",
+  "main_artist": "Sandeep Narayan",
+  "main_instrument": "Vocal",
+  "concert_type": "Vocal",
+  "performers": [
+   {
+    "name": "Sandeep Narayan",
+    "instrument": "Vocal",
+    "role": "main"
+   }
+  ],
+  "entry": "Ticketed",
+  "organisation": "Live4You",
+  "festival": "—",
+  "venue": "Not stated",
+  "area": "Not stated",
+  "source_url": "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic",
+  "source_label": "MDnD listing",
+  "note": "Presented by Live4You (MDnD listing); venue not yet published.",
   "fetched": "2026-10-12"
  },
  {

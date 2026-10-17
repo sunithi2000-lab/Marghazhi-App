@@ -65,9 +65,9 @@ ORGS = [
     ("Sat Sangam Sabha", OTHER, AW, "Madipakkam", "", "", "", ""),
     ("Chennai Cultural Academy Trust", OTHER, AW, "", "", "", "", ""),
     ("Naada Inbam", FEST, AW, "Mylapore", "Ragasudha Hall, Luz Avenue", "", "", ""),
-    ("Charsur Arts Foundation", FEST, ANN, "Teynampet", "My Bungalow, 40 Eldams Road",
-     "DVAYAM – Sounds of Duality · 15–31 Dec 2026", "Daily 4–8.30 pm. Artist list not yet published.",
-     "https://www.indian-heritage.org/musicseason/2627/charsur1.html"),
+    ("Charsur Arts Foundation", FEST, PUB, "Teynampet", "My Bungalow, 40 Eldams Road",
+     "DVAYAM – Sounds of Duality · 15–31 Dec 2026", "Two concerts daily, 4 pm and 6.30 pm (plus some 10 am slots); programme for 15–30 Dec listed on MDnD, 31 Dec not yet listed. Lecture-demonstrations not included.",
+     "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic"),
     ("Chennai Fine Arts", FEST, AW, "", "", "", "", ""),
     ("Madhuradhwani", FEST, AW, "Mylapore", "Arkay Convention Centre", "", "ACC Anniversary festival.", ""),
     ("Sunaadalahari", FEST, AW, "Abhiramapuram", "Indira Ranganathan Trust, 52 C.P. Ramaswamy Road", "", "Garden-setting concerts.", ""),
@@ -88,6 +88,12 @@ ORGS = [
     ("Medai The Stage", FEST, AW, "Alwarpet", "1st Cross St, Co-operative Colony", "", "", ""),
     ("Triplicane Music Festival", FEST, AW, "Triplicane", "NKT Muthu Hall", "", "Organiser name not found; listed under the festival name.", ""),
     ("TAPAS", FEST, AW, "", "", "", "Runs the TAPAS Music and Dance Festival.", ""),
+    ("Kalakshetra Foundation", FEST, PUB, "Thiruvanmiyur", "Kalakshetra Foundation campus",
+     "73rd Annual Art Festival · 18–27 Dec 2026", "Mostly dance-dramas; two Carnatic vocal concerts (20 and 27 Dec, 6 pm). Season tickets on MDnD.",
+     "https://kalakshetra.in/others/programs-events/"),
+    ("Live4You", FEST, ANN, "", "", "",
+     "Presents ticketed concerts listed on MDnD (29 & 30 Dec, 2 & 3 Jan, 6.30 pm); venue not yet published.",
+     "https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic"),
 ]
 
 PART = "Some dates via artists' websites"

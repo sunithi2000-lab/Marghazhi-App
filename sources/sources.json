@@ -328,6 +328,11 @@
    "slug": "artist-sikkil-gurucharan",
    "kind": "artist",
    "url": "https://sikkil.com/newsandschedule/"
+  },
+  {
+   "slug": "charsur-passes",
+   "kind": "sabha",
+   "url": "https://charsurartsfoundation.org/passes/"
   }
  ],
  "_blocked_note": "BookMyShow, District, Bandsintown and chennaidecemberseason.com refuse automated visits (403/429); the research job checks them by web search instead."

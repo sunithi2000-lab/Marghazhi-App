@@ -1,0 +1,43 @@
+# Source: MDnD Chennai Carnatic listing https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic
+#   (watcher snapshot mdnd-carnatic-chennai, fetched 2026-10-17 17:51Z; all entries "Ticketed | Offline")
+# Charsur Arts Foundation, December Season Music Festival 2026 "DVAYAM – Sounds of Duality", 15–31 Dec 2026, 4–8.30 pm,
+#   My Bungalow, 40 Eldams Road, Teynampet (venue from the Charsur listing on indian-heritage.org).
+# Each MDnD entry lists two concerts: "4.00 PM | artist | 6.30 PM | artist". No accompanists or end times printed.
+# Excluded: lecture-demonstrations (R.K. Shriramkumar 20 Dec 10 am, Madhusudhanan Kalaichelvan 27 Dec 10 am). 31 Dec not yet listed.
+# Instrument "Not stated" where the listing does not say and it is not certain from the artist's other 2026-27 listings.
+# Weekdays checked: 15 Dec 2026 = Tue, 30 Dec 2026 = Wed.
+# date|start|entry|artist|instrument|note
+2026-12-15|16:00|Ticketed|Mambalam S. Santhanam|Not stated|
+2026-12-15|18:30|Ticketed|Malladi Suribabu|Vocal|
+2026-12-16|16:00|Ticketed|K.P. Nandini|Not stated|
+2026-12-16|18:30|Ticketed|Sikkil Gurucharan|Vocal|
+2026-12-17|16:00|Ticketed|Vidya Kalyanaraman|Vocal|
+2026-12-17|18:30|Ticketed|Rithvik Raja|Vocal|
+2026-12-18|16:00|Ticketed|D.B. Ashvin|Vocal|
+2026-12-18|18:30|Ticketed|R.K. Shriramkumar|Violin|Violin solo.
+2026-12-19|16:00|Ticketed|Anahita & Apoorva|Vocal Duet|
+2026-12-19|18:30|Ticketed|K. Bharat Sundar|Vocal|
+2026-12-20|16:00|Ticketed|Dr. Baby Sreeram|Vocal|
+2026-12-20|18:30|Ticketed|J.B. Sruthi Sagar|Flute|
+2026-12-21|16:00|Ticketed|Aravind Soundararajan|Not stated|
+2026-12-21|18:30|Ticketed|K.S. Vishnudev|Vocal|
+2026-12-22|16:00|Ticketed|S. Adithyanarayanan|Vocal|
+2026-12-22|18:30|Ticketed|Sriranjani Tapasya Santhanagopalan|Vocal|
+2026-12-23|16:00|Ticketed|Kruthi Vittal|Vocal|
+2026-12-23|18:30|Ticketed|K. Gayatri|Vocal|
+2026-12-24|16:00|Ticketed|N.J. Nandini|Vocal|
+2026-12-24|18:30|Ticketed|Amritha Murali|Vocal|
+2026-12-25|10:00|Ticketed|Seetha Narayanan|Vocal|
+2026-12-25|16:00|Ticketed|J.A. Jayant|Flute|Flute solo.
+2026-12-25|18:30|Ticketed|Amrutha Venkatesh|Vocal|
+2026-12-26|10:00|Ticketed|K. Arun Prakash|Ensemble|Listed as "K Arun Prakash - Ensemble".
+2026-12-26|16:00|Ticketed|Vittal Rangan|Violin|
+2026-12-26|18:30|Ticketed|Kunnakudi M. Balamuralikrishna|Vocal|
+2026-12-27|16:00|Ticketed|Vignesh Ishwar|Vocal|
+2026-12-27|18:30|Ticketed|Abhishek Raghuram|Vocal|
+2026-12-28|16:00|Ticketed|Nisha Rajagopalan|Vocal|
+2026-12-28|18:30|Ticketed|Ramana Balachandhran|Veena|
+2026-12-29|16:00|Ticketed|Ashwath Narayanan|Vocal|
+2026-12-29|18:30|Ticketed|Dr. Jayanthi Kumaresh|Veena|
+2026-12-30|16:00|Ticketed|Akkarai Sisters|Not stated|
+2026-12-30|18:30|Ticketed|Ramakrishnan Murthy|Vocal|
