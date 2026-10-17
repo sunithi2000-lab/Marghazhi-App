@@ -1,6 +1,6 @@
-# Source watcher — 2026-10-16 17:57 UTC
+# Source watcher — 2026-10-17 17:51 UTC
 
-59 sources checked: 19 changed, 8 new, 10 failed, 22 unchanged.
+61 sources checked: 16 changed, 2 new, 12 failed, 31 unchanged.
 Full page text for every source: `sources/text/<slug>.txt` (https://kutcheri-dec.netlify.app/sources/text/<slug>.txt).
 Lines marked **[season]** mention 2026/2027, December, Margazhi, season, kutcheri or concert.
 
@@ -9,490 +9,447 @@ Lines marked **[season]** mention 2026/2027, December, Margazhi, season, kutcher
 ### vani-mahal (sabha) — https://www.vanimahal.com/
 0 line(s) added, 8 removed. Full text: sources/text/vani-mahal.txt
 
-- − 15-10-2026
+- − 16-10-2026
 - − NAVARATHRI FESTIVAL -2026
-- − 6.30PM AT VANI MAHAL
+- − 6.30 PM AT VANI MAHAL
 - − VOCAL CONCERT by
-- − Ms. Archana & Ms.Samanvi,
-- − Ms.Sreelakshmi S Bhat(Violin),
-- − Sri Hariharan Sundarraman(Mrud.)
+- − Sri S.M.Vilasini,
+- − Sri Pappu Gyandev(Violin),
+- − Sri Burra Sriram(Mrud.)
 - − ALL ARE WELCOME
 
-### rasika-ranjani-sabha (sabha) — https://rrsabha.org/
-7 line(s) added, 0 removed. Full text: sources/text/rasika-ranjani-sabha.txt
-
-- + We've got awesome
-- + programs
-- + schedules for you, every month . . .
-- + Music, Dance,
-- + Drama and Discussions...
-- + Download Program Schedule
-- + ×
-
 ### mylapore-times-arts (news) — https://www.mylaporetimes.com/category/arts/
-8 line(s) added, 8 removed. Full text: sources/text/mylapore-times-arts.txt
+18 line(s) added, 18 removed. Full text: sources/text/mylapore-times-arts.txt
 
-- + Friday, October 16, 2026 **[season]**
-- + Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
-- + Friday, October 16, 2026 **[season]**
-- + Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
-- + Friday, October 16, 2026 **[season]**
-- + Civic (1,968)
-- + Politics (509)
-- + Ward Councillors (33)
-- − Thursday, October 15, 2026
-- − Wednesday, October 14, 2026
-- − Free breakfast for economically poor students. Vivekananda College launches service
-- − Wednesday, October 14, 2026
-- − Best music-dance sequences of Tamil films in 1950s; themed screening on Oct.18
-- − Civic (1,966)
-- − Politics (508)
-- − Ward Councillors (32)
-
-### indian-heritage-season (aggregator) — https://www.indian-heritage.org/musicseason/sch.html
-1443 line(s) added, 0 removed. Full text: sources/text/indian-heritage-season.txt
-
-- + ===== PDF: https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf ===== **[season]**
-- + 70
-- + th
-- + Margazhi **[season]**
-- + Mela
-- + DR.
-- + NALLI
-- + GANA
-- + VIHAR
-- + CONCERTS **[season]**
-- + Saturday
-- + 12.12.26
-- + 5
-- + pm
-- + Inauguration
-- + of
-- + 70
-- + TH
-- + Margazhi **[season]**
-- + Mela
-- + ‘Sangeetha
-- + Choodamani’
-- + to
-- + be
-- + conferred
-- + upon
-- + Vidwan
-- + Tiruvarur
-- + Vaidyanathan
-- + ‘Nritya
-- + Choodamani’
-- + to
-- + be
-- + conferred
-- + upon
-- + Vidushi
-- + Indira
-- + Kadambi
-- + 7
-- + pm
-- … 1403 more added lines
+- + Saturday, October 17, 2026 **[season]**
+- + Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23 **[season]**
+- + Saturday, October 17, 2026 - by Team MyTimes - Leave a Comment **[season]**
+- + Rasika Ranjani Sabha Foundation will confer its annual awards for 2026 on a select group of personalities who have made significant contributions to Indian music, dance, tradition and to the … **[season]**
+- + READ MORE
+- + ARTS / EVENTS
+- + Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23 **[season]**
+- + Saturday, October 17, 2026 **[season]**
+- + At this church’s Thanksgiving Day, fun games and food sales after prayers made the event memorable
+- + Saturday, October 17, 2026 **[season]**
+- + Indoor games for seniors. Fun and free
+- + Saturday, October 17, 2026 **[season]**
+- + Nageswara Rao Park: GCC senior engineer says steps taken to address water stagnation during monsoon, 28 plant varieties included in landscaping
+- + Saturday, October 17, 2026 **[season]**
+- + Arts (3,476)
+- + Civic (1,969)
+- + Events (3,426)
+- + Religious (2,519)
+- − Friday, October 16, 2026
+- − READ MORE
+- − ARTS / EVENTS
+- − Saraswathi Puraskaram award for Singapore-based Aravinth Kumarasamy. Event on Sept.19 in Alwarpet
+- − Wednesday, September 16, 2026 - by Team MyTimes
+- − The C. P. Ramaswamy Aiyar Foundation will present the Saraswathi Puraskaram for 2026 to Aravinth Kumarasamy, the artistic director, Apsaras Dance Company, Singapore. The annual award recognises a person who …
+- − Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
+- − Friday, October 16, 2026
+- − Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
+- − Friday, October 16, 2026
 
 ### icarnatic (aggregator) — https://www.icarnatic.org/
 1 line(s) added, 1 removed. Full text: sources/text/icarnatic.txt
 
-- + Friday October 16. 2026 **[season]**
-- − Thursday October 15. 2026
+- + Saturday October 17. 2026 **[season]**
+- − Friday October 16. 2026
 
 ### ragarasa (aggregator) — https://ragarasa.in/
-8 line(s) added, 8 removed. Full text: sources/text/ragarasa.txt
+10 line(s) added, 9 removed. Full text: sources/text/ragarasa.txt
 
-- + Classical Dance
 - + Carnatic Instrumental
-- + View Details
-- + Carnatic Instrumental
-- + Veena Concert – Vid. Vani Yadunandan **[season]**
-- + Vidhushi Smt. Vani Yadunandan
+- + VEENE concert **[season]**
+- + B.K. Anantha Ram
 - + Sun, 18 Oct 2026 · 5:00 PM **[season]**
-- + Balamohan Vidya Mandira, Bengaluru, Karnataka
-- − Carnatic Devotional Music
-- − Classical Dance
+- + Venue
+- + Indian Classical
+- + Raga Samvada , A Musical Dialogue
+- + Rajhesh Vaidhya
+- + Thu, 22 Oct 2026 · 6:30 PM **[season]**
+- + Chowdiah Memorial Hall, Bengaluru, Karnataka
+- − Indian Classical
+- − Beyond the Raga - Sarod Mystics
+- − Sat, 17 Oct 2026 · 6:30 PM
+- − Sabha Blr, Bengaluru, Karnataka
 - − Carnatic Instrumental
-- − Carnatic Veena Concert
-- − Vidhushi Smt. Vani Yadunandan
-- − Fri, 16 Oct 2026 · 6:30 PM
+- − VEENE concert
+- − B.K. Anantha Ram
+- − Sun, 18 Oct 2026 · 5:00 PM
 - − Venue
-- − View Details
 
 ### chennaievent (aggregator) — https://www.chennaievent.com/
-48 line(s) added, 56 removed. Full text: sources/text/chennaievent.txt
+93 line(s) added, 41 removed. Full text: sources/text/chennaievent.txt
 
-- + 27635
-- + Friday, October 16, 2026 **[season]**
-- + T. V. S. Mahadevan
-- + Sharada Narayanan - Vocal
-- + @ Sringeri Bharathi Vidyashram
+- + 23897
+- + Saturday, October 17, 2026 **[season]**
+- + Devaraj Bandla. V
+- + @ Lalit Kala Academy
+- + 11:00 AM
+- + Madurai Mani Iyer Rasika Association
+- + @ P. S. High School - Vivekananda Hall
+- + 4:15 PM
+- + Free
+- + Mohan Santhanam
+- + @ Bharatiya Vidya Bhavan (Main Auditorium)
 - + 5:00 PM
 - + Free
-- + Sir Sivaswami Kalalaya Senior Secondary School
+- + Shivani Music Academy
 - + @ Mahalakshmi Temple & Kalyana Mandapa Association
 - + 5:00 PM
 - + Free
-- + Chaitraa Sairam
-- + M. Shrikanth
-- + @ TuneinOne Terrace
-- + Kruthi (Bhat) Vittal
-- + @ My Bungalow
-- + Dr. Praveena Thodge
-- + Maharajapuram S. Ganesh Viswanathan
-- + @ Sri Mahaperiyava Sharanalayam
-- + 6:15 PM
+- + Skanda Instrumental Music Band
+- + Velukkudi U.Ve. Ranganathan
+- + @ Adi kesava Peumal temple
+- + Shanthi Kala Nikketan
+- + @ Sri Ganapathi Sachchidananda Ashram Hall (A/c)
+- + 5:30 PM
+- + Shreya Devnath
+- + @ Arulmighu Prasanna Venkatesa Perumal Temple
+- + 5:45 PM
 - + Free
-- + Shruthi Shankarkumar
-- + @ Indira Ranganathan Trust
-- + 6:30 PM
+- + Vaishnavi Dhore
+- + @ Narada Gana Sabha - Swami Haridhos Giri - Mini Hall
+- + 6:00 PM
 - + Free
-- + Students - Sri Sai Nrithayalaya
+- + Ranjani Radha
+- + Sandeep Narayan
+- + @ Krishna Gana Sabha (Dr.Nalli GanaVihar)
+- + 6:00 PM
+- + Ticketed
+- + Ratnam Koothapiran
 - + @ Swamys School - Subbulakshmi Auditorium
-- + 6:30 PM
-- + Free
-- + Thiruvarur Girish
-- + @ Sri Kanchi Mahaperiyava Aalayam
-- + 6:30 PM
-- + Free
-- + Smt. S. M. Vilasini
+- + Maadhu Balaji
 - + @ Vani Mahal - Kanchi Jagadguru Sri Chandrasekarendra Saraswathi Mahaswami Auditorium
-- + 6:30 PM
-- + Free
-- + Jayashree Jayaramakrishnan
-- + Mudikondan S. N. Ramesh
-- + Bharathi Thirumagan
-- … 8 more added lines
-- − 34181
-- − Thursday, October 15, 2026
-- − U. Ve. T. A. Akkarakkani Srinidhi Swami
-- − @ Ramakrishna Mission Students Home
-- − 7:30 AM
-- − Free
-- − Dr. Gayathri Girish
-- − Dr. Lalitha Mohan Ranjith
-- − Savita Sreeram
-- − @ My Bungalow
+- … 53 more added lines
+- − 27635
+- − Friday, October 16, 2026
+- − T. V. S. Mahadevan
+- − @ VIRTUAL MEDIA - ONLINE
+- − 11:30 AM
+- − Sharada Narayanan - Vocal
+- − Sir Sivaswami Kalalaya Senior Secondary School
+- − @ Mahalakshmi Temple & Kalyana Mandapa Association
+- − Chaitraa Sairam
+- − @ Bharatiya Vidya Bhavan (Main Auditorium)
 
 ### the-hindu-friday-review (news) — https://www.thehindu.com/entertainment/music/
-40 line(s) added, 37 removed. Full text: sources/text/the-hindu-friday-review.txt
+34 line(s) added, 34 removed. Full text: sources/text/the-hindu-friday-review.txt
 
-- + Chennai 32°CWeather News
-- + What’s your favourite kolu song?
-- + T.R. SUDHA
-- + From the margins to the mainstream: Jodhpur RIFF’s folk music journey
-- + TEAM FRIDAY REVIEW
-- + Kazi Nazrul Islam: The forgotten voice of Durga puja and Bengal’s pluralism
-- + SHANTANU DATTA
-- + MUSIC
-- + Weverse Con Festival India lineup: Tomorrow X Together, Le Sserafim, Enhypen, and Lara Raj head to New Delhi
-- + Weverse Con Festival India will feature a mix of popular K-pop groups and international artistes who will perform in New Delhi on March 27 and 28 2027. Here are the details **[season]**
-- + S. POORVAJA
-- + Shah Rukh Khan announces music festival UNIFYD with Arijit Singh, Karan Aujla, and Sonu Nigam
-- + THE HINDU BUREAU
 - + Mahesh Tinaikar passes away: Who was the Indian rock music icon?
+- + THE HINDU BUREAU
 - + Pt. Arvind Parikh turns 99: The class of a guru
+- + MANJARI SINHA
+- + MUSIC
+- + Deva, veteran music composer’s funeral highlights | Final rites on October 18; T.N. government to accord State honours
+- + His mortal remains are kept at his residence in T. Nagar, Chennai, for fans and film personalities to pay their last respects until 1 p.m. on October 18
+- + THE HINDU BUREAU
+- + Indian and Latin American sounds find a meeting point in ‘Muévete’
+- + ARUNDHUTI BANERJEE
+- + Weverse Con Festival India lineup: Tomorrow X Together, Le Sserafim, Enhypen, and Lara Raj head to New Delhi
+- + Shah Rukh Khan announces music festival UNIFYD with Arijit Singh, Karan Aujla, and Sonu Nigam
 - + Most Popular
-- + Kharge urges PM to consult all parties before fresh delimitation move
-- + CM Vijay launches Tamil Nadu Semiconductor Ecosystem Scheme 2026 **[season]**
-- + Women trainee officers make a mark at National Police Academy
-- + More stories from Music
-- + Former IAS officer Divya Mittal announces new party, to contest 2027 Uttar Pradesh polls **[season]**
-- + Actor Imran Khan to move HC against notice asking him to leave country for taking part in protest
-- + What is Ankita Bhandari murder case? Timeline of events and ‘VIP’ angle explained
-- + Traders at Madurai vegetable market demand urgent infrastructure upgrade amid rains
-- + Supreme Court asks Bengal to allow MP Mahua Moitra to avail circuit house accommodation on a day’s notice
-- + ‘Nayyi Navelli’ movie review: Yami Gautam’s genre-neutral offering is high on decibels, low on charms
 - + ‘Ranabaali’ movie review: Vijay Deverakonda, Rashmika Mandanna anchor a history-rich but overstuffed Rayalaseema drama
-- + College student killed, another injured in head-on collision with tourist bus near Thiruvadanai
-- + DUK retains 4-star Institution’s Innovation Council rating
-- + Punjab being singled out on drug menace to defame Punjabis: Mann
-- + Police arrests youth for transferring abroad cybercrime funds via cryptocurrency
-- + Missing 15-year-old school student found dead in Kasaragod lodge
-- + TDP urges SEC to rein in YSRCP leaders inciting violence ahead of local body elections
-- + Thoothukudi Corporation holds talks on climate-resilient urban mobility
-- + Sugarcane farmers’ padayatra enters third day
-- + Youth arrested on charge of 18-year-old girl’s murder in Keralam’s Idukki district
-- + ‘Whalefall’ movie review: Austin Abrams is a fiercely modern Jonah in this whale of a tale
-- + COOKIE PREFERENCES
-- + By using this site, you agree with our use of cookies. Please see our privacy statement for more information.
-- + Accept Opt-out Please select your preference
-- − Chennai 27°CWeather News
-- − DANCE
+- + Food cooked days ago, frozen to be served again: inside Visakhapatnam’s restaurant kitchens
+- + Students, activists and citizens join ‘Lehra Do Tiranga’ march in Connaught Place
+- + More stories from Music
+- + Deva, the composer who took Chennai’s gaana to mainstream cinema, is no more
+- + Supreme Court agrees to list plea alleging Rahul Gandhi ‘pushed’ pregnant journalist during Oct. 12 march
+- + ‘Safe landing’ a revamped Tesla Roadster | Explained
+- + Vistadome coach set for Keralam debut on Madurai–Guruvayur Express
+- + Shooting at elementary school in Oregon leaves at least five dead
+- + Rediscover Satyajit Ray at this Durga Puja pandal in Nandanam
+- + Imran Khan asked to leave India: What rights do OCI cardholders have?
+- + Ranji Trophy: Gill, Prabhsimran boost for Punjab against Chhattisgarh
+- + Seven eyewitnesses testify in Abhimanyu murder trial
+- + Tirunelveli administration conducts drill to prepare for monsoon disasters
+- + Villagers oppose move to set up solar power plant by private player in Virudhunagar district
+- + In Delhi’s Titarpur, Ravana mirrors the politics of the day
+- + Odisha Vigilance seizes ₹21.88 lakh from engineer accused of collecting bribes
+- + Minister inspects monsoon preparedness in flood prone areas of Thoothukudi
+- + Peak load of power crosses 20K MW in Telangana, daily energy consumption yet to breach record
+- + Nearly one lakh devotees visit Kanaka Durga Temple on Day 7 of Dasara festivities
+- + ₹10 crore disbursed as subsidy for installation of 3 kW rooftop solar system in Puducherry
+- − MUSIC
+- − Weverse Con Festival India lineup: Tomorrow X Together, Le Sserafim, Enhypen, and Lara Raj head to New Delhi
+- − Weverse Con Festival India will feature a mix of popular K-pop groups and international artistes who will perform in New Delhi on March 27 and 28 2027. Here are the details
+- − S. POORVAJA
+- − Shah Rukh Khan announces music festival UNIFYD with Arijit Singh, Karan Aujla, and Sonu Nigam
+- − THE HINDU BUREAU
+- − Mahesh Tinaikar passes away: Who was the Indian rock music icon?
 - − Pt. Arvind Parikh turns 99: The class of a guru
-- − A senior disciple reflects on the maestro’s artistry, discipline and the lessons that continue to resonate.
-- − MANJARI SINHA
-- − What’s your favourite kolu song?
-- − T.R. SUDHA
-- − From the margins to the mainstream: Jodhpur RIFF’s folk music journey
-- − Kazi Nazrul Islam: The forgotten voice of Durga puja and Bengal’s pluralism
 - − Most Popular
-
-### artist-tm-krishna (artist) — https://www.tmkrishna.com/
-7 line(s) added, 6 removed. Full text: sources/text/artist-tm-krishna.txt
-
-- + Talk
-- + Anya and Andrew Shiva Gallery, New York City
-- + 15th October 2026 | 6 PM **[season]**
-- + Book Talk
-- + Asia Society and Museum, 725 Park Ave,
-- + New York
-- + 17th October 2026 **[season]**
-- − Symposium
-- − Harold Prince Theatre, Philadelphia
-- − 14th October 2026 | 5:00 PM
-- − Concert
-- − Harold Prince Theatre, Philadelphia
-- − 15th October 2026 | 7 PM
-
-### artist-jayanthi-kumaresh (artist) — https://jayanthikumaresh.com/schedule
-0 line(s) added, 8 removed. Full text: sources/text/artist-jayanthi-kumaresh.txt
-
-- − Date / Time : Oct 16, 2026 / 6:00 pm
-- − Venue :
-- − Strings Attached - Sringeri Shankar Math - Shankarapuram
-- − Sringeri Shankar Math - Shankarapuram
-- − Date / Time : Oct 17, 2026 / 6:15 pm
-- − Venue :
-- − Sri Adi Shankaracharya Janmabhoomi Kshetram Kalady
-- − Sharada Sharannavatari Mahothsavam 2026
-
-### artist-sudha-ragunathan (artist) — https://www.sudharagunathan.com/
-3 line(s) added, 2 removed. Full text: sources/text/artist-sudha-ragunathan.txt
-
-- + Padmabhushan awardee,
-- + Sangita Kalanidhi,
-- + Kalaimamani Sudha Ragunathan
-- − “In the world of voices,
-- − can you hear my song?”
+- − Kharge urges PM to consult all parties before fresh delimitation move
 
 ### artist-nithyasree (artist) — https://www.nithyasree.com/
-33 line(s) added, 33 removed. Full text: sources/text/artist-nithyasree.txt
+36 line(s) added, 36 removed. Full text: sources/text/artist-nithyasree.txt
 
-- + CNN
-- + Former Washington Post executive editor: The President ‘doesn’t actually believe in the first amendment’
+- + Chloe Kim joins 'The Traitors' season 6 cast, the latest Olympian on the show **[season]**
 - + USA Today
 - + Gable Steveson boos and accusations hang over burgeoning UFC career
-- + Western Journal
-- + Trump Isn’t Done Banning Media Outlets From the White House, Here’s Who’s on His Radar Next
-- + USA Today
-- + Josh Allen wins, Lions' secondary loses (again) as Bills roll
-- + Patch
-- + Flood Watch, High Swim Risk In Effect As Heavy Rain Targets South Central Wisconsin
-- + Press Foundation Condemns White House Ban: 'Blatant Violation'
-- + Yahoo News
-- + Costa Rica's Grynspan leads latest UN chief straw poll, sources say
+- + Al Jazeera
+- + EU urges US to lift travel ban on Palestinian delegation for UNGA meeting
 - + NBC News
 - + Trump announces agreement over Greenland's security
 - + Yahoo News
-- + Chloe Kim joins 'The Traitors' season 6 cast, the latest Olympian on the show **[season]**
+- + Prince Harry May Have Known About Charles Spencer’s Diana Memoir, but Reports Conflict Over What He Was Told
+- + Yahoo News
+- + Trump Hails 'Infinite Life' Greenland Deal With Denmark
+- + Yahoo News
+- + Costa Rica's Grynspan leads latest UN chief straw poll, sources say
+- + Yahoo News
+- + Press Foundation Condemns White House Ban: 'Blatant Violation'
+- + Princess Diana’s Alleged King Charles Bombshell Before Divorce Laid Bare in Memoir — Report
+- + 'The Traitors' season 6 cast is unveiled: Kristin Chenoweth, Whitney Leavitt and more are coming to the castle **[season]**
+- + USA Today
+- + Josh Allen wins, Lions' secondary loses (again) as Bills roll
 - + Associated Press
 - + France coach Zidane picks 5 new faces in first squad and calls time on Benzema, Kante
-- + Al Jazeera
-- + EU urges US to lift travel ban on Palestinian delegation for UNGA meeting
+- + NJ.com
+- + Brighton & Hove Albion vs. Arsenal FREE LIVE STREAM (9/19), TV Channel for Premier League game
 - + Yahoo News
-- + 'The Traitors' season 6 cast is unveiled: Kristin Chenoweth, Whitney Leavitt and more are coming to the castle **[season]**
-- + Western Journal
-- + Football Becomes Even Less Manly After Horrible Buffalo Bills Anthem Choice and the Fans Are Ticked
-- + What Is Copy Trading? Your Next Financial Market Solution
-- + Headline Logic
-- + $7.3 million greenwashing penalty sends warning to ethical investment industry
-- + The Top 5 Mistakes People Make When Budgeting
-- + 5 Ways That You Can Make Money As A Uni Student
-- + How To Make Your House Sustainable (And Save Money)
-- + Should You Use PayPal? A Look At Online Payments
+- + New Greenland Deal Expands Permanent U.S. Military Access In Arctic
+- + CNN
+- + Former Washington Post executive editor: The President ‘doesn’t actually believe in the first amendment’
+- + How To Protect Yourself Against Inflation
+- + Ruth Gilmour
+- + Which Australian Cities Are Cheapest For Renters?
+- + How To Set An Allowance For Your Kids
 - + Everything You Need To Know About Personal Loans
-- − Western Journal
-- − Football Becomes Even Less Manly After Horrible Buffalo Bills Anthem Choice and the Fans Are Ticked
+- + Are You Ready To Buy A House? Tips For First Time Buyers
+- + Home Ownership In Australia - New Policies That Could Help You
+- + Ruth Gilmour
+- + 5 Tips For Investing If You're Just Starting Out
+- − New Greenland Deal Expands Permanent U.S. Military Access In Arctic
 - − Yahoo News
-- − Press Foundation Condemns White House Ban: 'Blatant Violation'
-- − Western Journal
-- − Trump Isn’t Done Banning Media Outlets From the White House, Here’s Who’s on His Radar Next
-- − NBC News
-- − Trump announces agreement over Greenland's security
-- − Yahoo News
-- − Costa Rica's Grynspan leads latest UN chief straw poll, sources say
+- − Princess Diana’s Alleged King Charles Bombshell Before Divorce Laid Bare in Memoir — Report
+- − CNN
+- − Former Washington Post executive editor: The President ‘doesn’t actually believe in the first amendment’
+- − USA Today
+- − Gable Steveson boos and accusations hang over burgeoning UFC career
+- − USA Today
+- − Josh Allen wins, Lions' secondary loses (again) as Bills roll
+- − NJ.com
 
 ### mylapore-times-season-2026-tag (news) — https://www.mylaporetimes.com/tag/december-season-2026
-11 line(s) added, 11 removed. Full text: sources/text/mylapore-times-season-2026-tag.txt
+13 line(s) added, 13 removed. Full text: sources/text/mylapore-times-season-2026-tag.txt
 
-- + Friday, October 16, 2026 **[season]**
-- + Video Player
-- + 00:00
-- + 02:28
-- + Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
-- + Friday, October 16, 2026 **[season]**
-- + Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
-- + Friday, October 16, 2026 **[season]**
-- + Civic (1,968)
-- + Politics (509)
-- + Ward Councillors (33)
+- + Saturday, October 17, 2026 **[season]**
+- + Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23 **[season]**
+- + Saturday, October 17, 2026 **[season]**
+- + At this church’s Thanksgiving Day, fun games and food sales after prayers made the event memorable
+- + Saturday, October 17, 2026 **[season]**
+- + Indoor games for seniors. Fun and free
+- + Saturday, October 17, 2026 **[season]**
+- + Nageswara Rao Park: GCC senior engineer says steps taken to address water stagnation during monsoon, 28 plant varieties included in landscaping
+- + Saturday, October 17, 2026 **[season]**
+- + Arts (3,476)
+- + Civic (1,969)
+- + Events (3,426)
+- + Religious (2,519)
+- − Friday, October 16, 2026
+- − Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
+- − Friday, October 16, 2026
+- − Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
+- − Friday, October 16, 2026
+- − Bhavan open for admissions to courses in music, dance, chess, yoga and more
 - − Thursday, October 15, 2026
-- − Video Player
-- − 00:00
-- − 02:28
+- − Sundararaman Chintamani releases his book on public speaking
 - − Wednesday, October 14, 2026
-- − Free breakfast for economically poor students. Vivekananda College launches service
-- − Wednesday, October 14, 2026
-- − Best music-dance sequences of Tamil films in 1950s; themed screening on Oct.18
-- − Civic (1,966)
-- − Politics (508)
+- − Arts (3,475)
 
 ### mylapore-times-kartik-fine-arts (news) — https://www.mylaporetimes.com/tag/kartik-fine-arts/
-8 line(s) added, 8 removed. Full text: sources/text/mylapore-times-kartik-fine-arts.txt
+13 line(s) added, 13 removed. Full text: sources/text/mylapore-times-kartik-fine-arts.txt
 
-- + Friday, October 16, 2026 **[season]**
-- + Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
-- + Friday, October 16, 2026 **[season]**
-- + Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
-- + Friday, October 16, 2026 **[season]**
-- + Civic (1,968)
-- + Politics (509)
-- + Ward Councillors (33)
+- + Saturday, October 17, 2026 **[season]**
+- + Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23 **[season]**
+- + Saturday, October 17, 2026 **[season]**
+- + At this church’s Thanksgiving Day, fun games and food sales after prayers made the event memorable
+- + Saturday, October 17, 2026 **[season]**
+- + Indoor games for seniors. Fun and free
+- + Saturday, October 17, 2026 **[season]**
+- + Nageswara Rao Park: GCC senior engineer says steps taken to address water stagnation during monsoon, 28 plant varieties included in landscaping
+- + Saturday, October 17, 2026 **[season]**
+- + Arts (3,476)
+- + Civic (1,969)
+- + Events (3,426)
+- + Religious (2,519)
+- − Friday, October 16, 2026
+- − Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
+- − Friday, October 16, 2026
+- − Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
+- − Friday, October 16, 2026
+- − Bhavan open for admissions to courses in music, dance, chess, yoga and more
 - − Thursday, October 15, 2026
+- − Sundararaman Chintamani releases his book on public speaking
 - − Wednesday, October 14, 2026
-- − Free breakfast for economically poor students. Vivekananda College launches service
-- − Wednesday, October 14, 2026
-- − Best music-dance sequences of Tamil films in 1950s; themed screening on Oct.18
-- − Civic (1,966)
-- − Politics (508)
-- − Ward Councillors (32)
+- − Arts (3,475)
 
 ### mylapore-times-narada-gana-sabha (news) — https://www.mylaporetimes.com/tag/narada-gana-sabha
-8 line(s) added, 8 removed. Full text: sources/text/mylapore-times-narada-gana-sabha.txt
+13 line(s) added, 13 removed. Full text: sources/text/mylapore-times-narada-gana-sabha.txt
 
-- + Friday, October 16, 2026 **[season]**
-- + Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
-- + Friday, October 16, 2026 **[season]**
-- + Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
-- + Friday, October 16, 2026 **[season]**
-- + Civic (1,968)
-- + Politics (509)
-- + Ward Councillors (33)
+- + Saturday, October 17, 2026 **[season]**
+- + Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23 **[season]**
+- + Saturday, October 17, 2026 **[season]**
+- + At this church’s Thanksgiving Day, fun games and food sales after prayers made the event memorable
+- + Saturday, October 17, 2026 **[season]**
+- + Indoor games for seniors. Fun and free
+- + Saturday, October 17, 2026 **[season]**
+- + Nageswara Rao Park: GCC senior engineer says steps taken to address water stagnation during monsoon, 28 plant varieties included in landscaping
+- + Saturday, October 17, 2026 **[season]**
+- + Arts (3,476)
+- + Civic (1,969)
+- + Events (3,426)
+- + Religious (2,519)
+- − Friday, October 16, 2026
+- − Nageswara Rao Park formally opened by MLA. But signs of hurried work sticks out. GCC promises to complete ‘unfinished jobs’ in a week
+- − Friday, October 16, 2026
+- − Ward 126 councillor asks local residents to attend meet on Oct.17. Discuss monsoon issues
+- − Friday, October 16, 2026
+- − Bhavan open for admissions to courses in music, dance, chess, yoga and more
 - − Thursday, October 15, 2026
+- − Sundararaman Chintamani releases his book on public speaking
 - − Wednesday, October 14, 2026
-- − Free breakfast for economically poor students. Vivekananda College launches service
-- − Wednesday, October 14, 2026
-- − Best music-dance sequences of Tamil films in 1950s; themed screening on Oct.18
-- − Civic (1,966)
-- − Politics (508)
-- − Ward Councillors (32)
+- − Arts (3,475)
 
 ### vani-mahal-events (sabha) — https://www.vanimahal.com/events.php
 0 line(s) added, 8 removed. Full text: sources/text/vani-mahal-events.txt
 
-- − 15-10-2026
+- − 16-10-2026
 - − NAVARATHRI FESTIVAL -2026
-- − 6.30PM AT VANI MAHAL
+- − 6.30 PM AT VANI MAHAL
 - − VOCAL CONCERT by
-- − Ms. Archana & Ms.Samanvi,
-- − Ms.Sreelakshmi S Bhat(Violin),
-- − Sri Hariharan Sundarraman(Mrud.)
+- − Sri S.M.Vilasini,
+- − Sri Pappu Gyandev(Violin),
+- − Sri Burra Sriram(Mrud.)
 - − ALL ARE WELCOME
 
 ### ragarasa-music-academy-2026 (aggregator) — https://ragarasa.in/events/100th-annual-concerts-2026
-3 line(s) added, 9 removed. Full text: sources/text/ragarasa-music-academy-2026.txt
+5 line(s) added, 5 removed. Full text: sources/text/ragarasa-music-academy-2026.txt
 
+- + Carnatic Devotional Music
+- + Carnatic Vocal
+- + Folk Dance
 - + Carnatic Instrumental
-- + Carnatic Vocal
-- + Carnatic Vocal
+- + Carnatic Instrumental
+- − Classical Dance
+- − Carnatic Instrumental
 - − Carnatic Vocal
-- − Carnatic Instrumental
-- − Carnatic Veena Concert
-- − Vidhushi Smt. Vani Yadunandan
-- − Fri, 16 Oct 2026 · 6:30 PM
-- − Venue
-- − View Details
-- − Tarana
-- − Carnatic Instrumental
+- − Carnatic Vocal
+- − Carnatic Vocal
 
 ### chennaicentral-events (aggregator) — https://chennaicentral.in/events/
 1 line(s) added, 1 removed. Full text: sources/text/chennaicentral-events.txt
 
-- + 16 Oct – 22 Oct
-- − 15 Oct – 21 Oct
+- + 17 Oct – 23 Oct
+- − 16 Oct – 22 Oct
 
 ### mdnd-carnatic-chennai (ticketing) — https://mdnd.in/ViewEvents/Carnatic?ci=101&c=3659&eMode=All&Date=All&mc=8&mcName=Carnatic
-21 line(s) added, 33 removed. Full text: sources/text/mdnd-carnatic-chennai.txt
+45 line(s) added, 36 removed. Full text: sources/text/mdnd-carnatic-chennai.txt
 
-- + Carnatic Vocal Concert by Sangeetha Sivakumar **[season]**
+- + Carnatic Vocal Concert by Sunil R. Gargyan **[season]**
 - + Sat, 17th Oct 2026 | 6:30 PM **[season]**
 - + Free | Offline
-- + Carnatic Vocal Concert by Kalyanapuram S Aravind **[season]**
-- + Sat, 17th Oct 2026 | 6:30 PM **[season]**
-- + Free | Offline
-- + Carnatic Vocal Concert by BU Ganeshprasad **[season]**
+- + Navarathri Vocal Concert **[season]**
 - + Sun, 18th Oct 2026 | 6:30 PM **[season]**
 - + Free | Offline
 - + Carnatic Vocal Concert by Vidya Kalyanaraman **[season]**
 - + Sun, 18th Oct 2026 | 6:30 PM **[season]**
 - + Free | Offline
-- + Carnatic Vocal Duet by 'Sangeetha Choodamani' Ranjani & 'Sangeetha Choodamani' Gayatri
+- + Carnatic Vocal Concert by Prasanna Venkataraman **[season]**
+- + Sun, 18th Oct 2026 | 6:30 PM **[season]**
+- + Free | Offline
+- + Carnatic Vocal Concert by Dr Aishwarya Shankar **[season]**
+- + Mon, 19th Oct 2026 | 6:30 PM **[season]**
+- + Free | Offline
+- + Jurassic Carnatic -S Saketharaman with Students 4.30 PM | Ramakrishnan Murthy - 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Sun, 1st Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + Vande Bharat - Sooryagayathri, S Aishwarya and S Soundarya 4.30 PM | Bharat Sundar, Rajhesh Vaidhya - 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Mon, 2nd Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + BHARATA SANGEETA BASHA -Amrutha Venkatesh 4.30 PM | THE MUSIC BETWEEN US - Sikkil C. Gurucharan and Vid. Anil Srinivasan - 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Tue, 3rd Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + The Carnatic Nerds Kshetrajna meets Jacob Collier - An instrumental ensemble conducted by Abhishek Raghuram 4.30 PM | STRINGS ATTACHED by R. Kumaresh and Dr. Jayanthi Kumaresh - Veena - 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Wed, 4th Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + MUSIC MATRIX - A Carnatic Jazz Amalgamation Spoorthi Rao & Lydian Nadhaswaram 4.30 PM | TUKKADA KADHAI presented by Kruthi Bhat - 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Thu, 5th Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + MEL A RHYTHM by Vid. Ramana Balachandhran 4.30 PM | THYAGARAJA HRIDAYAM by U. Ve. Dushyanth Sridhar with Malladi Brothers- 6.45 PM | Carnatic | Sri Parthasarathy Swami Sabha
+- + Fri, 6th Nov 2026 | 4:30 PM **[season]**
+- + Ticketed | Offline
+- + SANgeet DEEPavali by Sandeep Narayan | QFR | Carnatica Global & Sri Parthasarathy Sabha
+- + Sat, 7th Nov 2026 | 6:45 PM **[season]**
+- + Ticketed | Offline
+- + 4.00 PM | Dr. Baby Sreeram | 6.30 PM | J B Sruthi Sagar | Charsur Arts Foundation
 - + Sun, 20th Dec 2026 | 4:00 PM **[season]**
 - + Ticketed | Offline
-- + Carnatic Vocal Concert by Sid Sriram **[season]**
-- + Fri, 25th Dec 2026 | 4:00 PM **[season]**
-- + Ticketed | Offline
-- + Carnatic Vocal Concert by Sriranjani Tapasya Santhanagopalan **[season]**
-- + Tue, 29th Dec 2026 | 4:00 PM **[season]**
-- + Ticketed | Offline
-- − Carnatic Vocal Concert by Dr. Bhairavi Vaitheeswaran
-- − Thu, 15th Oct 2026 | 6:15 PM
+- + 4.00 PM | Flute J A Jayant (Flute Solo) | 6.30 PM | Amrutha Venkatesh | Charsur Arts Foundation
+- … 5 more added lines
+- − Carnatic Vocal Concert by Dr. Praveena Thodge
+- − Fri, 16th Oct 2026 | 6:15 PM
 - − Free | Offline
 - − Navarathri Vocal Concert
-- − Thu, 15th Oct 2026 | 6:30 PM
+- − Fri, 16th Oct 2026 | 6:30 PM
 - − Free | Offline
-- − Carnatic Vocal Concert by Sangeetha Sivakumar
-- − Thu, 15th Oct 2026 | 6:30 PM
+- − Carnatic Vocal Concert by Shruthi Shankar Kumar
+- − Fri, 16th Oct 2026 | 6:30 PM
 - − Free | Offline
-- − Carnatic Vocal Concert by Shruthi Shankarkumar
+- − Carnatic Veena Concert by Mudikondan S. N. Ramesh
+
+### krishna-gana-sabha-tikkl (ticketing) — https://tikkl.com/krishnaganasabha/c/d6ccf06f/?section=overview
+8 line(s) added, 8 removed. Full text: sources/text/krishna-gana-sabha-tikkl.txt
+
+- + SN
+- + Sachin Nair (Sachin)16 hours ago
+- + Truly a beautiful gift to behold.
+- + Ira Mahindrakara day ago
+- + Anonymousa day ago
+- + Supradeep S2 days ago
+- + Manasa Adusumilli2 days ago
+- + PADMANABHAN P G2 days ago
+- − Ira Mahindrakar2 hours ago
+- − Anonymous9 hours ago
+- − Supradeep Sa day ago
+- − Manasa Adusumillia day ago
+- − PADMANABHAN P Ga day ago
+- − PG
+- − PADMANABHAN P Ga day ago
+- − Grabbed 2 tickets.
+
+### ticket9-sanjay-sabha-live (ticketing) — https://www.theticket9.com/event/sanjay-sabha-live-chennai-dec-24
+2 line(s) added, 2 removed. Full text: sources/text/ticket9-sanjay-sabha-live.txt
+
+- + Recommended
+- + 303
+- − Trending
+- − 302
 
 ## Newly watched (first snapshot)
 
-- **bookmyshow-carnatic-chennai** — https://in.bookmyshow.com/explore/music-shows-chennai (20243 chars)
-- **bandsintown-chennai** — https://www.bandsintown.com/c/chennai-india (5149 chars)
-  - Sat, Mar 20, 2027 • 6 PM
-  - Sat, Mar 20, 2027 • 6 PM
-  - HorrorCon India 2026
-  - October 31 – November 1, 2026
-  - NCPA International Jazz Festival 2026
-  - November 20 – 22, 2026
-  - Shillong Cherry Blossom Festival 2026
-  - November 20 – 21, 2026
-- **krishna-gana-sabha-mm2026-pdf** — https://krishnaganasabha.com/assets/images/nkc/margazhimela2026/MM_schedule(2026).pdf (10863 chars)
-- **krishna-gana-sabha-tikkl** — https://tikkl.com/krishnaganasabha/c/d6ccf06f/?section=overview (2349 chars)
-  - Sat, Dec 12 2026 – Sun, Jan 3 2027
-  - ©2026 Tikkl Inc.TermsPrivacy
-- **charsur-dvayam-2026** — https://www.indian-heritage.org/musicseason/2627/charsur1.html (473 chars)
-  - Schedule for 2026 - 2027
-  - December Season Music Festival 2026 - DVAYAM - Sounds of Duality (15 - 31 Dec 2026, 4pm-8.30pm)
-  - Kala Utsav - Varanasi 2026 (1-3 Dec 2026)
-  - Schedule for 2026 - 2027
-- **kalakshetra-events** — https://kalakshetra.in/others/programs-events/ (102960 chars)
-  - 73rd Annual Art Festival 2026 - Now Open for Booking
-  - 18 to 27 December 2026
-- **mdnd-kalakshetra-2026** — https://mdnd.in/SeasonTickets/OrganizerLandingPage?ci=101&r_id=2420 (1982 chars)
-  - 18th December 2026 to 27th December 2026
-  - Fri, 18th Dec 2026 to Sun, 27th Dec 2026
-  - Fri, 18th Dec 2026 | 5:30 PM
-  - Fri, 18th Dec 2026 | 5:30 PM
-  - Fri, 18th Dec 2026 | 6:00 PM
-  - Sat, 19th Dec 2026 | 6:00 PM
-  - Sun, 20th Dec 2026 | 6:00 PM
-  - Mon, 21st Dec 2026 | 6:00 PM
-- **ticket9-sanjay-sabha-live** — https://www.theticket9.com/event/sanjay-sabha-live-chennai-dec-24 (2824 chars)
-  - Dec 24, 2026, 6:30 PM
-  - Dec 24, 2026, 6:30 PM onwards
-  - © 2026 Ticket9 Event Tech Private Limited. All rights reserved.
+- **mylapore-times-bharat-sangeet-utsav** — https://www.mylaporetimes.com/tag/bharat-sangeet-utsav (5999 chars)
+  - Saturday, October 17, 2026
+  - Summer Camps 2026 / Listings
+  - Rasika Ranjani Sabha to honour seven artistes for 2026. Event on Oct.23
+  - Saturday, October 17, 2026
+  - Saturday, October 17, 2026
+  - Saturday, October 17, 2026
+  - Saturday, October 17, 2026
+  - October 2026
+- **artist-sikkil-gurucharan** — https://sikkil.com/newsandschedule/ (164 chars)
 
 ## Could not be read (check by web search instead)
 
 - **krishna-gana-sabha** — https://www.krishnaganasabha.org/: HTTP 200, 7 characters of text
 - **hamsadhwani** — https://www.hamsadhwani.org/: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.hamsadhwani.org/
 - **carnatica** — https://carnatica.net/: HTTP 404, 13 characters of text
+- **bookmyshow-carnatic-chennai** — https://in.bookmyshow.com/explore/music-shows-chennai: HTTP 403, 683 characters of text
 - **district-chennai-music** — https://www.district.in/events/music-in-chennai: HTTP 403, 218 characters of text
 - **kutcheribuzz** — https://www.kutcheribuzz.com/: HTTP 403, 266 characters of text
+- **bandsintown-chennai** — https://www.bandsintown.com/c/chennai-india: HTTP 403, 684 characters of text
 - **artist-sj-jananiy** — https://www.bandsintown.com/a/15524468-s.-j.-jananiy: HTTP 403, 684 characters of text
 - **artist-bombay-jayashri** — https://www.bombayjayashri.com/: Page.goto: net::ERR_CONNECTION_CLOSED at https://www.bombayjayashri.com/
 - **artist-ganesh-kumaresh** — https://www.ganeshkumaresh.com/: Page.goto: net::ERR_CONNECTION_REFUSED at https://www.ganeshkumaresh.com/
